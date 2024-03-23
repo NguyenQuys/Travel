@@ -1,0 +1,26 @@
+﻿@model IEnumerable<TourTrongNuoc.Models.Tour>
+<h2>Tours</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tour in Model)
+        {
+            <tr>
+                <td>@tour.Name</td>
+                <td>@tour.Price</td>
+                <td>@tour.Description</td>
+                <td>
+                    <a asp-action="Display" asp-route-id="@tour.Id">View</a>
+                    |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

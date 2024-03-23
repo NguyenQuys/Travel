@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TourTrongNuoc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TourTrongNuoc.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\KhachSanMuiNe.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\KhachSanMuiNe.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\Lang-hoa-Sa-Dec.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\Lang-hoa-Sa-Dec.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\MocChau.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\MocChau.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\chuon-chuon-bistro-2.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\chuon-chuon-bistro-2.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\chuon-chuon-bistro-da-lat.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\chuon-chuon-bistro-da-lat.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\image003.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\image003.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\image004.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\image004.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\image01.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\image01.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\image02.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\image02.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\lau-dai-ruou-vang.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\lau-dai-ruou-vang.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\logo.png",
+      "PackagePath": "staticwebassets\\imgaes\\logo.png"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\pha-din.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\pha-din.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\tour-phan-thiet-bikini-beach-2n1d.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\tour-phan-thiet-bikini-beach-2n1d.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\tourhotram.jpeg",
+      "PackagePath": "staticwebassets\\imgaes\\tourhotram.jpeg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\tourmuine.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\tourmuine.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\tousadec.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\tousadec.jpg"
+    },
+    {
+      "Id": "D:\\LTWeb\\TourTrongNuoc\\wwwroot\\imgaes\\tropicana-park-ho-tram_3.jpg",
+      "PackagePath": "staticwebassets\\imgaes\\tropicana-park-ho-tram_3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TourTrongNuoc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TourTrongNuoc.props",
+      "PackagePath": "build\\TourTrongNuoc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TourTrongNuoc.props",
+      "PackagePath": "buildMultiTargeting\\TourTrongNuoc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TourTrongNuoc.props",
+      "PackagePath": "buildTransitive\\TourTrongNuoc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
