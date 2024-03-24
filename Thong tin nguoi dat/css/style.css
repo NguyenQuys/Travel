@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5b8bb;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    border-bottom: 1px solid #dee2e6;
+    color: #fff;
+}
+
+.booking-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col-md-9,
+.col-md-3 {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.col-md-9 {
+    position: relative;
+    flex: 0 0 70%;
+    max-width: 70%;
+    border-right: 1px solid #dee2e6;
+}
+
+.col-md-9 section h4 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.col-md-9 section h6 {
+    font-style: italic;
+    color: #b5b8bb;
+}
+
+.col-md-9 form span.title {
+    color: #b5b8bb;
+    margin-right: 10px;
+}
+
+.col-md-9 .button-container button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.col-md-9 .Payment button {
+    margin-top: 30px;
+    background-color: coral;
+}
+
+.col-md-3 {
+    position: relative;
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-left: 20px;
+}
+
+.col-md-3 section h4 {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.Payment {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-md-3 form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-3 form h4,
+.col-md-3 form h5 {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.col-md-3 img {
+    float: left;            /* Hình ảnh nằm bên trái */
+    margin-right: 10px;
+    width: 20px;            /* Chiều rộng tự động */
+    height: 20px;           /* Chiều cao tự động */
+}
+.col-md-3 section .Chi-phi h4,
+.col-md-3 section .Chi-phi h5 {
+    display: inline-block;
+}
+.col-md-3 section .Chi-phi h4 {
+    margin-left: 150px;
+}
+.col-md-3 section .Chi-phi h5 {
+    text-align: right;
+    margin-left: 20px; /* Khoảng cách giữa các thẻ */
+}

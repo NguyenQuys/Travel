@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Thông tin người đặt</h2>
+    </header>
+
+    <div class="booking-form">
+        <div class="col-md-9">
+            <section>
+                <h4>Thông tin người đặt</h4>
+                <h6>Vui lòng nhập đầy đủ thông tin</h6>
+                <form action="#">
+                    <div class="Danh-xung">
+                        <span class="title">Danh xưng:</span>
+                        <label><input type="radio" name="option" value="Nam"> Nam</label>
+                        <label><input type="radio" name="option" value="Nữ"> Nữ</label>
+                    </div>
+                    <div class="Ho-ten">
+                        <span class="title">Họ và tên:</span>
+                        <input type="text" placeholder="VD: Nguyễn Văn A" required>
+                    </div>
+                    <div class="Lien-he">
+                        <span class="title">Số điện thoại:</span>
+                        <input type="text" placeholder="Nhập số điện thoại" required>
+                    </div>
+                    <div class="Email">
+                        <span class="title">Email</span>
+                        <input type="text" placeholder="Nhập email" required>
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <h4>Yêu cầu đặc biệt</h4>
+                <form action="">
+                    <input type="text" placeholder="Nếu quý khách có yêu cầu đặc biệt, vui lòng cho chúng tôi biết tại đây" required>
+                    <br>
+                    <input type="checkbox">
+                    <span class="title">Xuất hóa đơn điện tử</span>
+                </form>
+            </section>
+
+            <section>
+                <h4>Chọn nhân viên tư vấn từ</h4>
+                <div class="button-container">
+                    <button class="button">Hồ Chí Minh</button>
+                    <button class="button">Hà Nội</button>
+                    <button class="button">Cần Thơ</button>
+                </div>
+            </section>
+
+            <section class="Payment">
+                <button class="Thanh-toan">Thanh toán ngay</button>
+                <button class="Tra-gop">Trả góp</button>
+            </section>
+        </div>
+
+        <div class="col-md-3">
+            <section>
+                <h3 class="Tour">Khu nghĩ dưỡng Maia Quy Nhơn</h3>
+                <img src="image/address.png" alt=""><h5>Khu kinh tế Nhơn Hội, phường Cát Tiên, huyện Phú Cát, tỉnh Bình Định</h5>
+                <img src="image/Time.jpg" alt=""><h5>T4, 27/03/2024 -> T5, 28/03/2024 - 1 đêm</h5>
+                <img src="image/door.png" alt=""><h5>1 phòng Garden Villa - Gồm ăn sáng + bữa trưa hoặc tối</h5>
+                <img src="image/human.png" alt=""><h5>2 người lớn - 0 trẻ em</h5>
+                <img src="image/warning.jpg" alt=""><h5>Không hoàn hủy hoặc thay đổi</h5>
+            </section>
+
+            <section>
+                <h4>Bạn có mã khuyến mãi</h4>
+                <a href="">Chọn hoặc nhập mã khuyến mãi</a>
+                <input type="text" placeholder="Nhập mã khuyến mãi" required>
+            </section>
+
+            <section>
+                <h3>Tổng cộng thanh toán</h3>
+                <div class="Chi-phi">
+                    <h5>Khách sạn</h5>
+                    <h4>4.239.000</h4>
+                </div>
+                <div class="Chi-phi">
+                    <h5>Tổng tiền</h5>
+                    <h4>4.239.000</h4>
+                    <h6>Giá bao gồm thuế & phí</h6>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
