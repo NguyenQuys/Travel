@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web ban hang</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img style="max-width: 60%;" src="~/imgaes/logo.png" alt="logo web">
+            </div>
+            
+        </div>
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="~/imgaes/logo.png" alt="logo" style="width:60px;">
+            </a>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">Trang Chủ </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">Chi Tiết </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">Cẩm Nang Du Lịch </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-body" href="#">Giới Thiệu </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img style="width: 100%" src="~/imgaes/image01.jpg" alt="Logo Trượt trượt">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="width: 100%;" src="~/imgaes/image02.jpg" alt="Logo Trượt trượt">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="width: 100%;" src="~/imgaes/image003.jpg" alt="Logo Trượt trượt">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="width: 100%;" src="~/imgaes/image004.jpg" alt="Logo Trượt trượt">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+        <div class="row" style="overflow-clip-margin: 20px;">
+            <div class="col-md-9">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4" style="margin-bottom: 20px;">
+                        <div class="card">
+                            <img src="~/imgaes/MocChau.jpg" onmouseover="this.src='/imgaes/pha-din.jpg'" onmouseout="this.src='/imgaes/MocChau.jpg'">
+                            <h2><span style="color:dodgerblue;">Tour Điện Biên 4N3Đ: ĐIỆN BIÊN – SƠN LA – MỘC CHÂU</span></h2>
+                            <div class="thoigian-danhgia">
+                                <p><span style="color:darkseagreen">4 ngày 3 đêm| Rất tốt</span></p>
+                            </div> 
+                            <ul style="color:darkcyan">
+                                <li>Đèo Pha Đin</li>
+                                <li>Đồi chè Trái Tym</li>
+                                <li>Thung lũng mận Nà Ka</li>
+                                <li>Thác Dải Yếm</li>
+                                <li>Mường Phăng</li>
+                            </ul>
+                            <p>Giá:1.500.000/người</p>
+                            <a href="" class="btn btn-info" role="button">Xem Thêm Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="~/imgaes/chuon-chuon-bistro-2.jpg" onmouseover="this.src='/imgaes/chuon-chuon-bistro-da-lat.jpg'" onmouseout="this.src='/imgaes/chuon-chuon-bistro-2.jpg'" />
+
+                            <h2><span style="color:dodgerblue;">Tour Đà Lạt 2N2Đ: CHUỒN CHUỒN BISTRO – QUẢNG TRƯỜNG LÂM VIÊN</span></h2>
+                            <div class="thoigian-danhgia">
+                                <p><span style="color:darkseagreen">2 ngày 2 đêm| Rất tốt</span></p>
+                            </div>
+                            <ul style="color:darkcyan">
+                                <li>Chuồn Chuồn Bistro & Coffee</li>
+                                <li>Quảng trường Lâm Viên</li>
+                                <li>Chợ Đà Lạt</li>
+                                <li>Thiền Viện Trúc Lâm</li>
+                                
+                            </ul>
+                            <p>Giá :1.200.000/người</p>
+                            <a href="" class="btn btn-info" role="button">Xem Thêm Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <div class="card">
+                            <img src="~/imgaes/tropicana-park-ho-tram_3.jpg" onmouseover="this.src='/imgaes/tourhotram.jpeg'" onmouseout="this.src='/imgaes/tropicana-park-ho-tram_3.jpg'">
+                            <h2><span style="color:dodgerblue;">Tour Hồ Tràm trong ngày: TROPICANA PARK/ MINERA HOT SPRINGS</span></h2>
+                            <div class="thoigian-danhgia">
+                                <p><span style="color:darkseagreen">Trong ngày| Rất tốt</span></p>
+                            </div>
+                            <ul style="color:darkcyan">
+                                <li>Check In Hamptons Pier</li>
+                                <li>Chùa bún riêu</li>
+                                <li>Công Viên Nước Tropicana</li>
+                                <li>Suối Khoáng Nóng Bình Châu</li>
+                                
+                            </ul>
+                            <p>Giá:800.000/người</p>
+                            <a href="" class="btn btn-info" role="button">Xem Thêm Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <div class="card">
+                            <img src="~/imgaes/tour-phan-thiet-bikini-beach-2n1d.jpg" onmouseover="this.src='/imgaes/lau-dai-ruou-vang.jpg'" onmouseout="this.src='/imgaes/tour-phan-thiet-bikini-beach-2n1d.jpg'">
+                            <h2><span style="color:dodgerblue;">Tour Phan Thiết 2N1Đ: PHAN THIẾT – BIKINI BEACH – LÂU ĐÀI RƯỢU VANG</span></h2>
+                            <div class="thoigian-danhgia">
+                                <p><span style="color:darkseagreen">2 ngày 1 đêm| Rất tốt</span></p>
+                            </div>
+                            <ul style="color:darkcyan">
+                                <li>BIKINI BEACH</li>
+                                <li>BIKINI BEACH</li>
+                                <li>Mũi né</li>
+                                <li>LONGBEACH PEARL</li>
+                                <li>Lâu đài rượu vang</li>
+                            </ul>
+                            <p>Giá:1.200.000/người</p>
+                            <a href="" class="btn btn-info" role="button">Xem Thêm Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <div class="card">
+                            <img src="~/imgaes/Lang-hoa-Sa-Dec.jpg" onmouseover="this.src='/imgaes/tousadec.jpg'" onmouseout="this.src='/imgaes/Lang-hoa-Sa-Dec.jpg'">
+                            <h2><span style="color:dodgerblue;">Tour Đồng Tháp trong ngày: LÀNG HOA SA ĐÉC – QUÝT HỒNG LAI VUNG – CHÙA LÁ SEN</span></h2>
+                            <div class="thoigian-danhgia">
+                                <p><span style="color:darkseagreen">Trong ngày| Rất tốt</span></p>
+                            </div>
+                            <ul style="color:darkcyan">
+                                <li>Vườn quýt hồng Lai Vung</li>
+                                <li>Chùa Lá Sen</li>
+                                <li>Thung lũng mận Nà Ka</li>
+                                <li>Làng Hoa Sa Đéc</li>
+                                
+                            </ul>
+                            <p>Giá:750.000/người</p>
+                            <a href="" class="btn btn-info" role="button">Xem Thêm Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <div class="card">
+                            <img src="~/imgaes/KhachSanMuiNe.jpg" onmouseover="this.src='/imgaes/tourmuine.jpg'" onmouseout="this.src='/imgaes/KhachSanMuiNe.jpg'">
+                            <h2><span style="color:dodgerblue;">Tour Mũi Né 2N1Đ: KỲ NGHỈ ĐẲNG CẤP 5 SAO</span></h2>
+                            <div class="thoigian-danhgia">
+                                <p><span style="color:darkseagreen">2 ngày 1 đêm| Rất tốt</span></p>
+                            </div>
+                            <ul style="color:darkcyan">
+                                <li>Suối Tiên</li>
+                                <li>Làng Chài Mũi Né</li>
+                                <li>Bàu Trắng</li>
+                                <li>Đồi Cát Bay</li>
+                                
+                            </ul>
+                            <p>Giá:900.000/người</p>
+                            <a href="" class="btn btn-info" role="button">Xem Thêm Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="col-md-3" >
+               
+                    <ul class="list-group">
+                        <li class="list-group-item active">Những địa điểm nên ghé thăm</li>
+                        <li class="list-group-item">Hồ Xuân Hương | Đà Lạt</li>
+                        <li class="list-group-item">Cố Đô Huế | Huế</li>
+                        <li class="list-group-item">Hội An | Đà Nẵng</li>
+                        <li class="list-group-item">Đảo Phú Quốc | Kiên Giang</li>
+                        <li class="list-group-item">Du ngoạn thành phố Hồ Chí Minh</li>
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item active">Những địa điểm Hot</li>
+                        <li class="list-group-item">SaPa</li>
+                        <li class="list-group-item">Đà Lạt</li>
+                        <li class="list-group-item">Mũi Né</li>
+                        <li class="list-group-item">Đà Lạt</li>
+                        <li class="list-group-item">Nha Trang</li>
+                        <li class="list-group-item">Phan Thiết</li>
+                        <li class="list-group-item">Mộc Châu</li>
+                    </ul>
+                    <div class="panel panel-primary panel-post">
+                        <div class="panel-heading panel-heading-prod"><i class="fa fa-comments-o"></i> Bài viết về những chuyến đi</div>
+                        <div class="panel-body panel-body-post">
+                            <h4><a href="#">Tour Đà Lạt 3N2Đ</a></h4>
+                            <p>Một chuyến đi tuyệt vời với nhiều kỷ niệm đẹp, phong cảnh, địa địa check in thú vị và đồ ăn đa dạng và phong phú...</p>
+
+                            <h4><a href="#">Tour Mũi Né 2N1Đ</a></h4>
+                            <p>Được một làn da cháy nắng và được trải nghiệm thú vị, mình cảm thấy rất thỏa mãn chuyến đi này</p>
+                        </div>
+                        <div class="panel-footer">
+                            <p class="more-prod"><a href="#" target="_blank">Xem thêm bài viết...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+    <div class="footer">
+        <div class="footer-item">
+            <img src="~/imgaes/logo.png" alt="logo" style="width:200px; height:80px;">
+        </div>
+        <div class="footer-item">
+            <h3>Liên Hệ </h3>
+            <p>Địa chỉ: Nhà Bạn Quý</p>
+            <p>Hotline:SĐT của Quý nhé</p>
+            <p>Fanpage:Zô Fb Quý để biết thêm thông tin </p>
+            
+
+        </div>
+        <div class="footer-item">
+            <h3>Dịch Vụ</h3>
+            <p>Tour trong nước</p>
+            <p>Tour ngoài nước</p>
+            <p> Tour đoàn</p>
+        </div>
+        <div class="footer-item">
+            <h3>Giới Thiệu</h3>
+            <p>Giới thiệu</p>
+            <p>Liên hệ</p>
+            <p>Vé máy bay</p>
+        </div>
+        <div class="footer-item">
+            <h3>Thông Tin</h3>
+            <p>Cẩm nang du lịch</p>
+            <p>Hướng dẫn đặt tour</p>
+            <p>Hướng dẫn thanh toán</p>
+            <p>Hủy và đổi vé</p>
+        </div>
+        <div class="footer-item">
+            <h3>Chính Sách</h3>
+            <p> Quy định chung</p>
+            <p> Chính sách bảo mật</p>
+        </div>
+      
+    </div>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+    
+
