@@ -1,6 +1,6 @@
-body {
+* {
     font-family: Arial, sans-serif;
-    background-color: #b5b8bb;
+    background-color: red;
 }
 
 header {
