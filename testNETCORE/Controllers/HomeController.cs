@@ -47,6 +47,15 @@ namespace testNETCORE.Controllers
             return View();
         }
 
+        public IActionResult Customer_Information()
+        {
+            return View();
+        }
+
+        public IActionResult Edit_Customer_Information()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

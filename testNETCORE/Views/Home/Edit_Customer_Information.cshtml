@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "Edit_Customer_Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="width: 70%;" class="container xxl py-5">
+    <header>
+        <h4 class="bg-light text-center rounded p-4">Chỉnh sửa thông tin</h4>
+    </header>
+    <div style="width: 70%;" class="container">
+        <section>
+            <div class="row mt-4 Name">
+                <div class="col-lg-6">
+                    <span class="title">Họ và tên:</span>
+                </div>
+                <div class="col-lg-6 ">
+                    <input class="bg-light" style="border-top:0; border-left: 0; border-right: 0; width: 60%;" type="text" placeholder="VD: Nguyễn Văn A" required>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4 Date-of-birth">
+                <div class="col-lg-6">
+                    <span class="title">Ngày sinh</span>
+                </div>
+                <div class="col-lg-6 ">
+                    <input class="bg-light" style="border-top:0; border-left: 0; border-right: 0; width: 60%;" type="text" placeholder="VD: 11/11/2023" required>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4 Gender">
+                <div class="col-lg-6">
+                    <span class="title">Giới tính</span>
+                </div>
+                <div class="col-lg-6 ">
+                    <form action="#">
+                        <input type="radio" id="male" name="ChooseGender" value="MALE">
+                        <label for="male">Nam</label><br>
+                        <input type="radio" id="female" name="ChooseGender" value="FEMALE">
+                        <label for="female">Nữ</label><br>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4 Phone-number">
+                <div class="col-lg-6">
+                    <span class="title">Số điện thoại</span>
+                </div>
+                <div class="col-lg-6 ">
+                    <input class="bg-light" style="border-top:0; border-left: 0; border-right: 0; width: 60%;" type="number" placeholder="VD: 0123456789" required>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4 Email">
+                <div class="col-lg-6">
+                    <span class="title">Email</span>
+                </div>
+                <div class="col-lg-6">
+                    <input class="bg-light" style="border-top:0; border-left: 0; border-right: 0; width: 60%;" type="text" placeholder="VD: a@gmail.com" required>
+                </div>
+            </div>
+        </section>
+        <section style="float: right;" class="mt-4">
+            <a href="#" class="btn btn-primary py-1 px-3 me-3">Lưu thông tin</a>
+            <button onclick="history.back()" style="border: none;" class="btn btn-primary bg-danger py-1 px-3 me-3">Hủy</button>
+        </section>
+    </div>
+</div>
+

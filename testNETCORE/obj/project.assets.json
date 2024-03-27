@@ -7844,11 +7844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Data\\Programming\\C#\\Web Programming\\test\\testNETCORE\\testNETCORE.csproj",
+      "projectUniqueName": "D:\\testNETCORE\\testNETCORE.csproj",
       "projectName": "testNETCORE",
-      "projectPath": "D:\\Data\\Programming\\C#\\Web Programming\\test\\testNETCORE\\testNETCORE.csproj",
+      "projectPath": "D:\\testNETCORE\\testNETCORE.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\Data\\Programming\\C#\\Web Programming\\test\\testNETCORE\\obj\\",
+      "outputPath": "D:\\testNETCORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

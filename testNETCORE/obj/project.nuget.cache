@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4To3pK+ILTM+er9Oi0QgJ3c8hzqbMnYiD1SdXcpYXd9+MeJGetvMN6I2hfvjiNUfgQgcitaA7o6gNE4E6IZx2A==",
+  "dgSpecHash": "NWKIUTT7XST6EFWwbVRRLLLfyIfrHq+1gsojcEfp9aD+lZnR4m1zRV40NafPfowNoW7Zq2foAoBAeDtMbTgVbw==",
   "success": true,
-  "projectFilePath": "D:\\Data\\Programming\\C#\\Web Programming\\test\\testNETCORE\\testNETCORE.csproj",
+  "projectFilePath": "D:\\testNETCORE\\testNETCORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
