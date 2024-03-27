@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "Customer_Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="width: 70%;" class="container xxl py-5">
+            <header>
+                <h4 class="bg-light text-center rounded p-4">Thông tin khách hàng</h4>
+            </header>
+            <div style="width: 70%;" class="container">
+                <section>
+                    <div class="Thong-tin-khach-hang">
+                        <div class="row Name mt-4">
+                            <div class="col-lg-6">
+                                <span class="title">Họ và tên</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5>Nguyễn Văn A</h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row Date-of-birth  mt-4">
+                            <div class="col-lg-6">
+                                <span class="title">Ngày sinh</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5>11/11/2002</h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row Gender mt-4">
+                            <div class="col-lg-6">
+                                <span class="title">Giới tính</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5>Nam</h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row Phone-number mt-4">
+                            <div class="col-lg-6">
+                                <span class="title">Số điện thoại</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5>0123456789</h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row Email mt-4">
+                            <div class="col-lg-6">
+                                <span class="title">Email</span>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5>a@gmail.com</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>    
+                </section>
+                <section style="float: right;">
+                    <a href="~/Home/Edit_Customer_Information" class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Chỉnh sửa thông tin</a>
+                    <button onclick="history.back()" class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Trở về</button>
+                </section>
+            </div>
+        </div>
+
