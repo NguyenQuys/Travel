@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using testNETCORE.Models;
+//using testNETCORE.Models;
 
 namespace testNETCORE.Controllers
 {
@@ -35,6 +36,17 @@ namespace testNETCORE.Controllers
         {
             return View();
         }
+
+        public IActionResult Domestic_Tour()
+        {
+            return View();
+        }
+
+        public IActionResult Overseas_Tour()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

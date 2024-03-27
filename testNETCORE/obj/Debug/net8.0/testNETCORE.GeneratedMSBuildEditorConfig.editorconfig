@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Data\Programming\C#\Web Programming\test\testNETCORE
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Data/Programming/C\#/Web Programming/test/testNETCORE/Views/Home/Domestic_Tour.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb21lc3RpY19Ub3VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Data/Programming/C\#/Web Programming/test/testNETCORE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Data/Programming/C\#/Web Programming/test/testNETCORE/Views/Home/Liked.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaWtlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Programming/C\#/Web Programming/test/testNETCORE/Views/Home/Overseas_Tour.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPdmVyc2Vhc19Ub3VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Data/Programming/C\#/Web Programming/test/testNETCORE/Views/Home/Travel_Guide.cshtml]
