@@ -17,11 +17,12 @@ public partial class _63tinhThanhContext : DbContext
 
     public virtual DbSet<LichSuTimKiem> LichSuTimKiems { get; set; }
 
+    public virtual DbSet<NavigationBar> NavigationBars { get; set; }
+
     public virtual DbSet<Tinh> Tinhs { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-ARKQSHH1\\KTEAM;Initial Catalog=63TinhThanh;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-ARKQSHH1\\KTEAM;Initial Catalog=63TinhThanh;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False\n");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -32,6 +33,17 @@ public partial class _63tinhThanhContext : DbContext
                 .ToTable("LichSuTimKiem");
 
             entity.Property(e => e.Destination).HasMaxLength(100);
+        });
+
+        modelBuilder.Entity<NavigationBar>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("Navigation_Bar");
+
+            entity.Property(e => e.IdMenu).HasColumnName("ID_Menu");
+            entity.Property(e => e.Link).HasMaxLength(255);
+            entity.Property(e => e.Title).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Tinh>(entity =>

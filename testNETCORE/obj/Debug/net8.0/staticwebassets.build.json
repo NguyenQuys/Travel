@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nazx64Sc7ztjeSuAzOiY08BVXJHIpopQbSitsaooWCY=",
+  "Hash": "3PfpXk5tXc+QxHPRZ9wlnBlzgnKq6MRm7UCGiwN39T4=",
   "Source": "testNETCORE",
   "BasePath": "_content/testNETCORE",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icon-villa.png"
+    },
+    {
+      "Identity": "D:\\testNETCORE\\wwwroot\\img\\logo.png",
+      "SourceId": "testNETCORE",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\testNETCORE\\wwwroot\\",
+      "BasePath": "_content/testNETCORE",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "D:\\testNETCORE\\wwwroot\\img\\property-1.jpg",

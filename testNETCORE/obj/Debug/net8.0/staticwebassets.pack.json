@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\img\\icon-villa.png"
     },
     {
+      "Id": "D:\\testNETCORE\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
       "Id": "D:\\testNETCORE\\wwwroot\\img\\property-1.jpg",
       "PackagePath": "staticwebassets\\img\\property-1.jpg"
     },

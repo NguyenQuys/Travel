@@ -1,0 +1,59 @@
+﻿@model testNETCORE.ViewModels.HomeViewModels
+
+<div class="container-fluid nav-bar bg-transparent">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+        <a href="/Home" class="navbar-brand d-flex align-items-center text-center">
+            <div class="icon p-2 me-2">
+                <img class="img-fluid" src="~/img/logo.png" alt="Icon" style="width: 30px; height: 30px;">
+            </div>
+            <h1 class="m-0 text-primary">JustTravel</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tour</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                         @* @for (int i = 0; i < 2; i++)
+                        {
+                            var item = Model.navigationBars[i];
+                            <a href="/@item.Link" class="dropdown-item">@item.Title</a>
+                            /*<a href="@Model.hutechBar.Link" class="dropdown-item">@item.Title</a>  */                  
+                        }  *@
+                        @foreach(var i in Model.navigationBars)
+                        {
+                            <a href="@i.Link">@i.Link</a>
+                        }
+
+                    </div>
+                </div>
+                @* @{var navCamNangDuLich = Model.navigationBars[2];
+                    <a href="@navCamNangDuLich.Link" class="nav-item nav-link">@navCamNangDuLich.Title</a>
+                } *@ 
+            </div>
+            <div class="nav-item dropdown">
+                <a href="" class="btn btn-primary px-3 d-none d-lg-flex dropdown-toggle" data-bs-toggle="dropdown"><span class="material-symbols-outlined">contacts_product</span></a>
+                <div class="dropdown-menu rounded-0 m-0">
+                    @*  @for (int i = 3; i < Model.navigationBars.Count; i++)
+                    {
+                        var item = Model.navigationBars[i];
+                         if (i < 5)
+                        {
+                            <a href="#" class="dropdown-item">@item.Title</a>
+                        }
+                        else if (i==5 && Model.navigationBars[i].Active == true)
+                        {
+                            <a href="#" class="text-danger dropdown-item">@item.Title</a>
+                        }
+                        else if (i == 5 && Model.navigationBars[i].Active == false)
+                        {
+                            <a href="#" class="text-primary dropdown-item">@item.Title</a>
+                        }
+                    } *@ 
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>

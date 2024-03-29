@@ -44,14 +44,14 @@
                         <div class="col-md-3" style="z-index:1">
                             <input type="text" id="departureInput" name="" class="form-control border-0 py-3" placeholder="Nhập nơi muốn đi...">
                             <div class="button-container" style="max-height: 300px; width: 185px; overflow-y: auto; border-radius: 5px">
-                                @foreach (var item in Model)
+                                @* @foreach (var item in Model)
                                 {
                                     <ul style="list-style-type:none;padding-left:0;margin:0">
                                         <li>
                                             <button style="background-color:white;display:none; border-radius:0; width:280px;text-align:initial" type="submit" class="btn btn-light province departureButton" data-province="@item.Province" name="Departure">@item.Province</button>
                                         </li>
                                     </ul>
-                                }
+                                } *@
                             </div>
                             <style>
                                 .button-container::-webkit-scrollbar {
@@ -100,14 +100,14 @@
                         <div class="col-md-3" style="z-index:1">
                             <input type="text" id="destinationInput" name="" class="form-control border-0 py-3" placeholder="Nhập nơi muốn đến...">
                             <div class="button-container" style="max-height: 300px; width: 185px; overflow-y: auto; border-radius: 5px">
-                                @foreach (var item in Model)
+                                @* @foreach (var item in Model)
                                 {
                                     <ul style="list-style-type:none;padding-left:0;margin:0">
                                         <li>
                                             <button style="background-color:white;display:none; border-radius:0; width:280px;text-align:initial" type="submit" class="btn btn-light province destinationButton" data-province="@item.Province" name="Destination">@item.Province</button>
                                         </li>
                                     </ul>
-                                }
+                                } *@
                             </div>
                             <script>
                                 // Lắng nghe sự kiện khi người dùng nhập vào input "destinationInput"

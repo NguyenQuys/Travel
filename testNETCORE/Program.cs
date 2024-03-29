@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using testNETCORE.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString =builder.Configuration.GetConnectionString("63TinhThanhConnection");
+builder.Services.AddDbContext<_63tinhThanhContext>(options =>options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
@@ -20,8 +26,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();

@@ -1,30 +1,42 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using testNETCORE.Models;
-//using testNETCORE.Models;
+using testNETCORE.ViewModels;
 
 namespace testNETCORE.Controllers
 {
     public class HomeController : Controller
     {
-        _63tinhThanhContext data = new _63tinhThanhContext();
-        private readonly ILogger<HomeController> _logger;
+        private readonly _63tinhThanhContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(_63tinhThanhContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
-        {
-            return View(data.Tinhs.ToList());
-        }
+        //public IActionResult Index()
+        //{
+        //    return View(data.Tinhs.ToList());
+        //}
 
-        [HttpPost]
-        public IActionResult Index(string chosenPlace)
+        //[HttpPost]
+        //public IActionResult Index(string chosenPlace)
+        //{
+        //    var choosePlace = data.Tinhs.Where(a => a.Province == chosenPlace);
+        //    return View(choosePlace);
+        //}
+
+        public async Task<IActionResult> Index()
         {
-            var choosePlace = data.Tinhs.Where(a => a.Province == chosenPlace);
-            return View(choosePlace);
+            var HomeNavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            //var hutechBar1 = await _context.NavigationBars.Where(m => m.Hide == false).FirstOrDefaultAsync();
+            var viewModel = new HomeViewModels
+            {
+                navigationBars = HomeNavigationBar
+                //hutechBar = hutechBar1,
+            };
+            return View(viewModel);
         }
 
         public IActionResult Liked()
@@ -47,14 +59,9 @@ namespace testNETCORE.Controllers
             return View();
         }
 
-        public IActionResult Customer_Information()
+        public async Task<IActionResult> _NavigationBar()
         {
-            return View();
-        }
-
-        public IActionResult Edit_Customer_Information()
-        {
-            return View();
+            return PartialView();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
