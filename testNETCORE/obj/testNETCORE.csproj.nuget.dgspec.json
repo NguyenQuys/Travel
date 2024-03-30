@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\testNETCORE\\testNETCORE.csproj": {}
+    "D:\\testNETCORE - Copy\\testNETCORE.csproj": {}
   },
   "projects": {
-    "D:\\testNETCORE\\testNETCORE.csproj": {
+    "D:\\testNETCORE - Copy\\testNETCORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testNETCORE\\testNETCORE.csproj",
+        "projectUniqueName": "D:\\testNETCORE - Copy\\testNETCORE.csproj",
         "projectName": "testNETCORE",
-        "projectPath": "D:\\testNETCORE\\testNETCORE.csproj",
+        "projectPath": "D:\\testNETCORE - Copy\\testNETCORE.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\testNETCORE\\obj\\",
+        "outputPath": "D:\\testNETCORE - Copy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

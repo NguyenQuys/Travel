@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using testNETCORE.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,6 +32,31 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+    endpoints.MapControllerRoute(
+       name: "tour-trong-nuoc",
+       pattern: "tour-trong-nuoc",
+       defaults: new { controller = "Domestic_Tour_", action = "Index" });
+
+    endpoints.MapControllerRoute(
+       name: "tour-ngoai-nuoc",
+       pattern: "tour-ngoai-nuoc",
+       defaults: new { controller = "Overseas_Tour_", action = "Index" });
+
+    endpoints.MapControllerRoute(
+       name: "cam-nang-du-lich",
+       pattern: "cam-nang-du-lich",
+       defaults: new { controller = "Tour_Guide_", action = "Index" });
+
+    endpoints.MapControllerRoute(
+       name: "thong-tin-ca-nhan",
+       pattern: "thong-tin-ca-nhan",
+       defaults: new { controller = "Information_", action = "Index" });
+
+    endpoints.MapControllerRoute(
+       name: "yeu-thich",
+       pattern: "yeu-thich",
+       defaults: new { controller = "Liked_", action = "Index" });
 });
 
 app.Run();

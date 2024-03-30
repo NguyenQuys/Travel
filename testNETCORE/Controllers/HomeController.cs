@@ -29,36 +29,15 @@ namespace testNETCORE.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var HomeNavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            //var hutechBar1 = await _context.NavigationBars.Where(m => m.Hide == false).FirstOrDefaultAsync();
-            var viewModel = new HomeViewModels
+            var HomeCNavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var viewModel = new HomeViewModel
             {
-                navigationBars = HomeNavigationBar
-                //hutechBar = hutechBar1,
+                NavigationBarList = HomeCNavigationBar
             };
             return View(viewModel);
         }
 
-        public IActionResult Liked()
-        {
-            return View();
-        }
-
-        public IActionResult Travel_Guide()
-        {
-            return View();
-        }
-
-        public IActionResult Domestic_Tour()
-        {
-            return View();
-        }
-
-        public IActionResult Overseas_Tour()
-        {
-            return View();
-        }
-
+   
         public async Task<IActionResult> _NavigationBar()
         {
             return PartialView();

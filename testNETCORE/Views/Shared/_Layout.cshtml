@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,9 +7,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
     <!-- Favicon -->
-    <link href="~/img/favicon.ico" rel="icon">
+        <link href="~/img/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +43,101 @@
         </div>
         <!-- Spinner End -->
         <!-- Navbar Start -->
-        @await Html.PartialAsync("_NavigationBar")
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="/Home" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="~/img/logo.png" alt="Icon" style="width: 70px; height: 70px;">
+                    </div>
+                    <h1 class="m-0 text-primary">JustTravel</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tour</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                @for (int i = 0; i < 2; i++)
+                                {
+                                    var item = Model.NavigationBarList[i];
+                                    <a href="/@item.Link" class="dropdown-item">@item.Title</a>
+                                }
+                            </div>
+                        </div>
+                        @{
+                            var navCamNangDuLich = Model.NavigationBarList[2];
+                            <a href="@navCamNangDuLich.Link" class="nav-item nav-link">@navCamNangDuLich.Title</a>
+                        }
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="" class="btn btn-primary px-3 d-none d-lg-flex dropdown-toggle" data-bs-toggle="dropdown"><span class="material-symbols-outlined">contacts_product</span></a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            @for (int i = 3; i < Model.NavigationBarList.Count; i++)
+                            {
+                                var item = Model.NavigationBarList[i];
+                                if (i < 5)
+                                {
+                                    <a href="/@item.Link" class="dropdown-item">@item.Title</a>
+                                }
+                                else if (i == 5 && Model.NavigationBarList[i].Active == true)
+                                {
+                                    <a href="/@item.Link" class="text-danger dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">@item.Title</a>
+                                }
+                                else if (i == 5 && Model.NavigationBarList[i].Active == false)
+                                {
+                                    <a type="button" href="/@item.Link" class="text-primary dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+                                }
+                            }
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div style="top:200px" class="modal fade" id="loginModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Đăng nhập</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container px-5">
+                                        <div class="text-danger"></div>
+                                        <div class="mb-1">
+                                            <label class="my-2">Tên đăng nhập</label>
+                                            <input class="form-control" />
+                                            <span class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-1">
+                                            <label class="my-2">Mật khẩu</label>
+                                            <input class="form-control" />
+                                            <span class="text-danger"></span>
+                                        </div>
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">Ghi nhớ cho lần đăng nhập sau</label>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <button type="button" class="btn btn-outline-success my-3">
+                                                <img width="24px" src="https://cdn.pixabay.com/photo/2021/05/24/09/15/google-logo-6278331_960_720.png">
+                                                <span style="margin-left: 5px;">Đăng nhập bằng tài khoản Google</span>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <input style="width: 100%;" type="submit" value="Đăng nhập" class="btn btn-primary btn-sm" />
+                                        </div>
+                                        <div class="text-center my-3">
+                                            <a style="cursor: pointer;" class="text-decoration-none">Bạn chưa có tài khoản?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @* Modal Ends *@
+                </div>
+            </nav>
+        </div>
         <!-- Navbar End -->
         
     <div class="container">

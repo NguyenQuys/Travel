@@ -17,55 +17,55 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = testNETCORE
 build_property.RootNamespace = testNETCORE
-build_property.ProjectDir = D:\testNETCORE\
+build_property.ProjectDir = D:\testNETCORE - Copy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\testNETCORE
+build_property.MSBuildProjectDirectory = D:\testNETCORE - Copy
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/testNETCORE/Views/Home/Domestic_Tour.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb21lc3RpY19Ub3VyLmNzaHRtbA==
+[D:/testNETCORE - Copy/Views/Domestic_Tour_/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tZXN0aWNfVG91cl9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Home/Index.cshtml]
+[D:/testNETCORE - Copy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Home/Liked.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaWtlZC5jc2h0bWw=
+[D:/testNETCORE - Copy/Views/Information_/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25fXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Home/Overseas_Tour.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPdmVyc2Vhc19Ub3VyLmNzaHRtbA==
+[D:/testNETCORE - Copy/Views/Liked_/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZWRfXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Home/Travel_Guide.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmF2ZWxfR3VpZGUuY3NodG1s
+[D:/testNETCORE - Copy/Views/Overseas_Tour_/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNlYXNfVG91cl9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Home/_NavigationBar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTmF2aWdhdGlvbkJhci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/testNETCORE/Views/Shared/Error.cshtml]
+[D:/testNETCORE - Copy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/testNETCORE - Copy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/_ViewImports.cshtml]
+[D:/testNETCORE - Copy/Views/Tour_Guide_/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cl9HdWlkZV9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/testNETCORE - Copy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/_ViewStart.cshtml]
+[D:/testNETCORE - Copy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/testNETCORE/Views/Shared/_Layout.cshtml]
+[D:/testNETCORE - Copy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zy8mydclgu
