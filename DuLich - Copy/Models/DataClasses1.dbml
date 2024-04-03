@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="63TinhThanh" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Tinh" Member="Tinhs">
+    <Type Name="Tinh">
+      <Column Name="Province" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

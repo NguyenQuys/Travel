@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTWeb\\TourTrongNuoc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\views\\tour\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:views\\tour\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\views\\tour\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:views\\tour\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\views\\tour\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:views\\tour\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\repositories\\mocktourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:repositories\\mocktourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|d:\\ltweb\\tourtrongnuoc\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E62B3095-4745-4597-9B1D-CF52EC8C088D}|TourTrongNuoc.csproj|solutionrelative:models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2072371817:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 143,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAcwNQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T14:54:26.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Views\\Tour\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tour\\Display.cshtml",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Views\\Tour\\Display.cshtml",
+              "RelativeToolTip": "Views\\Tour\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T14:54:01.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TourController.cs",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Controllers\\TourController.cs",
+              "RelativeToolTip": "Controllers\\TourController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T14:52:59.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MockTourRepository.cs",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Repositories\\MockTourRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MockTourRepository.cs",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Repositories\\MockTourRepository.cs",
+              "RelativeToolTip": "Repositories\\MockTourRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T14:52:56.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Views\\Tour\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tour\\Index.cshtml",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Views\\Tour\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tour\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T14:52:14.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Views\\Tour\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tour\\Add.cshtml",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Views\\Tour\\Add.cshtml",
+              "RelativeToolTip": "Views\\Tour\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T14:30:39.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\LTWeb\\TourTrongNuoc\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "Models\\Tour.cs",
+              "ToolTip": "D:\\LTWeb\\TourTrongNuoc\\Models\\Tour.cs",
+              "RelativeToolTip": "Models\\Tour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:45:58.984Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
