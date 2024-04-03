@@ -13,11 +13,14 @@ namespace testNETCORE.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string departurePlace, string destinationPlace)
+        public async Task<IActionResult> Index(string departurePlace, string destinationPlace,DateOnly checkinDay)
         {
             ViewData["destination"] = destinationPlace;
             var RCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var RCFind_Controller = await _context.Tours.Where(m => m.Hide == false && (m.Destination1==destinationPlace||m.Destination2==destinationPlace||m.Destination3==destinationPlace))
+            var RCFind_Controller = await _context.Tours.Where(m => m.Hide == false && 
+                (m.Destination1==destinationPlace||m.Destination2==destinationPlace||m.Destination3==destinationPlace
+                ||m.Departure==departurePlace
+                ||m.StartDate==checkinDay))
                 .OrderBy(m => m.StartDate)
                 .ToListAsync();
             var viewModel = new Result_ViewModel

@@ -27,7 +27,7 @@ public partial class _63tinhThanhContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-ARKQSHH1\\KTEAM;Initial Catalog=63TinhThanh;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False\n");
+        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-ARKQSHH1\\KTEAM;Initial Catalog=63TinhThanh;Integrated Security=True;Encrypt=False\n");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -88,6 +88,8 @@ public partial class _63tinhThanhContext : DbContext
                 .HasNoKey()
                 .ToTable("Tour");
 
+            entity.Property(e => e.Departure).HasMaxLength(50);
+            entity.Property(e => e.Description).HasColumnType("ntext");
             entity.Property(e => e.Destination1)
                 .HasMaxLength(50)
                 .HasColumnName("Destination_1");
@@ -111,6 +113,9 @@ public partial class _63tinhThanhContext : DbContext
                 .HasMaxLength(250)
                 .IsUnicode(false)
                 .HasColumnName("Image_3");
+            entity.Property(e => e.JourneyHighlight)
+                .HasColumnType("ntext")
+                .HasColumnName("Journey_Highlight");
             entity.Property(e => e.Link)
                 .HasMaxLength(50)
                 .IsFixedLength();
@@ -127,6 +132,9 @@ public partial class _63tinhThanhContext : DbContext
             entity.Property(e => e.TourName)
                 .HasMaxLength(250)
                 .HasColumnName("Tour_Name");
+            entity.Property(e => e.TravelingSchedule)
+                .HasColumnType("ntext")
+                .HasColumnName("Traveling_Schedule");
         });
 
         OnModelCreatingPartial(modelBuilder);

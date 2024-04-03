@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JustTravel - @ViewData["Title"]</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicon -->
+    <link href="~/img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+    @* Icon google *@
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="/Home" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="~/img/logo.png" alt="Icon" style="width: 70px; height: 70px;">
+                    </div>
+                    <h1 class="m-0 text-primary">JustTravel</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tour</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                @for (int i = 0; i < 2; i++)
+                                {
+                                    var item = Model.NavigationBarList[i];
+                                    <a href="/@item.Link" class="dropdown-item">@item.Title</a>
+                                }
+                            </div>
+                        </div>
+                        @{
+                            var navCamNangDuLich = Model.NavigationBarList[2];
+                                <a href="@navCamNangDuLich.Link" class="nav-item nav-link">@navCamNangDuLich.Title</a>
+                        }
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="" class="btn btn-primary px-3 d-none d-lg-flex dropdown-toggle" data-bs-toggle="dropdown"><span class="material-symbols-outlined">contacts_product</span></a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            @for (int i = 3; i < Model.NavigationBarList.Count; i++)
+                            {
+                                var item = Model.NavigationBarList[i];
+                                if (i < 5)
+                                {
+                                    <a href="/@item.Link" class="dropdown-item">@item.Title</a>
+                                }
+                                else if (i == 5 && Model.NavigationBarList[i].Active == true)
+                                {
+                                    <a href="/@item.Link" class="text-danger dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">@item.Title</a>
+                                }
+                                else if (i == 5 && Model.NavigationBarList[i].Active == false)
+                                {
+                                    <a type="button" href="/@item.Link" class="text-primary dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+                                }
+                            }
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div style="top:200px" class="modal fade" id="loginModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Đăng nhập</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container px-5">
+                                        <div class="text-danger"></div>
+                                        <div class="mb-1">
+                                            <label class="my-2">Tên đăng nhập</label>
+                                            <input class="form-control" />
+                                            <span class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-1">
+                                            <label class="my-2">Mật khẩu</label>
+                                            <input class="form-control" />
+                                            <span class="text-danger"></span>
+                                        </div>
+                                        <div class="form-check mt-3">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">Ghi nhớ cho lần đăng nhập sau</label>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <button type="button" class="btn btn-outline-success my-3">
+                                                <img width="24px" src="https://cdn.pixabay.com/photo/2021/05/24/09/15/google-logo-6278331_960_720.png">
+                                                <span style="margin-left: 5px;">Đăng nhập bằng tài khoản Google</span>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <input style="width: 100%;" type="submit" value="Đăng nhập" class="btn btn-primary btn-sm" />
+                                        </div>
+                                        <div class="text-center my-3">
+                                            <a style="cursor: pointer;" class="text-decoration-none">Bạn chưa có tài khoản?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @* Modal Ends *@
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+                <style>
+                    /* CSS cho vị trí cố định */
+                    .sticky-sidebar {
+                        position: sticky;
+                        top: 0;
+                        z-index: 1020;
+                        /* hoặc số lớn hơn nếu cần */
+                    }
+
+                    /* Điều chỉnh kích thước và kiểu cuộn cho phần col-md-8 */
+                    .scrollable-content {
+                        height: 80vh;
+                        /* chiều cao tối đa cho nội dung cuộn */
+                        overflow-y: auto;
+                        /* cho phép nội dung cuộn khi vượt quá chiều cao */
+                    }
+
+                        .scrollable-content::-webkit-scrollbar {
+                            width: 0;
+                        }
+                </style>
+
+                @foreach (var item in Model.TourList)
+                {
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 scrollable-content">
+                                <nav style="position: sticky; top:0; z-index: 1000;" class="navbar navbar-expand-sm bg-white navbar-white justify-content-evenly">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#section1">Hình ảnh</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#section2">Điểm nhấn hành trình</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#section3">Lịch trình</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#section4">Mô tả</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div>
+                                    <h3>@item.TourName</h3>
+                                </div>
+                                <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+                                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                        </div>
+
+                                        <!-- The slideshow/carousel -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="~/img/@item.Image1"
+                                                     alt="Los Angeles" style="width:100%">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="~/img/@item.Image2"
+                                                     alt="Chicago" style="width:100%">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="~/img/@item.Image3"
+                                                     alt="New York" style="width:100%">
+                                            </div>
+                                        </div>
+
+                                        <!-- Left and right controls/icons -->
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="section2" class="container-fluid" style="padding:100px 20px;">
+                                    <h4>Điểm nhấn hành trình</h4>
+                                    <p>@item.JourneyHighlight</p>
+                                    <!-- Content for section 2 -->
+                                </div>
+                                <div id="section3" class="container-fluid" style="padding:100px 20px;">
+                                    <h4>Lịch trình</h4>
+                                    <p>@item.TravelingSchedule</p>
+                                    <!-- Content for section 3 -->
+                                </div>
+                                <div id="section4" class="container-fluid" style="padding:100px 20px;">
+                                    <h4>Mô tả</h4>
+                                    <p>@item.Description</p>
+                                    <!-- Content for section 4 -->
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mt-5">
+                                <div class="card p-3 bg-light">
+                                    <div class="col-md-12">
+                                        <h3> Lịch Trình và Giá Tour </h3>
+                                        <div class="col-md-12 no-padding v-margin-bottom-10 select-depart-date">
+                                            Chọn Lịch Trình và Xem Giá:
+                                        </div>
+                                        <div class="col-md-12 wrapper-depart-date">
+                                            <div class="left">
+                                                <div>
+                                                    <h4 class="text-danger">@item.StartDate.ToString("dd/MM/yyyy") - @item.EndDate.ToString("dd/MM/yyyy")</h4>
+                                                    <h4 class="text-danger">@item.NdaysNnights</h4>
+                                                </div>
+                                                <div class="soluongdatve">
+                                                    <div class="card">
+                                                        <div class="row">
+                                                            <div class="col-md-4 text-center my-3">
+                                                                <h4> Người lớn </h4>
+                                                                <p class="mb-0"> Trên 10 tuổi</p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                                                <p>x @item.PriceForAdult.ToString("N0")</p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex">
+                                                                <button type="button" class="btn" id="decreaseBtnAdult">-</button>
+                                                                <button type="button" class="btn" id="numberBtnAdult">0</button>
+                                                                <button type="button" class="btn" id="increaseBtnAdult">+</button>
+                                                                <script>
+                                                                    document.addEventListener("DOMContentLoaded", function () {
+                                                                        // Lấy ra các phần tử cần thiết
+                                                                        const decreaseBtn = document.getElementById("decreaseBtnAdult");
+                                                                        const numberBtn = document.getElementById("numberBtnAdult");
+                                                                        const increaseBtn = document.getElementById("increaseBtnAdult");
+
+                                                                        // Gán giá trị ban đầu cho số
+                                                                        let currentValue = parseInt(numberBtn.textContent);
+
+                                                                        // Gán sự kiện "click" cho nút giảm
+                                                                        decreaseBtn.addEventListener("click", function () {
+                                                                            if (currentValue > 0) {
+                                                                                currentValue--;
+                                                                                numberBtn.value = currentValue; // Gán giá trị cho số
+                                                                                numberBtn.textContent = currentValue; // Hiển thị giá trị mới
+                                                                            }
+                                                                        });
+
+                                                                        // Gán sự kiện "click" cho nút tăng
+                                                                        increaseBtn.addEventListener("click", function () {
+                                                                            currentValue++;
+                                                                            numberBtn.value = currentValue; // Gán giá trị cho số
+                                                                            numberBtn.textContent = currentValue; // Hiển thị giá trị mới
+                                                                        });
+                                                                    });
+                                                                </script>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="row">
+                                                            <div class="col-md-4 text-center my-3">
+                                                                <h4> Trẻ em </h4>
+                                                                <p class="mb-0"> 5 - 10 tuổi</p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                                                <p>x @item.PriceForChildren.ToString("N0")</p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex">
+                                                                <button type="button" class="btn" id="decreaseBtnChildren">-</button>
+                                                                <button type="button" class="btn" id="numberBtnChildren">0</button>
+                                                                <button type="button" class="btn" id="increaseBtnChildren">+</button>
+                                                                <script>
+                                                                    document.addEventListener("DOMContentLoaded", function () {
+                                                                        // Lấy ra các phần tử cần thiết
+                                                                        const decreaseBtn = document.getElementById("decreaseBtnChildren");
+                                                                        const numberBtn = document.getElementById("numberBtnChildren");
+                                                                        const increaseBtn = document.getElementById("increaseBtnChildren");
+                                                                        const totalParagraph = document.getElementById("total");
+
+                                                                        // Gán giá trị ban đầu cho số và tổng
+                                                                        let currentValue = parseInt(numberBtn.textContent);
+                                                                        let totalValue = currentValue * @item.PriceForChildren;
+                                                                        totalParagraph.textContent = `Tổng: ${totalValue}`;
+
+                                                                        // Gán sự kiện "click" cho nút giảm
+                                                                        decreaseBtn.addEventListener("click", function () {
+                                                                            if (currentValue > 0) {
+                                                                                currentValue--;
+                                                                                updateValues();
+                                                                            }
+                                                                        });
+
+                                                                        // Gán sự kiện "click" cho nút tăng
+                                                                        increaseBtn.addEventListener("click", function () {
+                                                                            currentValue++;
+                                                                            updateValues();
+                                                                        });
+
+                                                                        // Cập nhật giá trị và hiển thị tổng
+                                                                        function updateValues() {
+                                                                            totalValue = currentValue * @item.PriceForChildren;
+                                                                            numberBtn.textContent = currentValue;
+                                                                            numberBtn.value = currentValue;
+                                                                            totalParagraph.textContent = `${totalValue.toLocaleString()}`;
+                                                                        }
+                                                                    });
+
+                                                                </script>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row my-3">
+                                                <div class="col-md-7">
+                                                    <h5 class="text-danger"> Tổng giá Tour </h5>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <h5 id="total" class="text-danger">
+                                                       @*Gia tour hien thi o day*@
+                                                    </h5>
+
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-evenly">
+                                                <a style="cursor: pointer;" id="favoriteIcon" class="material-symbols-outlined d-flex align-items-center" onclick="changeColor()">
+                                                    favorite
+                                                </a>
+                                                <button type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3">Liên hệ tư vấn</button>
+                                                <button type="button" class="btn btn-warning mx-3">Đặt tour ngay</button>
+                                                <script>
+                                                    function changeColor() {
+                                                        var icon = document.getElementById("favoriteIcon");
+                                                        icon.classList.toggle("text-danger");
+                                                    }
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </main>
+        </div>
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Liên hệ</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>HUTECH E-CAMPUS</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0987654321</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>nhom8@gmail.com</p>
+                        @*<div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>*@
+                    </div>
+                    @*<div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link text-white-50" href="">About Us</a>
+                    <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                    <a class="btn btn-link text-white-50" href="">Our Services</a>
+                    <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                    <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Photo Gallery</h5>
+                    <div class="row g-2 pt-2">
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                    <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                    </div>*@
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">JustTravel</a>, All Right Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">"Group 8"</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            @*<div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/js/main.js"></script>
+</body>
+
+</html>
+
+@*      <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)  *@
+

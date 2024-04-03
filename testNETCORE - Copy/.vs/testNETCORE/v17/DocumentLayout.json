@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\testNETCORE - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\domestic_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\domestic_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\models\\_63tinhthanhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\_63tinhthanhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\overseas_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\overseas_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\information_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\information_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\shared\\_layout_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\shared\\_layout_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,40 +46,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Overseas_Tour_\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Overseas_Tour_\\Detail.cshtml",
-              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Overseas_Tour_\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Overseas_Tour_\\Detail.cshtml",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAcwGQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T15:50:53.789Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Domestic_Tour_\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Domestic_Tour_\\Detail.cshtml",
-              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Domestic_Tour_\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Domestic_Tour_\\Detail.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGYAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T15:09:39.923Z",
+              "Title": "_63tinhThanhContext.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Models\\_63tinhThanhContext.cs",
+              "RelativeDocumentMoniker": "Models\\_63tinhThanhContext.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\Models\\_63tinhThanhContext.cs",
+              "RelativeToolTip": "Models\\_63tinhThanhContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowC0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T12:35:28.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "ResultController.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Controllers\\ResultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResultController.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\Controllers\\ResultController.cs",
+              "RelativeToolTip": "Controllers\\ResultController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:22:34.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Information_\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Information_\\Index.cshtml",
-              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Information_\\Index.cshtml",
-              "RelativeToolTip": "Views\\Information_\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAIBJwDMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T15:09:13.184Z"
+              "WhenOpened": "2024-04-03T07:29:22.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout_Detail.cshtml",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Shared\\_Layout_Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout_Detail.cshtml",
+              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Shared\\_Layout_Detail.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout_Detail.cshtml",
+              "ViewState": "AQIAAFMBAAAAAAAAAADwv2QBAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T07:14:41.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T12:34:52.448Z"
             }
           ]
         }

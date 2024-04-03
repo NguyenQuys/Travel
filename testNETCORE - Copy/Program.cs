@@ -39,6 +39,7 @@ app.UseEndpoints(endpoints =>
        defaults: new { controller = "Domestic_Tour_", action = "Index" });
 
     endpoints.MapControllerRoute(
+
        name: "tour-ngoai-nuoc",
        pattern: "tour-ngoai-nuoc",
        defaults: new { controller = "Overseas_Tour_", action = "Index" });
@@ -67,6 +68,11 @@ app.UseEndpoints(endpoints =>
         name: "chi-tiet-tour-ngoai-nuoc",
         pattern: "tour-ngoai-nuoc/{slug}-{id}",
         defaults: new { controller = "Overseas_Tour_", action = "Detail" });
+
+    endpoints.MapControllerRoute(
+          name: "yeu-thich",
+          pattern: "yeu-thich/{slug}-{id}",
+          defaults: new { controller = "Liked_", action = "Detail" });
 });
 
 app.Run();

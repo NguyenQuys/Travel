@@ -9,6 +9,8 @@ public partial class Tour
 
     public string TourName { get; set; } = null!;
 
+    public string Departure { get; set; } = null!;
+
     public byte Idcategory { get; set; }
 
     public string Destination1 { get; set; } = null!;
@@ -37,7 +39,15 @@ public partial class Tour
 
     public DateOnly EndDate { get; set; }
 
+    public string? JourneyHighlight { get; set; }
+
+    public string? TravelingSchedule { get; set; }
+
+    public string? Description { get; set; }
+
     public string Link { get; set; } = null!;
 
     public bool Hide { get; set; }
+
+    public bool Like { get; set; }
 }

@@ -17,17 +17,35 @@ namespace testNETCORE.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var LCNavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var LCNavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var LLiked_Controller = await _context.Tours.Where(m => m.Hide == false && m.Like == true).ToListAsync();
             var viewModel = new Liked_ViewModel
             {
-                NavigationBarList = LCNavigationBar,
+                NavigationBarList = LCNavigationBar_Controller,
+                TourList = LLiked_Controller
             };
             return View(viewModel);
         }
 
-        public async Task<IActionResult> _NavigationBar()
+        public async Task<IActionResult> Detail(string slug, string id)
         {
-            return PartialView();
+            var LCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var LDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId == id).ToListAsync();
+            if (LDetail_Controller == null)
+            {
+                var errorViewModel = new ErrorViewModel
+                {
+                    RequestId = "Product Error"
+                };
+                return View("Error", errorViewModel); // Nếu tìm ko ra thì check chỗ này
+            }
+
+            var viewModel = new Liked_ViewModel
+            {
+                NavigationBarList = LCNavigation_Bar_Controller,
+                TourList = LDetail_Controller
+            };
+            return View(viewModel);
         }
 
         // GET: Liked_Controller/Create

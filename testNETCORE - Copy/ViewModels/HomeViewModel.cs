@@ -6,7 +6,6 @@ namespace testNETCORE.ViewModels
     {
         public List<NavigationBar> NavigationBarList { get; set; }
         public List<Tinh> TinhList { get; set; }
-
-        //public List<Tour> TourList { get; set; }
+        public List<Tour> TourList { get; set; }
     }
 }
