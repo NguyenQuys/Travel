@@ -25,7 +25,7 @@ namespace Login_Logout_Regsiter.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToLocal(returnUrl);
+                    return RedirectToAction("Index", "Home");
                 }
 
                 ModelState.AddModelError("", "Invalid login attempt");
@@ -58,8 +58,8 @@ namespace Login_Logout_Regsiter.Controllers
                 if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, false);
-
-                    return RedirectToLocal(returnUrl);
+                    await signInManager.SignOutAsync();
+                    return RedirectToAction("Index", "Home");
                 }
                 foreach (var error in result.Errors)
                 {
