@@ -25,9 +25,11 @@ public partial class _63tinhThanhContext : DbContext
 
     public virtual DbSet<Tour> Tours { get; set; }
 
+    public virtual DbSet<User> Users { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-ARKQSHH1\\KTEAM;Initial Catalog=63TinhThanh;Integrated Security=True;Encrypt=False\n");
+        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-ARKQSHH1\\KTEAM;Initial Catalog=63TinhThanh;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -113,9 +115,9 @@ public partial class _63tinhThanhContext : DbContext
                 .HasMaxLength(250)
                 .IsUnicode(false)
                 .HasColumnName("Image_3");
-            entity.Property(e => e.JourneyHighlight)
+            entity.Property(e => e.JourneyHightlight)
                 .HasColumnType("ntext")
-                .HasColumnName("Journey_Highlight");
+                .HasColumnName("Journey_Hightlight");
             entity.Property(e => e.Link)
                 .HasMaxLength(50)
                 .IsFixedLength();
@@ -126,7 +128,7 @@ public partial class _63tinhThanhContext : DbContext
             entity.Property(e => e.PriceForChildren).HasColumnType("decimal(18, 0)");
             entity.Property(e => e.StartDate).HasColumnName("Start_Date");
             entity.Property(e => e.TourId)
-                .HasMaxLength(20)
+                .HasMaxLength(10)
                 .IsFixedLength()
                 .HasColumnName("Tour_ID");
             entity.Property(e => e.TourName)
@@ -135,6 +137,26 @@ public partial class _63tinhThanhContext : DbContext
             entity.Property(e => e.TravelingSchedule)
                 .HasColumnType("ntext")
                 .HasColumnName("Traveling_Schedule");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.IdUser).HasName("PK__User__ED4DE442FF813A0B");
+
+            entity.ToTable("User");
+
+            entity.Property(e => e.IdUser).HasColumnName("ID_User");
+            entity.Property(e => e.Email)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.Password)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.PhoneNumber).HasColumnType("numeric(10, 0)");
+            entity.Property(e => e.UserName)
+                .HasMaxLength(30)
+                .IsUnicode(false);
         });
 
         OnModelCreatingPartial(modelBuilder);

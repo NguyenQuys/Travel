@@ -87,7 +87,7 @@
                                 }
                                 else if (i == 5 && Model.NavigationBarList[i].Active == false)
                                 {
-                                    <a type="button" href="/@item.Link" class="text-primary dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+                                    <a type="button" href="dang-nhap" class="text-primary dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
                                 }
                             }
                         </div>
@@ -99,38 +99,46 @@
                                 <div class="modal-header">
                                     <h4 class="modal-title">Đăng nhập</h4>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="container px-5">
-                                        <div class="text-danger"></div>
-                                        <div class="mb-1">
-                                            <label class="my-2">Tên đăng nhập</label>
-                                            <input class="form-control" />
-                                            <span class="text-danger"></span>
-                                        </div>
-                                        <div class="mb-1">
-                                            <label class="my-2">Mật khẩu</label>
-                                            <input class="form-control" />
-                                            <span class="text-danger"></span>
-                                        </div>
-                                        <div class="form-check mt-3">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">Ghi nhớ cho lần đăng nhập sau</label>
-                                        </div>
-                                        <div class="d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-success my-3">
-                                                <img width="24px" src="https://cdn.pixabay.com/photo/2021/05/24/09/15/google-logo-6278331_960_720.png">
-                                                <span style="margin-left: 5px;">Đăng nhập bằng tài khoản Google</span>
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <input style="width: 100%;" type="submit" value="Đăng nhập" class="btn btn-primary btn-sm" />
-                                        </div>
-                                        <div class="text-center my-3">
-                                            <a style="cursor: pointer;" class="text-decoration-none">Bạn chưa có tài khoản?</a>
+                                </div class=model-body>
+                                @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                {
+                                    <div class="alert alert-danger" role="alert">
+                                        @ViewBag.ErrorMessage
+                                    </div>
+                                }
+                                <form asp-action="Login" asp-controller="Home" method="post">
+                                    <div class="modal-body">
+                                        <div class="container px-5">
+                                            <div class="text-danger"></div>
+                                            <div class="mb-1">
+                                                <label class="my-2">Tên đăng nhập</label>
+                                                <input class="form-control" type="text"  autofocus required>
+                                                <span  class="text-danger"></span> 
+                                            </div>
+                                            <div class="mb-1">
+                                                <label class="my-2">Mật khẩu</label>
+                                                <input class="form-control" type="password"  id="password" required/>
+                                                <span class="text-danger"></span>
+                                            </div>
+                                            <div class="form-check mt-3">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">Ghi nhớ cho lần đăng nhập sau</label>
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-outline-success my-3">
+                                                    <img width="24px" src="https://cdn.pixabay.com/photo/2021/05/24/09/15/google-logo-6278331_960_720.png">
+                                                    <span style="margin-left: 5px;">Đăng nhập bằng tài khoản Google</span>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <input style="width: 100%;" type="submit" value="Đăng nhập" class="btn btn-primary btn-sm" />
+                                            </div>
+                                            <div class="text-center my-3">
+                                                <a href="dang-ky" style="cursor: pointer;" class="text-decoration-none">Bạn chưa có tài khoản?</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>

@@ -6,5 +6,7 @@ namespace testNETCORE.ViewModels
     {
         public List<NavigationBar> NavigationBarList { get; set; }
 
+        public User InformationCustomerList { get; set;}
+
     }
 }

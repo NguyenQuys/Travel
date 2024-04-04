@@ -45,6 +45,102 @@
       "PackagePath": "staticwebassets\\img\\DT002\\DT002_3.webp"
     },
     {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT003\\DT003_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT003\\DT003_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT003\\DT003_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT003\\DT003_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT003\\DT003_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT003\\DT003_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT004\\DT004_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT004\\DT004_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT004\\DT004_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT004\\DT004_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT004\\DT004_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT004\\DT004_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT005\\DT005_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT005\\DT005_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT005\\DT005_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT005\\DT005_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT005\\DT005_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT005\\DT005_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT006\\DT006_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT006\\DT006_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT006\\DT006_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT006\\DT006_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT006\\DT006_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT006\\DT006_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT007\\DT007_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT007\\DT007_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT007\\DT007_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT007\\DT007_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT007\\DT007_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT007\\DT007_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT008\\DT008_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT008\\DT008_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT008\\DT008_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT008\\DT008_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT008\\DT008_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT008\\DT008_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT009\\DT009_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT009\\DT009_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT009\\DT009_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT009\\DT009_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT009\\DT009_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT009\\DT009_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT010\\DT010_1.jpg",
+      "PackagePath": "staticwebassets\\img\\DT010\\DT010_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT010\\DT010_2.jpg",
+      "PackagePath": "staticwebassets\\img\\DT010\\DT010_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\DT010\\DT010_3.jpg",
+      "PackagePath": "staticwebassets\\img\\DT010\\DT010_3.jpg"
+    },
+    {
       "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT001\\OT001_1.png",
       "PackagePath": "staticwebassets\\img\\OT001\\OT001_1.png"
     },
@@ -55,6 +151,114 @@
     {
       "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT001\\OT001_3.webp",
       "PackagePath": "staticwebassets\\img\\OT001\\OT001_3.webp"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT002\\OT002_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT002\\OT002_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT002\\OT002_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT002\\OT002_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT002\\OT002_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT002\\OT002_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT003\\OT003_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT003\\OT003_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT003\\OT003_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT003\\OT003_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT003\\OT003_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT003\\OT003_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT004\\OT004_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT004\\OT004_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT004\\OT004_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT004\\OT004_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT004\\OT004_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT004\\OT004_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT005\\OT005_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT005\\OT005_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT005\\OT005_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT005\\OT005_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT005\\OT005_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT005\\OT005_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT006\\OT006_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT006\\OT006_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT006\\OT006_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT006\\OT006_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT006\\OT006_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT006\\OT006_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT007\\OT007_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT007\\OT007_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT007\\OT007_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT007\\OT007_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT007\\OT007_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT007\\OT007_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT008\\OT008_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT008\\OT008_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT008\\OT008_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT008\\OT008_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT008\\OT008_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT008\\OT008_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT009\\OT009_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT009\\OT009_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT009\\OT009_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT009\\OT009_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT009\\OT009_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT009\\OT009_3.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT010\\OT010_1.jpg",
+      "PackagePath": "staticwebassets\\img\\OT010\\OT010_1.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT010\\OT010_2.jpg",
+      "PackagePath": "staticwebassets\\img\\OT010\\OT010_2.jpg"
+    },
+    {
+      "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\OT010\\OT010_3.jpg",
+      "PackagePath": "staticwebassets\\img\\OT010\\OT010_3.jpg"
     },
     {
       "Id": "D:\\testNETCORE - Copy\\wwwroot\\img\\TG001\\TG001_1.jpg",

@@ -15,9 +15,9 @@ public partial class Tour
 
     public string Destination1 { get; set; } = null!;
 
-    public string? Destination2 { get; set; }
+    public string Destination2 { get; set; } = null!;
 
-    public string? Destination3 { get; set; }
+    public string Destination3 { get; set; } = null!;
 
     public string Image1 { get; set; } = null!;
 
@@ -39,11 +39,11 @@ public partial class Tour
 
     public DateOnly EndDate { get; set; }
 
-    public string? JourneyHighlight { get; set; }
+    public string JourneyHightlight { get; set; } = null!;
 
-    public string? TravelingSchedule { get; set; }
+    public string TravelingSchedule { get; set; } = null!;
 
-    public string? Description { get; set; }
+    public string Description { get; set; } = null!;
 
     public string Link { get; set; } = null!;
 

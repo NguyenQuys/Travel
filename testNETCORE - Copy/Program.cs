@@ -30,8 +30,18 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+
+    endpoints.MapControllerRoute(
+        name: "dang-ky",
+        pattern: "dang-ky",
+        defaults: new { controller = "Home", action = "Register" });
+
+    endpoints.MapControllerRoute(
+        name: "dang-nhap",
+        pattern: "dang-nhap",
+        defaults: new { controller = "Home", action = "Login" });
 
     endpoints.MapControllerRoute(
        name: "tour-trong-nuoc",
@@ -73,6 +83,7 @@ app.UseEndpoints(endpoints =>
           name: "yeu-thich",
           pattern: "yeu-thich/{slug}-{id}",
           defaults: new { controller = "Liked_", action = "Detail" });
+
 });
 
 app.Run();

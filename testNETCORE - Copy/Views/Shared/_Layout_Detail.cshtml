@@ -68,7 +68,7 @@
                         </div>
                         @{
                             var navCamNangDuLich = Model.NavigationBarList[2];
-                                <a href="@navCamNangDuLich.Link" class="nav-item nav-link">@navCamNangDuLich.Title</a>
+                            <a href="@navCamNangDuLich.Link" class="nav-item nav-link">@navCamNangDuLich.Title</a>
                         }
                     </div>
                     <div class="nav-item dropdown">
@@ -224,7 +224,7 @@
                                 </div>
                                 <div id="section2" class="container-fluid" style="padding:100px 20px;">
                                     <h4>Điểm nhấn hành trình</h4>
-                                    <p>@item.JourneyHighlight</p>
+                                    <p>@item.JourneyHightlight</p>
                                     <!-- Content for section 2 -->
                                 </div>
                                 <div id="section3" class="container-fluid" style="padding:100px 20px;">
@@ -266,33 +266,6 @@
                                                                 <button type="button" class="btn" id="decreaseBtnAdult">-</button>
                                                                 <button type="button" class="btn" id="numberBtnAdult">0</button>
                                                                 <button type="button" class="btn" id="increaseBtnAdult">+</button>
-                                                                <script>
-                                                                    document.addEventListener("DOMContentLoaded", function () {
-                                                                        // Lấy ra các phần tử cần thiết
-                                                                        const decreaseBtn = document.getElementById("decreaseBtnAdult");
-                                                                        const numberBtn = document.getElementById("numberBtnAdult");
-                                                                        const increaseBtn = document.getElementById("increaseBtnAdult");
-
-                                                                        // Gán giá trị ban đầu cho số
-                                                                        let currentValue = parseInt(numberBtn.textContent);
-
-                                                                        // Gán sự kiện "click" cho nút giảm
-                                                                        decreaseBtn.addEventListener("click", function () {
-                                                                            if (currentValue > 0) {
-                                                                                currentValue--;
-                                                                                numberBtn.value = currentValue; // Gán giá trị cho số
-                                                                                numberBtn.textContent = currentValue; // Hiển thị giá trị mới
-                                                                            }
-                                                                        });
-
-                                                                        // Gán sự kiện "click" cho nút tăng
-                                                                        increaseBtn.addEventListener("click", function () {
-                                                                            currentValue++;
-                                                                            numberBtn.value = currentValue; // Gán giá trị cho số
-                                                                            numberBtn.textContent = currentValue; // Hiển thị giá trị mới
-                                                                        });
-                                                                    });
-                                                                </script>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -313,35 +286,53 @@
                                                                 <script>
                                                                     document.addEventListener("DOMContentLoaded", function () {
                                                                         // Lấy ra các phần tử cần thiết
-                                                                        const decreaseBtn = document.getElementById("decreaseBtnChildren");
-                                                                        const numberBtn = document.getElementById("numberBtnChildren");
-                                                                        const increaseBtn = document.getElementById("increaseBtnChildren");
+                                                                        const decreaseBtnA = document.getElementById("decreaseBtnAdult");
+                                                                        const numberBtnA = document.getElementById("numberBtnAdult");
+                                                                        const increaseBtnA = document.getElementById("increaseBtnAdult");
+                                                                        const decreaseBtnC = document.getElementById("decreaseBtnChildren");
+                                                                        const numberBtnC = document.getElementById("numberBtnChildren");
+                                                                        const increaseBtnC = document.getElementById("increaseBtnChildren");
                                                                         const totalParagraph = document.getElementById("total");
 
                                                                         // Gán giá trị ban đầu cho số và tổng
-                                                                        let currentValue = parseInt(numberBtn.textContent);
-                                                                        let totalValue = currentValue * @item.PriceForChildren;
+                                                                        let currentValueC = parseInt(numberBtnC.textContent);
+                                                                        let currentValueA = parseInt(numberBtnC.textContent);
+                                                                        let totalValue = (currentValueC * @item.PriceForChildren) + (currentValueA * @item.PriceForAdult);
                                                                         totalParagraph.textContent = `Tổng: ${totalValue}`;
 
                                                                         // Gán sự kiện "click" cho nút giảm
-                                                                        decreaseBtn.addEventListener("click", function () {
-                                                                            if (currentValue > 0) {
-                                                                                currentValue--;
+                                                                        decreaseBtnA.addEventListener("click", function () {
+                                                                            if (currentValueA > 0) {
+                                                                                currentValueA--;
+                                                                                updateValues();
+                                                                            }
+                                                                        });
+
+                                                                        decreaseBtnC.addEventListener("click", function () {
+                                                                            if (currentValueC > 0) {
+                                                                                currentValueC--;
                                                                                 updateValues();
                                                                             }
                                                                         });
 
                                                                         // Gán sự kiện "click" cho nút tăng
-                                                                        increaseBtn.addEventListener("click", function () {
-                                                                            currentValue++;
+                                                                        increaseBtnA.addEventListener("click", function () {
+                                                                            currentValueA++;
+                                                                            updateValues();
+                                                                        });
+
+                                                                        increaseBtnC.addEventListener("click", function () {
+                                                                            currentValueC++;
                                                                             updateValues();
                                                                         });
 
                                                                         // Cập nhật giá trị và hiển thị tổng
                                                                         function updateValues() {
-                                                                            totalValue = currentValue * @item.PriceForChildren;
-                                                                            numberBtn.textContent = currentValue;
-                                                                            numberBtn.value = currentValue;
+                                                                            totalValue = (currentValueC * @item.PriceForChildren) + (currentValueA * @item.PriceForAdult);
+                                                                            numberBtnA.textContent = currentValueA;
+                                                                            numberBtnA.value = currentValueA;
+                                                                            numberBtnC.textContent = currentValueC;
+                                                                            numberBtnC.value = currentValueC;
                                                                             totalParagraph.textContent = `${totalValue.toLocaleString()}`;
                                                                         }
                                                                     });
@@ -358,7 +349,7 @@
                                                 </div>
                                                 <div class="col-md-5">
                                                     <h5 id="total" class="text-danger">
-                                                       @*Gia tour hien thi o day*@
+                                                        @*Gia tour hien thi o day*@
                                                     </h5>
 
                                                 </div>
@@ -367,7 +358,7 @@
                                                 <a style="cursor: pointer;" id="favoriteIcon" class="material-symbols-outlined d-flex align-items-center" onclick="changeColor()">
                                                     favorite
                                                 </a>
-                                                <button type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3">Liên hệ tư vấn</button>
+                                                <a type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3" data-bs-toggle="modal" data-bs-target="#lien_he">Liên hệ tư vấn</a>
                                                 <button type="button" class="btn btn-warning mx-3">Đặt tour ngay</button>
                                                 <script>
                                                     function changeColor() {
@@ -381,6 +372,41 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Modal -->
+                        <div style="top:200px" class="modal fade" id="lien_he">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Liên hệ tư vấn</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container px-5">
+                                            <div class="text-danger"></div>
+                                            <div class="mb-1">
+                                                <label class="my-2">Họ và Tên</label>
+                                                <input class="form-control" type="text" />
+                                                <span class="text-danger"></span>
+                                            </div>
+                                            <div class="mb-1">
+                                                <label class="my-2">Số điện thoại</label>
+                                                <input class="form-control" type="tel" />
+                                                <span class="text-danger"></span>
+                                            </div>
+                                            <div class="mb-1">
+                                                <label class="my-2">Yêu cầu khác</label>
+                                                <input class="form-control" type="text" />
+                                                <span class="text-danger"></span>
+                                            </div>
+                                            <div>
+                                                <input style="width: 100%;" type="submit" value="GỬI YÊU CẦU" class="btn btn-primary btn-sm my-3 py-3" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @* Modal Ends *@
                     </div>
                 }
             </main>

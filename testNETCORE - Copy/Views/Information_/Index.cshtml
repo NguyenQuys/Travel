@@ -1,4 +1,5 @@
-﻿@{
+﻿@model testNETCORE.ViewModels.Information_ViewModel
+@{
     ViewData["Title"] = "Thông tin cá nhân";
 }
 
@@ -9,56 +10,59 @@
     <div style="width: 70%;" class="container">
         <section>
             <div class="Thong-tin-khach-hang">
-                <div class="row Name mt-4">
-                    <div class="col-lg-6">
-                        <span class="title">Họ và tên</span>
+                @{
+                    var item = Model.InformationCustomerList;
+                    <div class="row Name mt-4">
+                        <div class="col-lg-6">
+                            <span class="title">Họ và Tên</span>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>@item.Name</h5>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h5>Nguyễn Văn A</h5>
+                    <hr>
+                    <div class="row Date-of-birth  mt-4">
+                        <div class="col-lg-6">
+                            <span class="title">Ngày sinh</span>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>@item.DateOfBirth</h5>
+                        </div>
                     </div>
-                </div>
-                <hr>
-                <div class="row Date-of-birth  mt-4">
-                    <div class="col-lg-6">
-                        <span class="title">Ngày sinh</span>
+                    <hr>
+                    <div class="row Gender mt-4">
+                        <div class="col-lg-6">
+                            <span class="title">Giới tính</span>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>@(item.Gender ? "Nam" : "Nữ")</h4>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h5>11/11/2002</h5>
+                    <hr>
+                    <div class="row Phone-number mt-4">
+                        <div class="col-lg-6">
+                            <span class="title">Số điện thoại</span>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>@item.PhoneNumber</h5>
+                        </div>
                     </div>
-                </div>
-                <hr>
-                <div class="row Gender mt-4">
-                    <div class="col-lg-6">
-                        <span class="title">Giới tính</span>
+                    <hr>
+                    <div class="row Email mt-4">
+                        <div class="col-lg-6">
+                            <span class="title">Email</span>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>@item.Email</h5>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h5>Nam</h5>
-                    </div>
-                </div>
-                <hr>
-                <div class="row Phone-number mt-4">
-                    <div class="col-lg-6">
-                        <span class="title">Số điện thoại</span>
-                    </div>
-                    <div class="col-lg-6">
-                        <h5>0123456789</h5>
-                    </div>
-                </div>
-                <hr>
-                <div class="row Email mt-4">
-                    <div class="col-lg-6">
-                        <span class="title">Email</span>
-                    </div>
-                    <div class="col-lg-6">
-                        <h5>a@gmail.com</h5>
-                    </div>
-                </div>
+                }
             </div>
             <hr>
         </section>
         <section style="float: right;">
-            <button class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Chỉnh sửa thông tin</button>
-            <button class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Trở về</button>
+            <a asp-action="Edit" asp-controller="Information_" class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Chỉnh sửa thông tin</a>
+            <button class="btn btn-primary py-1 px-3 me-3 animated fadeIn" onclick="history.back()">Trở về</button>
         </section>
     </div>
 </div>

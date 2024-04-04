@@ -8,6 +8,7 @@ namespace testNETCORE.Controllers
 {
     public class Information_Controller : Controller
     {
+        private List<InformationCustomer> _customer;
         private readonly _63tinhThanhContext _context;
 
         public Information_Controller(_63tinhThanhContext context)
@@ -17,10 +18,12 @@ namespace testNETCORE.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var ICNavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var INavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var Information_Controller = await _context.Users.FirstOrDefaultAsync();
             var viewModel = new Information_ViewModel
             {
-                NavigationBarList = ICNavigationBar,
+                NavigationBarList = INavigationBar_Controller,
+                InformationCustomerList = Information_Controller
             };
             return View(viewModel);
         }
@@ -52,23 +55,46 @@ namespace testNETCORE.Controllers
         }
 
         // GET: Information_Controller/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(string id)
         {
-            return View();
+            if (id == null)
+            {
+                return NotFound();
+            }
+            InformationCustomer cus = _customer.Find(s => s.IdCustomer == id);
+            if (cus == null)
+            {
+                return NotFound();
+            }
+            return View(cus);
         }
 
         // POST: Information_Controller/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(InformationCustomer info)
         {
-            try
+            if(ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    var edit = _customer.Find(m => m.IdCustomer == info.IdCustomer);
+                    edit.FullName = info.IdCustomer;
+                    edit.DateOfBirth = info.DateOfBirth;
+                    edit.Gender = info.Gender;
+                    edit.PhoneNumber = info.PhoneNumber;
+                    edit.Email = info.Email;
+                    return View("Edit",_customer);
+                }
+                catch(Exception ex)
+                {
+                    return NotFound();
+                }
             }
-            catch
+            else
             {
-                return View();
+                ModelState.AddModelError("", "Vui lòng nhập đúng định dạng!");
+                return View(info);
             }
         }
 

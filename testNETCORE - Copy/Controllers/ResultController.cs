@@ -18,7 +18,7 @@ namespace testNETCORE.Controllers
             ViewData["destination"] = destinationPlace;
             var RCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var RCFind_Controller = await _context.Tours.Where(m => m.Hide == false && 
-                (m.Destination1==destinationPlace||m.Destination2==destinationPlace||m.Destination3==destinationPlace
+                (m.Destination1.Contains(destinationPlace)|| m.Destination2.Contains(destinationPlace) || m.Destination3.Contains(destinationPlace)
                 ||m.Departure==departurePlace
                 ||m.StartDate==checkinDay))
                 .OrderBy(m => m.StartDate)
