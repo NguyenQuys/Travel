@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6fQp+Lp8UxsG0/3MM5Z8cbWntMONlj+ID0/38C0yZ4VQpCUEXgt9LHzTDb+ioJTZRmCMdO4gV7iqy0tdliGDSA==",
+  "dgSpecHash": "LjtDlxtdekAdJ/MOaJXh4bWmgRSVUUDetnR1iFR8KvtMuNRm1COif1ab0jAzjEcuhmLo+DWMnP5fXEepTNDKqg==",
   "success": true,
   "projectFilePath": "D:\\testNETCORE - Copy\\testNETCORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

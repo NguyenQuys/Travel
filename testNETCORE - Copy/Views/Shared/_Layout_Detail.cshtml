@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -68,28 +69,47 @@
                         </div>
                         @{
                             var navCamNangDuLich = Model.NavigationBarList[2];
-                            <a href="@navCamNangDuLich.Link" class="nav-item nav-link">@navCamNangDuLich.Title</a>
+                            <a asp-controller="Tour_Guide_" asp-action="Index" class="nav-item nav-link">@navCamNangDuLich.Title</a>
                         }
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="" class="btn btn-primary px-3 d-none d-lg-flex dropdown-toggle" data-bs-toggle="dropdown"><span class="material-symbols-outlined">contacts_product</span></a>
+                        <a href="#" class="btn btn-primary px-3 d-none d-lg-flex dropdown-toggle" data-bs-toggle="dropdown">
+                            <span class="material-symbols-outlined">contacts_product</span>
+                        </a>
+
                         <div class="dropdown-menu rounded-0 m-0">
-                            @for (int i = 3; i < Model.NavigationBarList.Count; i++)
-                            {
-                                var item = Model.NavigationBarList[i];
-                                if (i < 5)
+                            @{
+                                var itemThongTin = Model.NavigationBarList[3];
+                                var itemYeuThich = Model.NavigationBarList[4];
+                                var itemDangNhapXuat = Model.NavigationBarList[5];
+
+                                if (User.Identity.IsAuthenticated)
                                 {
-                                    <a href="/@item.Link" class="dropdown-item">@item.Title</a>
+                                    string username = User.Identity.Name;
+                                    string permission = User.FindFirst(ClaimTypes.Role)?.Value;
+
+                                    if (permission == "0")
+                                    {
+                                        // <a href="@itemThongTin.Link" class="dropdown-item">@itemThongTin.Title</a>
+                                        // <a href="@itemYeuThich.Link" class="dropdown-item">@itemYeuThich.Title</a>
+                                        <a asp-controller="User_" asp-action="Info" class="dropdown-item">@itemThongTin.Title</a>
+                                        <a asp-controller="Liked_" asp-action="Index" class="dropdown-item">@itemYeuThich.Title</a>
+                                        <a asp-controller="User_" asp-action="Logout" class="dropdown-item text-danger">Đăng xuất</a>
+                                    }
+                                    else if (permission == "2")
+                                    {
+                                        // <script>
+                                        //     window.location.href = '/cam-nang-du-lich';
+                                        // </script>
+                                    }
+
                                 }
-                                else if (i == 5 && Model.NavigationBarList[i].Active == true)
+                                else
                                 {
-                                    <a href="/@item.Link" class="text-danger dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">@item.Title</a>
-                                }
-                                else if (i == 5 && Model.NavigationBarList[i].Active == false)
-                                {
-                                    <a type="button" href="/@item.Link" class="text-primary dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a>
+                                    <a href="dang-nhap" class="dropdown-item">Đăng nhập</a>
                                 }
                             }
+
                         </div>
                     </div>
                     <!-- Modal -->

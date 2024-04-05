@@ -1006,3 +1006,4 @@ D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\refint\testNETCORE.dll
 D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.pdb
 D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
 D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -141,7 +141,7 @@ public partial class _63tinhThanhContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.IdUser).HasName("PK__User__ED4DE442FF813A0B");
+            entity.HasKey(e => e.IdUser);
 
             entity.ToTable("User");
 
@@ -154,9 +154,6 @@ public partial class _63tinhThanhContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false);
             entity.Property(e => e.PhoneNumber).HasColumnType("numeric(10, 0)");
-            entity.Property(e => e.UserName)
-                .HasMaxLength(30)
-                .IsUnicode(false);
         });
 
         OnModelCreatingPartial(modelBuilder);

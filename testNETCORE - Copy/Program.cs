@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using testNETCORE.Models;
@@ -6,6 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).
+ AddCookie(options =>
+ {
+     options.Cookie.Name = "PetStoreCookie";
+     options.LoginPath = "/User/Login";
+ });
 
 var connectionString =builder.Configuration.GetConnectionString("63TinhThanhConnection");
 builder.Services.AddDbContext<_63tinhThanhContext>(options =>options.UseSqlServer(connectionString));
@@ -25,6 +33,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
@@ -34,14 +44,19 @@ app.UseEndpoints(endpoints =>
         pattern: "{controller=Home}/{action=Index}/{id?}");
 
     endpoints.MapControllerRoute(
-        name: "dang-ky",
-        pattern: "dang-ky",
-        defaults: new { controller = "Home", action = "Register" });
-
-    endpoints.MapControllerRoute(
         name: "dang-nhap",
         pattern: "dang-nhap",
-        defaults: new { controller = "Home", action = "Login" });
+        defaults: new { controller = "User_", action = "LogIn" });
+
+    endpoints.MapControllerRoute(
+        name: "dang-ky",
+        pattern: "dang-ky",
+        defaults: new { controller = "User_", action = "Register" });
+
+    endpoints.MapControllerRoute(
+        name: "dang-xuat",
+        pattern: "dang-xuat",
+        defaults: new { controller = "User_", action = "Logout" });
 
     endpoints.MapControllerRoute(
        name: "tour-trong-nuoc",
@@ -62,7 +77,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
        name: "thong-tin-ca-nhan",
        pattern: "thong-tin-ca-nhan",
-       defaults: new { controller = "Information_", action = "Index" });
+       defaults: new { controller = "User_", action = "Info" });
 
     endpoints.MapControllerRoute(
        name: "yeu-thich",
