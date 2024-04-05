@@ -7846,11 +7846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Subjects\\Website\\Travel\\Customer information\\customer_information\\customer_information.csproj",
+      "projectUniqueName": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\customer_information.csproj",
       "projectName": "customer_information",
-      "projectPath": "D:\\Projects\\Subjects\\Website\\Travel\\Customer information\\customer_information\\customer_information.csproj",
+      "projectPath": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\customer_information.csproj",
       "packagesPath": "C:\\Users\\nhutm\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Subjects\\Website\\Travel\\Customer information\\customer_information\\obj\\",
+      "outputPath": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
