@@ -8,6 +8,7 @@ namespace testNETCORE.ViewModels
         public User Register { get; set; }
         public List<Tour> TourList { get; set; }
 
+        public int kiemTraDangNhap {  get; set; }
 
         public UserViewModel() 
         {

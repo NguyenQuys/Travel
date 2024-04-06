@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "05wdpyBRjPhcMoC9k48InB29tRg43yeY5ciYIkaRXXg91ztnYD87KvvONOVFfEhA2cv19OLMkfvu+06sWC4w/A==",
+  "dgSpecHash": "LjtDlxtdekAdJ/MOaJXh4bWmgRSVUUDetnR1iFR8KvtMuNRm1COif1ab0jAzjEcuhmLo+DWMnP5fXEepTNDKqg==",
   "success": true,
-  "projectFilePath": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\Quý\\Travel\\testNETCORE - Copy\\testNETCORE.csproj",
+  "projectFilePath": "D:\\testNETCORE - Copy\\testNETCORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

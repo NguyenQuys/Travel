@@ -29,9 +29,11 @@ namespace testNETCORE.Controllers
 
         public async Task<IActionResult> Detail(string slug, string id)
         {
+            User getDataFromUser = TempData["transfer"] as User;
+            var users = new User();
             var DTCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var OTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId == id).ToListAsync();
-            if (OTDetail_Controller == null)
+            var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId == id).ToListAsync();
+            if (DTDetail_Controller == null)
             {
                 var errorViewModel = new ErrorViewModel
                 {
@@ -39,76 +41,23 @@ namespace testNETCORE.Controllers
                 };
                 return View("Error", errorViewModel); // Nếu tìm ko ra thì check chỗ này
             }
-
-            var viewModel = new Overseas_Tour_ViewModel
+            if (User.Identity.IsAuthenticated)
+            {
+                string phoneNumer = User.Identity.Name;
+                if (phoneNumer != null)
+                {
+                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber.ToString() == phoneNumer.ToString());
+                }
+            }
+            var viewModel = new UserViewModel
             {
                 NavigationBarList = DTCNavigation_Bar_Controller,
-                TourList = OTDetail_Controller
+                TourList = DTDetail_Controller,
+                Register = users
             };
             return View(viewModel);
         }
 
-        // GET: Overseas_Tour_Controller/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Overseas_Tour_Controller/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Overseas_Tour_Controller/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: Overseas_Tour_Controller/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Overseas_Tour_Controller/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Overseas_Tour_Controller/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        
     }
 }

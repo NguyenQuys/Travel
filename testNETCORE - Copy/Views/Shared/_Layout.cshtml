@@ -92,7 +92,7 @@
                                     {
                                         <a href="@itemThongTin.Link" class="dropdown-item">@itemThongTin.Title</a>
                                         <a href="@itemYeuThich.Link" class="dropdown-item">@itemYeuThich.Title</a>
-                                        <a href="dang-xuat" class="dropdown-item text-danger">Đăng xuất</a>
+                                        <a asp-action="LogOut" asp-controller="User_" class="dropdown-item text-danger">Đăng xuất</a>
                                     }
                                     else if(permission=="2")
                                     {
@@ -104,7 +104,7 @@
                                 }
                                 else
                                 {
-                                    <a href="dang-nhap" class="dropdown-item">Đăng nhập</a>
+                                    <a asp-action="LogIn" asp-controller="User_" class="dropdown-item">Đăng nhập</a>
                                 }
                             }
                            

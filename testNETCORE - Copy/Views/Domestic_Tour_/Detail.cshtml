@@ -325,51 +325,68 @@
         @* Modal Ends *@
 
         <!--Modal dat tour start-->
-        <div style="top:100px" class="modal fade" id="dat_tour">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Xác Nhận</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container px-5">
-                            <label class="my-2">Họ và tên người đặt</label>
-                            <h4 class="my-2">@Model.Register.Name</h4>
-                            <span class="text-danger"></span>
-                            <h4 class=""></h4>
-                            <div class="mb-1">
-                                <label class="my-2">Tên Tour</label>
-                                <h4 class="my-2">@item.TourName</h4>
+        @if (@Model.kiemTraDangNhap ==1 )
+        {
+            <div style="top:100px" class="modal fade" id="dat_tour">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Xác Nhận</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container px-5">
+                                <label class="my-2">Họ và tên người đặt</label>
+                                <h4 class="my-2">@Model.Register.Name</h4>
                                 <span class="text-danger"></span>
-                            </div>
-                            <div class="mb-1">
-                                <label class="my-2">Số điện thoại</label>
-                                <h4 class="my-2">@Model.Register.PhoneNumber</h4>
-                                <span class="text-danger"></span>
-                            </div>
-                            <div class="mb-1">
-                                <label class="my-2">Số người lớn:</label>
-                                <h4 id="btnNumberA" class="my-2">@*xuat hien o day*@</h4>
-                                <label class="my-2">Số trẻ em:</label>
-                                <h4 id="btnNumberB" class="my-2">@*xuat hien o day*@</h4>
-                                <span class="text-danger"></span>
-                            </div>
-                            <div class="mb-1">
-                                <label class="my-2">Giá tiền</label>
-                                <h5 id="totalModal" class="text-danger">
-                                    @*Gia tour hien thi o day*@
-                                </h5>
-                                <span class="text-danger"></span>
-                            </div>
-                            <div>
-                                <input style="width: 100%;" type="submit" value="TIẾN HÀNH THANH TOÁN" class="btn btn-primary btn-sm my-3 py-3" />
+                                <h4 class=""></h4>
+                                <div class="mb-1">
+                                    <label class="my-2">Tên Tour</label>
+                                    @{var i = @Model.Register.Name;}
+                                    <h4 class="my-2">@item.TourName</h4>
+                                    <span class="text-danger"></span>
+                                </div>
+                                <div class="mb-1">
+                                    <label class="my-2">Số điện thoại</label>
+                                    <h4 class="my-2">@Model.Register.PhoneNumber</h4>
+                                    <span class="text-danger"></span>
+                                </div>
+                                <div class="mb-1">
+                                    <label class="my-2">Số người lớn:</label>
+                                    <h4 id="btnNumberA" class="my-2">@*xuat hien o day*@</h4>
+                                    <label class="my-2">Số trẻ em:</label>
+                                    <h4 id="btnNumberB" class="my-2">@*xuat hien o day*@</h4>
+                                    <span class="text-danger"></span>
+                                </div>
+                                <div class="mb-1">
+                                    <label class="my-2">Giá tiền</label>
+                                    <h5 id="totalModal" class="text-danger">
+                                        @*Gia tour hien thi o day*@
+                                    </h5>
+                                    <span class="text-danger"></span>
+                                </div>
+                                <div>
+                                    <input style="width: 100%;" type="submit" value="TIẾN HÀNH THANH TOÁN" class="btn btn-primary btn-sm my-3 py-3" />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        }
+        else
+        {
+            <div style="top:200px" class="modal fade" id="dat_tour">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Bạn cần <span><a asp-action="LogIn" asp-controller="User_">ĐĂNG NHẬP</a></span> để tiếp tục</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
         <!--Modal datb tour ends-->
     </div>
 }
