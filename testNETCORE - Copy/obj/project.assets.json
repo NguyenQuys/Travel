@@ -59,6 +59,35 @@
           }
         }
       },
+      "Castle.Core/3.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Castle.Windsor/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "3.3.0"
+        },
+        "compile": {
+          "lib/net45/Castle.Windsor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Castle.Windsor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -650,6 +679,47 @@
         "resource": {
           "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
+          }
+        }
+      },
+      "Intersoft.Crosslight/6.0.5000.975": {
+        "type": "package",
+        "compile": {
+          "lib/Intersoft.Crosslight.dll": {}
+        },
+        "runtime": {
+          "lib/Intersoft.Crosslight.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "4.5.11"
+        },
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.1.2"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1751,6 +1821,22 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Owin/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".XML"
+          }
+        }
+      },
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -2042,6 +2128,29 @@
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "OWIN.Windsor.DependencyResolverScopeMiddleware/0.9.5676.18344": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Windsor": "3.3.0",
+          "Microsoft.AspNet.WebApi.Core": "5.1.2",
+          "Microsoft.Owin": "3.0.1"
+        },
+        "compile": {
+          "lib/net45/OWIN.Windsor.DependencyResolverScopeMiddleware.dll": {}
+        },
+        "runtime": {
+          "lib/net45/OWIN.Windsor.DependencyResolverScopeMiddleware.dll": {}
         }
       },
       "System.CodeDom/5.0.0": {
@@ -2834,6 +2943,60 @@
         "readme.md"
       ]
     },
+    "Castle.Core/3.3.0": {
+      "sha512": "wvlF47qlxKXurxSUWAnX79stVrnkuUPe5lHq26OiXUtMEngPaBcJ+5j+yVdFJ70hjUZpqg7qQK5hCZSex14ekQ==",
+      "type": "package",
+      "path": "castle.core/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "BreakingChanges.txt",
+        "Changes.txt",
+        "License.txt",
+        "castle.core.3.3.0.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40-client/Castle.Core.dll",
+        "lib/net40-client/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/sl4/Castle.Core.dll",
+        "lib/sl4/Castle.Core.xml",
+        "lib/sl5/Castle.Core.dll",
+        "lib/sl5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "Castle.Windsor/3.3.0": {
+      "sha512": "5QiDI4DPLkIM7N9mTBaFlmh2GlWFZe+tF0tOzx0QdNE+pGWAm3gFrmKi4LnOIKIhGcocqW0zptMMIxidVMWqEQ==",
+      "type": "package",
+      "path": "castle.windsor/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "BreakingChanges.txt",
+        "Changes.txt",
+        "License.txt",
+        "castle.windsor.3.3.0.nupkg.sha512",
+        "castle.windsor.nuspec",
+        "lib/net35/Castle.Windsor.dll",
+        "lib/net35/Castle.Windsor.xml",
+        "lib/net40-client/Castle.Windsor.dll",
+        "lib/net40-client/Castle.Windsor.xml",
+        "lib/net40/Castle.Windsor.dll",
+        "lib/net40/Castle.Windsor.xml",
+        "lib/net45/Castle.Windsor.dll",
+        "lib/net45/Castle.Windsor.xml",
+        "lib/sl4/Castle.Windsor.dll",
+        "lib/sl4/Castle.Windsor.xml",
+        "lib/sl5/Castle.Windsor.dll",
+        "lib/sl5/Castle.Windsor.xml",
+        "readme.txt"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -3578,6 +3741,65 @@
         "lib/netstandard1.0/zh-Hant/Humanizer.resources.dll",
         "lib/netstandard2.0/zh-Hant/Humanizer.resources.dll",
         "logo.png"
+      ]
+    },
+    "Intersoft.Crosslight/6.0.5000.975": {
+      "sha512": "icRCEz9Fl9HI7LyiUniMnIN8TeI1vRI4QPZQyGDx3sTyX5YxDGNHE2uLXG3ShsI1EOSY4x/Vxycs/QTOL3uqnQ==",
+      "type": "package",
+      "path": "intersoft.crosslight/6.0.5000.975",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "intersoft.crosslight.6.0.5000.975.nupkg.sha512",
+        "intersoft.crosslight.nuspec",
+        "lib/Intersoft.Crosslight.dll",
+        "lib/MonoAndroid10/Intersoft.Crosslight.Android.dll",
+        "lib/MonoAndroid10/Intersoft.Crosslight.dll",
+        "lib/NetCore45/Intersoft.Crosslight.WinRT.dll",
+        "lib/NetCore45/Intersoft.Crosslight.WinRT/Controls/TabControl.xaml",
+        "lib/NetCore45/Intersoft.Crosslight.WinRT/Themes/DatePicker.xaml",
+        "lib/NetCore45/Intersoft.Crosslight.WinRT/Themes/Generic.xaml",
+        "lib/NetCore45/Intersoft.Crosslight.dll",
+        "lib/Xamarin.iOS10/Intersoft.Crosslight.dll",
+        "lib/Xamarin.iOS10/Intersoft.Crosslight.iOS.dll",
+        "lib/wp8/Intersoft.Crosslight.WinPhone.dll",
+        "lib/wp8/Intersoft.Crosslight.dll",
+        "tools/CocoaDialog.app.zip",
+        "tools/CocoaDialog.sh",
+        "tools/NugetUtil.dll",
+        "tools/dependencies.xml",
+        "tools/init.ps1",
+        "tools/install.ps1"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.1.2": {
+      "sha512": "FbdEM+0G9GBprGuHMBbgfCg1oA6+Ew8tAtiTcEiLIrDXM2C44zzabGW4pXHDjBTswe0HgIWAynTv3IL2oP11NQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.1.2.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.1.2": {
+      "sha512": "7KRMgOtv34xmJwheQQ9zv5syahBVjaMEAuX2ywnK86ysyLeebhb5IGKOzLptflRR/tDUG49RYgwbA6aR/U8T5Q==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.1.2.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
@@ -5647,6 +5869,19 @@
         "runtime.json"
       ]
     },
+    "Microsoft.Owin/3.0.1": {
+      "sha512": "64yZsGN9uRnXNVAyAT4F6KWmdDUJ6yX4uqzxKTdGANKH1oMt0IKZ7THRRa3mXIOo8iSu4tq/DCBUycUY9pXZzw==",
+      "type": "package",
+      "path": "microsoft.owin/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.3.0.1.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
     "Microsoft.SqlServer.Server/1.0.0": {
       "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "type": "package",
@@ -6489,6 +6724,30 @@
         "lib/netstandard2.0/NuGet.Versioning.dll",
         "nuget.versioning.6.9.1.nupkg.sha512",
         "nuget.versioning.nuspec"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    },
+    "OWIN.Windsor.DependencyResolverScopeMiddleware/0.9.5676.18344": {
+      "sha512": "Zguld/n7ZZN5K8eqdZg88h0PRjPxNVy8xBDp7p1jwbgy2l/srTQaIbid7Ip2I4hotTGh/6Qc+m6yTU7ShSVWJQ==",
+      "type": "package",
+      "path": "owin.windsor.dependencyresolverscopemiddleware/0.9.5676.18344",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/OWIN.Windsor.DependencyResolverScopeMiddleware.dll",
+        "owin.windsor.dependencyresolverscopemiddleware.0.9.5676.18344.nupkg.sha512",
+        "owin.windsor.dependencyresolverscopemiddleware.nuspec"
       ]
     },
     "System.CodeDom/5.0.0": {
@@ -7877,26 +8136,33 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "BCrypt.Net-Next >= 4.0.3",
+      "Intersoft.Crosslight >= 6.0.5000.975",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
+      "OWIN.Windsor.DependencyResolverScopeMiddleware >= 0.9.5676.18344"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {}
+    "C:\\Users\\Tuan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\testNETCORE - Copy\\testNETCORE.csproj",
+      "projectUniqueName": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\testNETCORE.csproj",
       "projectName": "testNETCORE",
-      "projectPath": "D:\\testNETCORE - Copy\\testNETCORE.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\testNETCORE - Copy\\obj\\",
+      "projectPath": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\testNETCORE.csproj",
+      "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
+      "outputPath": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7904,6 +8170,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7931,6 +8198,10 @@
             "target": "Package",
             "version": "[4.0.3, )"
           },
+          "Intersoft.Crosslight": {
+            "target": "Package",
+            "version": "[6.0.5000.975, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -7950,6 +8221,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.2, )"
+          },
+          "OWIN.Windsor.DependencyResolverScopeMiddleware": {
+            "target": "Package",
+            "version": "[0.9.5676.18344, )"
           }
         },
         "imports": [
@@ -7974,5 +8249,87 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Castle.Core 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Castle.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Castle.Windsor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Castle.Windsor",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Intersoft.Crosslight 6.0.5000.975' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Intersoft.Crosslight",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 5.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OWIN.Windsor.DependencyResolverScopeMiddleware 0.9.5676.18344' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OWIN.Windsor.DependencyResolverScopeMiddleware",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,21 @@
+﻿@model testNETCORE.ViewModels.EditorViewModel
+@using System.Security.Claims
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>
+
+        </title>
+    <script src="ckeditor/ckeditor.js"></script>
+    <link href="ckeditor/contents.css" rel="stylesheet" />
+    </head>
+    <body>
+        <textarea id="editor" placeholder="Enter Here"></textarea>
+
+        <script>
+            CKEDITOR.replace('editor', {
+                /*extraPlugins: 'placeholder',*/
+                height: 220
+            });
+        </script>
+    </body>
+</html
