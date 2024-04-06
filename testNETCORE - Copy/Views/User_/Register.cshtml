@@ -1,0 +1,84 @@
+﻿@model testNETCORE.ViewModels.UserViewModel
+@{
+    ViewData["Title"] = "Đăng ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-4 card p-3">
+        <h4 class="text-center">Đăng ký</h4>
+        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+        {
+            <div class="alert alert-danger" role="alert">
+                @ViewBag.ErrorMessage
+            </div>
+        }
+        <form asp-action="Register" asp-controller="User_" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="mb-1">
+                <label asp-for="Register.Name" class="control-label">Họ và tên</label>
+                <input asp-for="Register.Name" class="form-control" type="text" required />
+                <span asp-validation-for="Register.Name" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <label asp-for="Register.DateOfBirth" class="control-label">Ngày sinh</label>
+                <input asp-for="Register.DateOfBirth" class="form-control" type="date" required />
+                <span asp-validation-for="Register.DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <label for="sel1" class="form-label">Giới tính</label>
+                <select class="form-select" id="sel1" asp-for="Register.Gender" required>
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                </select>
+                <span asp-validation-for="Register.Gender" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <label asp-for="Register.PhoneNumber" class="control-label">Số điện thoại</label>
+                <input asp-for="Register.PhoneNumber" class="form-control" type="tel" pattern="[0-9]{10}" required />
+                <span asp-validation-for="Register.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <label asp-for="Register.Email" class="control-label">Email</label>
+                <input asp-for="Register.Email" class="form-control" type="email" required />
+                <span asp-validation-for="Register.Email" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <label asp-for="Register.Password" class="control-label">Mật khẩu</label>
+                <input asp-for="Register.Password" class="form-control" type="password" id="password" required
+                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                       title="Mật khẩu phải có ít nhất 8 ký tự, bao gồm ít nhất một chữ số, một chữ thường và một chữ hoa." />
+                <span asp-validation-for="Register.Password" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <label class="control-label">Nhập lại mật khẩu</label>
+                <input class="form-control" type="password" id="confirmPassword" required
+                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                       title="Mật khẩu phải có ít nhất 8 ký tự, bao gồm ít nhất một chữ số, một chữ thường và một chữ hoa."
+                       oninput="checkPasswordMatch(this);" />
+                <div id="passwordMatchMessage"></div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-8">
+                    <a href="dang-nhap" class="text-decoration-none float-start mt-2">Bạn đã có tài khoản?</a>
+                </div>
+                <div class="col-4">
+                    <input style="width: 100px;" type="submit" value="Đăng ký" class="btn btn-primary btn-sm float-end" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function checkPasswordMatch(input) {
+        var passwordInput = document.getElementById('password');
+        var confirmPasswordInput = input;
+        if (passwordInput.value !== confirmPasswordInput.value) {
+            confirmPasswordInput.setCustomValidity('Mật khẩu không khớp');
+        } else {
+            confirmPasswordInput.setCustomValidity('');
+        }
+    }
+</script>
+
