@@ -1,0 +1,69 @@
+﻿@model IEnumerable<_2180607445_HaMinhDuc.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align: center;">Danh sách sản phẩm</h1>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<p>
+    <a class="btn btn-outline-primary float-right" asp-action="Index" asp-controller="Category">Thêm loại sản phẩm</a>
+    <a class="btn btn-outline-success" asp-action="Add">Thêm sản phẩm mới</a>
+</p>
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" width="100px"/>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    <a class="btn btn-outline-primary" asp-action="Update" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-outline-info" asp-action="Display" asp-route-id="@item.Id">Details</a>
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
