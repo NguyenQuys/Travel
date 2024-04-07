@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\",
+  "WorkspaceRootPath": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\migrations\\20240403064026_testinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:migrations\\20240403064026_testinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\repository\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:repository\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel\\customer information\\customer_information\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\repository\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:repository\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\migrations\\20240403064026_testinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:migrations\\20240403064026_testinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\customer information\\customer_information\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03A5269-8C1E-4458-BE1C-A45EE8582517}|customer_information.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,37 +66,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T13:00:18.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240403064026_TestInformation.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Migrations\\20240403064026_TestInformation.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240403064026_TestInformation.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Migrations\\20240403064026_TestInformation.cs",
-              "RelativeToolTip": "Migrations\\20240403064026_TestInformation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T12:59:46.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwBAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,97 +79,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T12:01:04.235Z"
+              "WhenOpened": "2024-04-03T12:01:04.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Program.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T11:50:53.085Z"
+              "WhenOpened": "2024-04-03T11:50:53.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Models\\ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T11:49:35.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "EFUserRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Repository\\EFUserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Repository\\EFUserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\EFUserRepository.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Repository\\EFUserRepository.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Repository\\EFUserRepository.cs",
               "RelativeToolTip": "Repository\\EFUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T11:23:18.495Z"
+              "WhenOpened": "2024-04-03T11:23:18.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAYwDUAAAANAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAwC4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T10:47:07.404Z"
+              "WhenOpened": "2024-04-03T10:47:07.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Views\\User\\Update.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Views\\User\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Update.cshtml",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Views\\User\\Update.cshtml",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Views\\User\\Update.cshtml",
               "RelativeToolTip": "Views\\User\\Update.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-03T10:48:04.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Views\\User\\Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAuAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-03T10:45:58.262Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240403064026_TestInformation.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Migrations\\20240403064026_TestInformation.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240403064026_TestInformation.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Migrations\\20240403064026_TestInformation.cs",
+              "RelativeToolTip": "Migrations\\20240403064026_TestInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T12:59:46.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T13:00:18.919Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Repository\\IUserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel\\customer information\\customer_information\\Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\customer information\\customer_information\\Repository\\IUserRepository.cs",
               "RelativeToolTip": "Repository\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
