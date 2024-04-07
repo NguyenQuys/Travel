@@ -1,0 +1,60 @@
+﻿@model nhom8_TourDuLich.ViewModels.Domestic_Tour_ViewModel
+@{
+    ViewData["Title"] = "Domestic_Tour";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Tour Trong Nước</h1>
+        </div>
+        <style>
+            .chooseLike {
+                transition: transform 0.3s ease;
+            }
+
+            .chooseLike:hover {
+                 transform: translateY(-5px);
+            }
+
+            .deledeBtn:hover {
+                color: red;
+            }
+        </style>
+        <div class="row wow fadeInUp">
+            <div class="col-lg-3">
+                <div class="col-lg-12 col-sm-6" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <ul class="list-group">
+                        <h4 class="bg-light text-danger text-center rounded p-2">Những Địa Điểm Hot</h4>
+                        <li class="list-group-item"><a asp-controller="Result" asp-action="Index" asp-route-destinationPlace="SaPa" name="destinationPlace">SaPa</a></li>
+                        <li class="list-group-item"><a asp-controller="Result" asp-action="Index" asp-route-destinationPlace="Đà Lạt" name="destinationPlace">Đà Lạt</a></li>
+                        <li class="list-group-item"><a asp-controller="Result" asp-action="Index" asp-route-destinationPlace="Mũi Né" name="destinationPlace">Mũi Né</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9 my-0">
+                @foreach (var item in Model.TourList)
+                {
+                    <a href="tour-trong-nuoc/@item.Link-@item.TourId">
+                        <div class="row bg-light card justify-content-center align-items-center chooseLike">
+                            <div class="col-md-12">
+                                <div class="row py-3">
+                                    <div class="col-lg-4">
+                                        <img class="rounded justify-content-center align-items-center" width="100%" height="auto" src="~/img/@item.Image1">
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h5>@item.TourName</h5>
+                                        <p><span style="color:darkseagreen">@item.NdaysNnights</span></p>
+                                        <h5 style="bottom:0" class="text-danger">Giá: @item.PriceForAdult.ToString("N0") VND/Khách</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <hr>
+                }
+            </div>
+        </div>
+    </div>
+</div>

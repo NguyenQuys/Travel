@@ -1,0 +1,46 @@
+﻿@model nhom8_TourDuLich.ViewModels.UserViewModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-3 card p-3">
+        <h4 class="text-center">Đăng nhập</h4>
+        <form asp-action="LogIn" asp-controller="User_" method="POST">
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-1">
+                <!-- <label asp-for="Username" class="control-label"></label> -->
+                <label asp-for="Register.PhoneNumber" class="my-2">Số điên thoại</label>
+                <input asp-for="Register.PhoneNumber" class="form-control" type="tel" value="" required/>
+                <span asp-validation-for="Register.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="mb-1">
+                <!-- <label asp-for="Password" class="control-label"></label> -->
+                <label class="my-2">Mật khẩu</label>
+                <input asp-for="Register.Password" class="form-control" type="password" required/>
+                <span asp-validation-for="Register.Password" class="text-danger"></span>
+            </div>
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Ghi nhớ cho lần đăng nhập sau</label>
+            </div>
+            <button type="button" class="btn btn-outline-success my-3">
+                <img width="24px" src="https://cdn.pixabay.com/photo/2021/05/24/09/15/google-logo-6278331_960_720.png">
+                <span style="margin-left: 5px;">Đăng nhập bằng tài khoản Google</span>
+            </button>
+            <div>
+                <input style="width: 100%;" type="submit" value="Đăng nhập" class="btn btn-primary btn-sm" />
+            </div>
+            <div class="text-center mt-3">
+                <a style="cursor: pointer;" class="text-decoration-none mt-2" asp-action="Register" asp-controller="User_">Bạn chưa có tài khoản?</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAWeb_Login")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c7f3d7f340eb97f17977a9d85481be4c20dc09")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAWeb_Login")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DAWeb_Login")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace nhom8_TourDuLich.Models;
+
+public partial class User
+{
+    public int IdUser { get; set; }
+
+    public string Password { get; set; } = null!;
+
+    public string Name { get; set; } = null!;
+
+    public DateOnly DateOfBirth { get; set; }
+
+    public bool Gender { get; set; }
+
+    public decimal PhoneNumber { get; set; }
+
+    public string Email { get; set; } = null!;
+
+    public byte Permission { get; set; }
+
+    public bool Hide { get; set; }
+}
