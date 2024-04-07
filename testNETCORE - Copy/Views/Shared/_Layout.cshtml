@@ -94,11 +94,11 @@
                                         <a href="@itemYeuThich.Link" class="dropdown-item">@itemYeuThich.Title</a>
                                         <a asp-action="LogOut" asp-controller="User_" class="dropdown-item text-danger">Đăng xuất</a>
                                     }
-                                    else if(permission=="2")
+                                    else if(permission=="1")
                                     {
-                                        // <script>
-                                        //     window.location.href = '/cam-nang-du-lich'; 
-                                        // </script>
+                                        <script>
+                                            window.location.href = 'admin';
+                                        </script>
                                     }
 
                                 }

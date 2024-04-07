@@ -5,7 +5,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 <style>
     /* CSS cho vị trí cố định */
     .sticky-sidebar {
@@ -111,10 +110,6 @@
                         </div>
                         <div class="col-md-12 wrapper-depart-date">
                             <div class="left">
-                                <div>
-                                    <h4 class="text-danger">@item.StartDate.ToString("dd/MM/yyyy") - @item.EndDate.ToString("dd/MM/yyyy")</h4>
-                                    <h4 class="text-danger">@item.NdaysNnights</h4>
-                                </div>
                                 <div class="soluongdatve">
                                     <div class="card">
                                         <div class="row">
@@ -132,7 +127,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="card">
                                         <div class="row">
                                             <div class="col-md-4 text-center my-3">
@@ -146,73 +140,6 @@
                                                 <button type="button" class="btn" id="decreaseBtnChildren">-</button>
                                                 <button type="button" class="btn" id="numberBtnChildren">0</button>
                                                 <button type="button" class="btn" id="increaseBtnChildren">+</button>
-                                                <script>
-                                                    document.addEventListener("DOMContentLoaded", function () {
-                                                        // Lấy ra các phần tử cần thiết
-                                                        const decreaseBtnA = document.getElementById("decreaseBtnAdult");
-                                                        const numberBtnA = document.getElementById("numberBtnAdult");
-                                                        const numberBtnAModal = document.getElementById("numberBtnAdultModal");
-                                                        const increaseBtnA = document.getElementById("increaseBtnAdult");
-                                                        const decreaseBtnC = document.getElementById("decreaseBtnChildren");
-                                                        const numberBtnC = document.getElementById("numberBtnChildren");
-                                                        const numberBtnCModal = document.getElementById("numberBtnChildrenModal");
-                                                        const increaseBtnC = document.getElementById("increaseBtnChildren");
-                                                        const totalParagraph1 = document.getElementById("total");
-                                                        const totalParagraphModal = document.getElementById("totalModal");
-
-                                                        // Biến để lưu trữ giá trị cuối cùng của numberBtnA và numberBtnC
-                                                        let lastValueA = parseInt(numberBtnA.textContent);
-                                                        let lastValueC = parseInt(numberBtnC.textContent);
-
-                                                        // Gán giá trị ban đầu cho số và tổng
-                                                        let totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
-                                                        totalParagraph1.textContent = `${totalValue}`;
-                                                        totalParagraphModal.textContent = `${totalValue}`;
-
-                                                        // Gán sự kiện "click" cho nút giảm
-                                                        decreaseBtnA.addEventListener("click", function () {
-                                                            if (lastValueA > 0) {
-                                                                lastValueA--;
-                                                                updateValues();
-                                                            }
-                                                        });
-
-                                                        decreaseBtnC.addEventListener("click", function () {
-                                                            if (lastValueC > 0) {
-                                                                lastValueC--;
-                                                                updateValues();
-                                                            }
-                                                        });
-
-                                                        // Gán sự kiện "click" cho nút tăng
-                                                        increaseBtnA.addEventListener("click", function () {
-                                                            lastValueA++;
-                                                            updateValues();
-                                                        });
-
-                                                        increaseBtnC.addEventListener("click", function () {
-                                                            lastValueC++;
-                                                            updateValues();
-                                                        });
-
-                                                        // Cập nhật giá trị và hiển thị tổng
-                                                        function updateValues() {
-                                                            totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
-                                                            numberBtnA.textContent = lastValueA;
-                                                            numberBtnA.value = lastValueA;
-                                                            numberBtnC.textContent = lastValueC;
-                                                            numberBtnC.value = lastValueC;
-                                                            totalParagraph1.textContent = `${totalValue.toLocaleString()}`;
-                                                            totalParagraphModal.textContent = `${totalValue.toLocaleString()}`;
-
-                                                            // Hiển thị giá trị cuối cùng của numberBtnA và numberBtnC vào các phần tử <p> tương ứng
-                                                            document.getElementById("btnNumberA").textContent = `${lastValueA} x @item.PriceForAdult.ToString("N0")`;
-                                                            document.getElementById("btnNumberB").textContent = `${lastValueC} x @item.PriceForChildren.ToString("N0")`;
-                                                        }
-                                                    });
-                                                </script>
-
-
                                             </div>
                                         </div>
                                     </div>
@@ -224,11 +151,10 @@
                                 </div>
                                 <div class="col-md-5">
                                     <h5 id="total" class="text-danger">
-                                        @*Gia tour hien thi o day*@
+                                        @*Gia tour hiển thị ở đây*@
                                     </h5>
                                 </div>
                             </div>
-
                             <div class="d-flex justify-content-evenly">
                                 <a style="cursor: pointer;" id="favoriteIcon" class="material-symbols-outlined d-flex align-items-center" onclick="changeColor()">
                                     favorite
@@ -236,151 +162,230 @@
                                 <a type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3" data-bs-toggle="modal" data-bs-target="#lien_he">Liên hệ tư vấn</a>
                                 <button type="button" class="btn btn-warning mx-3" data-bs-toggle="modal" data-bs-target="#dat_tour">Đặt tour ngay</button>
                                 <script>
-                                    function changeColor() {
-                                        var icon = document.getElementById("favoriteIcon");
-                                        icon.classList.toggle("text-danger");
-                                    }
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        // Lấy ra các phần tử cần thiết
+                                        const decreaseBtnA = document.getElementById("decreaseBtnAdult");
+                                        const numberBtnA = document.getElementById("numberBtnAdult");
+                                        const increaseBtnA = document.getElementById("increaseBtnAdult");
+                                        const decreaseBtnC = document.getElementById("decreaseBtnChildren");
+                                        const numberBtnC = document.getElementById("numberBtnChildren");
+                                        const increaseBtnC = document.getElementById("increaseBtnChildren");
+                                        const totalParagraph1 = document.getElementById("total");
+                                        const totalParagraphModal = document.getElementById("totalModal");
+                                        const totalParagraphMOMO = document.getElementById("totalMOMO");
+
+                                        // Biến để lưu trữ giá trị cuối cùng của numberBtnA và numberBtnC
+                                        let lastValueA = parseInt(numberBtnA.textContent);
+                                        let lastValueC = parseInt(numberBtnC.textContent);
+
+                                        // Gán giá trị ban đầu cho số và tổng
+                                        let totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
+                                        totalParagraph1.textContent = `${totalValue}`;
+
+                                        // Gán sự kiện "click" cho nút giảm
+                                        decreaseBtnA.addEventListener("click", function () {
+                                            if (lastValueA > 0) {
+                                                lastValueA--;
+                                                updateValues();
+                                            }
+                                        });
+
+                                        decreaseBtnC.addEventListener("click", function () {
+                                            if (lastValueC > 0) {
+                                                lastValueC--;
+                                                updateValues();
+                                            }
+                                        });
+
+                                        // Gán sự kiện "click" cho nút tăng
+                                        increaseBtnA.addEventListener("click", function () {
+                                            lastValueA++;
+                                            updateValues();
+                                        });
+
+                                        increaseBtnC.addEventListener("click", function () {
+                                            lastValueC++;
+                                            updateValues();
+                                        });
+
+                                        // Cập nhật giá trị và hiển thị tổng
+                                        function updateValues() {
+                                            totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
+                                            numberBtnA.textContent = lastValueA;
+                                            numberBtnC.textContent = lastValueC;
+                                            totalParagraph1.textContent = `${totalValue.toLocaleString()}`;
+                                            totalParagraphModal.textContent = `${totalValue.toLocaleString()}`;
+                                            totalParagraphMOMO.textContent = `${totalValue.toLocaleString()}`;
+
+                                            // Hiển thị giá trị cuối cùng của numberBtnA và numberBtnC vào các phần tử <p> tương ứng
+                                            document.getElementById("btnNumberA").textContent = `${lastValueA} x @item.PriceForAdult.ToString("N0")`;
+                                            document.getElementById("btnNumberB").textContent = `${lastValueC} x @item.PriceForChildren.ToString("N0")`;
+                                        }
+
+                                        // Truyền giá trị của totalMOMO vào input hidden trước khi submit form
+                                        document.getElementById("myForm").addEventListener("submit", function () {
+                                            document.getElementById("totalMOMO").value = totalValue; // totalValue ở đây là biến JavaScript đã được khai báo trước đó
+                                        });
+                                    });
                                 </script>
+
+                                <!-- Modal start -->
+                                @if (@Model.Register == null)
+                                {
+                                    <div style="top:200px" class="modal fade" id="lien_he">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Liên hệ tư vấn</h4>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container px-5">
+                                                        <div class="text-danger">Không nhận được dữ liệu</div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2"></label>
+                                                            <input class="form-control" type="text" />
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Số điện thoại</label>
+                                                            <input class="form-control" type="tel" />
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Yêu cầu khác</label>
+                                                            <input class="form-control" type="text" />
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div>
+                                                            <input style="width: 100%;" type="submit" value="GỬI YÊU CẦU" class="btn btn-primary btn-sm my-3 py-3" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div style="top:200px" class="modal fade" id="lien_he">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Liên hệ tư vấn</h4>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container px-5">
+                                                        <label class="my-2">Họ và tên</label>
+                                                        <input class="form-control" type="text" />
+                                                        <span class="text-danger"></span>
+                                                        <h4 class=""></h4>
+                                                        <div class="mb-1">
+                                                            <label class="my-2"></label>
+                                                            <input class="form-control" type="text" />
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Số điện thoại</label>
+                                                            <input class="form-control" type="tel" />
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Yêu cầu khác</label>
+                                                            <input class="form-control" type="text" />
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div>
+                                                            <input style="width: 100%;" type="submit" value="GỬI YÊU CẦU" class="btn btn-primary btn-sm my-3 py-3" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                @* Modal Ends *@
+
+                                <!--Modal dat tour start-->
+                                @if (@Model.kiemTraDangNhap == 1)
+                                {
+                                    <div style="top:100px" class="modal fade" id="dat_tour">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Xác Nhận</h4>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container px-5">
+                                                        <label class="my-2">Họ và tên người đặt</label>
+                                                        <h4 class="my-2">@Model.Register.Name</h4>
+                                                        <span class="text-danger"></span>
+                                                        <h4 class=""></h4>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Tên Tour</label>
+                                                            @{
+                                                                var i = @Model.Register.Name;
+                                                            }
+                                                            <h4 class="my-2">@item.TourName</h4>
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Số điện thoại</label>
+                                                            <h4 class="my-2">@Model.Register.PhoneNumber</h4>
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Số người lớn:</label>
+                                                            <h4 id="btnNumberA" class="my-2">@*xuat hien o day*@</h4>
+                                                            <label class="my-2">Số trẻ em:</label>
+                                                            <h4 id="btnNumberB" class="my-2">@*xuat hien o day*@</h4>
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div class="mb-1">
+                                                            <label class="my-2">Giá tiền</label>
+                                                            <h5 id="totalModal" class="text-danger">
+                                                                @*Gia tour hien thi o day*@
+                                                            </h5>
+                                                            <span class="text-danger"></span>
+                                                        </div>
+                                                        <div>
+                                                            <form id="myForm" method="post" action="@Url.Action("Payment", "Domestic_Tour_")">
+                                                                <input type="hidden" id="totalMOMO" name="totalMOMO" value="" />
+                                                                <button class="btn btn-primary btn-sm my-3 py-3" type="submit" style="width:100%">TIẾN HÀNH THANH TOÁN</button>
+                                                            </form>
+                                                            @* <input style="width: 100%;" type="submit" value="TIẾN HÀNH THANH TOÁN" class="btn btn-primary btn-sm my-3 py-3" /> *@
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+
+                                else
+                                {
+                                    <div style="top:200px" class="modal fade" id="dat_tour">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h3>Bạn cần <span><a asp-action="LogIn" asp-controller="User_">ĐĂNG NHẬP</a></span> để tiếp tục</h3>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <!--Modal datb tour ends-->
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal start -->
-        @if (@Model.Register == null)
-        {
-            <div style="top:200px" class="modal fade" id="lien_he">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Liên hệ tư vấn</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container px-5">
-                                <div class="text-danger">Không nhận được dữ liệu</div>
-                                <div class="mb-1">
-                                    <label class="my-2"></label>
-                                    <input class="form-control" type="text" />
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Số điện thoại</label>
-                                    <input class="form-control" type="tel" />
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Yêu cầu khác</label>
-                                    <input class="form-control" type="text" />
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div>
-                                    <input style="width: 100%;" type="submit" value="GỬI YÊU CẦU" class="btn btn-primary btn-sm my-3 py-3" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        }
-        else
-        {
-            <div style="top:200px" class="modal fade" id="lien_he">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Liên hệ tư vấn</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container px-5">
-                                <label class="my-2">Họ và tên</label>
-                                <input class="form-control" type="text" />
-                                <span class="text-danger"></span>
-                                <h4 class=""></h4>
-                                <div class="mb-1">
-                                    <label class="my-2"></label>
-                                    <input class="form-control" type="text" />
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Số điện thoại</label>
-                                    <input class="form-control" type="tel" />
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Yêu cầu khác</label>
-                                    <input class="form-control" type="text" />
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div>
-                                    <input style="width: 100%;" type="submit" value="GỬI YÊU CẦU" class="btn btn-primary btn-sm my-3 py-3" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        }
-        @* Modal Ends *@
-
-        <!--Modal dat tour start-->
-        @if (@Model.Register != null)
-        {
-            <div style="top:100px" class="modal fade" id="dat_tour">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Xác Nhận</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container px-5">
-                                <label class="my-2">Họ và tên người đặt</label>
-                                <h4 class="my-2">@Model.Register.Name</h4>
-                                <span class="text-danger"></span>
-                                <h4 class=""></h4>
-                                <div class="mb-1">
-                                    <label class="my-2">Tên Tour</label>
-                                    @{
-                                        var i = @Model.Register.Name;
-                                    }
-                                    <h4 class="my-2">@item.TourName</h4>
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Số điện thoại</label>
-                                    <h4 class="my-2">@Model.Register.PhoneNumber</h4>
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Số người lớn:</label>
-                                    <h4 id="btnNumberA" class="my-2">@*xuat hien o day*@</h4>
-                                    <label class="my-2">Số trẻ em:</label>
-                                    <h4 id="btnNumberB" class="my-2">@*xuat hien o day*@</h4>
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div class="mb-1">
-                                    <label class="my-2">Giá tiền</label>
-                                    <h5 id="totalModal" class="text-danger">
-                                        @*Gia tour hien thi o day*@
-                                    </h5>
-                                    <span class="text-danger"></span>
-                                </div>
-                                <div>
-                                    <input style="width: 100%;" type="submit" value="TIẾN HÀNH THANH TOÁN" class="btn btn-primary btn-sm my-3 py-3" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        }
-        else
-        {
-            <h2>Bạn cần <span><a asp-action="LogIn" asp-controller="User_">ĐĂNG NHẬP</a></span> để tiếp tục</h2>
-        }
-        <!--Modal datb tour ends-->
     </div>
 }
+

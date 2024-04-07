@@ -74,7 +74,7 @@
 //        [ValidateAntiForgeryToken]
 //        public async Task<ActionResult> Edit(InformationCustomer info)
 //        {
-//            if(ModelState.IsValid)
+//            if (ModelState.IsValid)
 //            {
 //                try
 //                {
@@ -84,9 +84,9 @@
 //                    edit.Gender = info.Gender;
 //                    edit.PhoneNumber = info.PhoneNumber;
 //                    edit.Email = info.Email;
-//                    return View("Edit",_customer);
+//                    return View("Edit", _customer);
 //                }
-//                catch(Exception ex)
+//                catch (Exception ex)
 //                {
 //                    return NotFound();
 //                }

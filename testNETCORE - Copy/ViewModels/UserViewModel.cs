@@ -9,6 +9,7 @@ namespace testNETCORE.ViewModels
         public List<Tour> TourList { get; set; }
 
         public int kiemTraDangNhap {  get; set; }
+        public int giaTien = 0;
 
         public UserViewModel() 
         {

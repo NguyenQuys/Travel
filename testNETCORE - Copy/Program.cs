@@ -49,9 +49,27 @@ app.UseEndpoints(endpoints =>
     //    defaults: new { controller = "User_", action = "LogIn" });
 
     //endpoints.MapControllerRoute(
-    //    name: "dang-ky",
-    //    pattern: "dang-ky",
-    //    defaults: new { controller = "User_", action = "Register" });
+    //    name: "admin-page",
+    //    pattern: "admin-page",
+    //    defaults: new { controller = "HomeAdmin", action = "Index" });
+
+    endpoints.MapControllerRoute(
+        name: "admin",
+        pattern: "admin",
+        defaults: new { controller = "Admin/HomeAdmin", action = "Index" });
+
+    endpoints.MapControllerRoute(
+    name: "admin_DTour",
+    pattern: "admin_DTour",
+    defaults: new { controller = "Admin/HomeAdmin", action = "List_Domestic_Tour" });
+
+    endpoints.MapControllerRoute(
+        name: "dang-ky",
+        pattern: "dang-ky",
+        defaults: new { controller = "User_", action = "Register" });
+
+
+
 
     //endpoints.MapControllerRoute(
     //    name: "dang-xuat",

@@ -30,8 +30,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/testNETCORE - Copy/Areas/Admin/Views/HomeAdmin/List_Domestic_Tour.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXExpc3RfRG9tZXN0aWNfVG91ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/testNETCORE - Copy/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/testNETCORE - Copy/Views/Domestic_Tour_/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tZXN0aWNfVG91cl9cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/testNETCORE - Copy/Views/Domestic_Tour_/Detail.cshtml]
