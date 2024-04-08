@@ -1,0 +1,27 @@
+.imgbanner{
+    width: 100%;
+    height: auto;
+}
+.bg-dark {
+    background-color: #00ff90 !important;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    grid-column: 1 /span 2;
+    /* Trai deu qua ca hai cot*/
+    display: grid;
+}
+/* cot trong phan footer*/
+.footer-item{
+    padding: 10px;
+}
+/* Chinh layout cho may tinh */
+@media(min-width :700px){
+    .footer{
+        grid-template-columns: repeat(6, 1fr);
+        /* 5 cot tren may tinh*/
+    }
+}
