@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using testNETCORE.Models;
 using testNETCORE.ViewModels;
 using System.Security.Claims;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 namespace testNETCORE.Controllers
 {
@@ -58,7 +59,7 @@ namespace testNETCORE.Controllers
         [HttpGet]
         public async Task<IActionResult> LogIn()
         {
-            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m =>m.Order).ToListAsync();
+            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var viewModel = new UserViewModel
             {
                 NavigationBarList = NavigationBar_Controller,
@@ -83,7 +84,7 @@ namespace testNETCORE.Controllers
             if (model.Register != null)
             {
                 var user = await _context.Users.FirstOrDefaultAsync(u => u.PhoneNumber == model.Register.PhoneNumber);
-                  //Neu dung nay thi phair redirect, ma redirect thì ko trả về view thì lại lỗi
+                //Neu dung nay thi phair redirect, ma redirect thì ko trả về view thì lại lỗi
                 if (user != null && BCrypt.Net.BCrypt.Verify(model.Register.Password, user.Password))
                 {
                     var claims = new List<Claim>
@@ -104,7 +105,7 @@ namespace testNETCORE.Controllers
                         new ClaimsPrincipal(claimsIdentity),
                         authProperties);
 
-                    return RedirectToAction("Index", "Home"); 
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
@@ -118,7 +119,7 @@ namespace testNETCORE.Controllers
 
         public async Task<IActionResult> Info()
         {
-            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m =>m.Order).ToListAsync();
+            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var users = new User();
 
             if (User.Identity.IsAuthenticated)
@@ -169,12 +170,112 @@ namespace testNETCORE.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Edit()
         {
-            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            // Get the username from Identity
+            var NavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var phoneNumber = User.Identity.Name;
+            var user = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
 
+
+            // Check if the user exists
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            // Create a UserViewModel instance and pass it to the view
+            var viewModel = new UserViewModel
+            {
+                NavigationBarList = NavigationBar,
+                Register = user
+            };
+
+            return View(viewModel);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(string name, string email, string phoneNumbers, string gender)
+        {
+            if (ModelState.IsValid)
+            {
+                var users = new User();
+
+                if (User.Identity.IsAuthenticated)
+                {
+                    var phoneNumber = User.Identity.Name;
+                    if (phoneNumber != null)
+                    {
+                        users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
+                    }
+                }
+
+                users.Name = name;
+                //users.DateOfBirth = dateOfBirth;
+                if (gender == "true")
+                {
+                    users.Gender = true;
+                }
+                else if (gender == "false")
+                {
+                    users.Gender = false;
+                }
+                users.PhoneNumber = phoneNumbers;
+                users.Email = email;
+                //if (!string.IsNullOrEmpty(password))
+                //{
+                //    // Mã hóa mật khẩu mới trước khi lưu vào cơ sở dữ liệu
+                //    users.Password = BCrypt.Net.BCrypt.HashPassword(password);
+                //}
+                _context.Update(users);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Info"); // Redirect to user information page
+            }
+
+
+
+            // If ModelState is not valid, reload the page with the form
+            var menus = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var viewModel = new UserViewModel
+            {
+                NavigationBarList = menus,
+            };
+
+            return View("Info", viewModel); // Return to Info view with UserViewModel
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> VerifyPasswordAsync()
+        {
             return View();
         }
+
+        private async Task<bool> VerifyPasswordAsyncInternal(string phone, string password)
+        {
+            // Lấy thông tin người dùng từ cơ sở dữ liệu
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.PhoneNumber == phone);
+
+            // Nếu không tìm thấy người dùng hoặc mật khẩu không khớp, trả về false
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
+            {
+                return false;
+            }
+
+            // Mật khẩu khớp
+            return true;
+        }
+
+        [HttpPost]
+        public async Task<bool> VerifyPasswordAsync(string phone, string password)
+        {
+            // Gọi phương thức xác minh mật khẩu chính
+            return await VerifyPasswordAsyncInternal(phone, password);
+        }
+
+        
+
     }
 }

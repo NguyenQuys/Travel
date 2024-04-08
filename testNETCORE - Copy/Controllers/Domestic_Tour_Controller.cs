@@ -39,7 +39,7 @@ namespace testNETCORE.Controllers
             string accessKey = "iPXneGmrJH0G8FOP";
             string serectkey = "sFcbSGRSJjwGxwhhcEktCHWYUuTuPNDB";
             string orderInfo = "Thanh toán online";
-            string returnUrl = "https://localhost:44336";
+            string returnUrl = "https://localhost:7067/";
             string notifyurl = "https://4c8d-2001-ee0-5045-50-58c1-b2ec-3123-740d.ap.ngrok.io/Home/SavePayment"; //lưu ý: notifyurl không được sử dụng localhost, có thể sử dụng ngrok để public localhost trong quá trình test
 
             string amount = totalMOMO.ToString();
@@ -89,7 +89,7 @@ namespace testNETCORE.Controllers
         public async Task<IActionResult> Detail(string slug,string id)
         {
             int kiemTra = 0;
-            User getDataFromUser = TempData["transfer"] as User;
+            //User getDataFromUser = TempData["transfer"] as User;
             var users = new User();
             var DTCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId==id).ToListAsync();

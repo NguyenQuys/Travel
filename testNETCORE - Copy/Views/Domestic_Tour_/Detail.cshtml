@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Tour Trong Nước";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    int numOfQuantity = 1;
 }
 
 <style>
@@ -156,10 +157,10 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-evenly">
-                                <a style="cursor: pointer;" id="favoriteIcon" class="material-symbols-outlined d-flex align-items-center" onclick="changeColor()">
+                                <a style="cursor: pointer;" id="favoriteIcon" class="material-symbols-outlined d-flex align-items-center" onclick="changeColor()" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-tour-id="@item.TourId" asp-route-quantity="@numOfQuantity">
                                     favorite
                                 </a>
-                                <a type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3" data-bs-toggle="modal" data-bs-target="#lien_he">Liên hệ tư vấn</a>
+                                <a type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3" data-bs-toggle="modal" data-bs-target="#lien_he" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-ID_Tour="@item" asp-route-quantity="@numOfQuantity">Liên hệ tư vấn</a>
                                 <button type="button" class="btn btn-warning mx-3" data-bs-toggle="modal" data-bs-target="#dat_tour">Đặt tour ngay</button>
                                 <script>
                                     document.addEventListener("DOMContentLoaded", function () {
@@ -180,8 +181,8 @@
 
                                         // Gán giá trị ban đầu cho số và tổng
                                         let totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
-                                        totalParagraph1.textContent = `${totalValue}`;
-
+                                        totalParagraph1.textContent = `${totalValue.toLocaleString()}`;
+                                        
                                         // Gán sự kiện "click" cho nút giảm
                                         decreaseBtnA.addEventListener("click", function () {
                                             if (lastValueA > 0) {
@@ -227,6 +228,7 @@
                                             document.getElementById("totalMOMO").value = totalValue; // totalValue ở đây là biến JavaScript đã được khai báo trước đó
                                         });
                                     });
+
                                 </script>
                                 
                                 <!-- Modal start -->
@@ -378,6 +380,8 @@
                                         </div>
                                     </div>
                                 }
+
+
                                 <!--Modal datb tour ends-->
 
                             </div>

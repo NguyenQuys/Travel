@@ -15,7 +15,7 @@ public partial class User
 
     public bool Gender { get; set; }
 
-    public decimal PhoneNumber { get; set; }
+    public string PhoneNumber { get; set; } = null!;
 
     public string Email { get; set; } = null!;
 

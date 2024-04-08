@@ -35,7 +35,7 @@
                             <span class="title">Giới tính</span>
                         </div>
                         <div class="col-lg-6">
-                            <h4>@(item.Gender ? "Nam" : "Nữ")</h4>
+                            <h4>@(item.Gender==true ? "Nam" : "Nữ")</h4>
                         </div>
                     </div>
                     <hr>
@@ -61,7 +61,7 @@
             <hr>
         </section>
         <section style="float: right;">
-            <a asp-action="Edit" asp-controller="Information_" class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Chỉnh sửa thông tin</a>
+            <a asp-action="VerifyPasswordAsync" class="btn btn-primary py-1 px-3 me-3 animated fadeIn">Chỉnh sửa thông tin</a>
             <button class="btn btn-primary py-1 px-3 me-3 animated fadeIn" onclick="history.back()">Trở về</button>
         </section>
     </div>

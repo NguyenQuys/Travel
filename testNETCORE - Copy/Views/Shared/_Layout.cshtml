@@ -82,6 +82,7 @@
                                 var itemThongTin = Model.NavigationBarList[3];
                                 var itemYeuThich = Model.NavigationBarList[4];
                                 var itemDangNhapXuat = Model.NavigationBarList[5];
+                                var itemThayDoiMatKhau = Model.NavigationBarList[6];
 
                                 if (User.Identity.IsAuthenticated)
                                 {
@@ -91,6 +92,7 @@
                                     if (permission == "0")
                                     {
                                         <a href="@itemThongTin.Link" class="dropdown-item">@itemThongTin.Title</a>
+                                        <a href="@itemThayDoiMatKhau.Link" class="dropdown-item">@itemThayDoiMatKhau.Title</a>
                                         <a href="@itemYeuThich.Link" class="dropdown-item">@itemYeuThich.Title</a>
                                         <a asp-action="LogOut" asp-controller="User_" class="dropdown-item text-danger">Đăng xuất</a>
                                     }
@@ -137,45 +139,6 @@
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>*@
                     </div>
-                    @*<div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link text-white-50" href="">About Us</a>
-                    <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                    <a class="btn btn-link text-white-50" href="">Our Services</a>
-                    <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                    <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Photo Gallery</h5>
-                    <div class="row g-2 pt-2">
-                    <div class="col-4">
-                    <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
-                    </div>
-                    <div class="col-4">
-                    <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
-                    </div>
-                    <div class="col-4">
-                    <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
-                    </div>
-                    <div class="col-4">
-                    <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
-                    </div>
-                    <div class="col-4">
-                    <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
-                    </div>
-                    <div class="col-4">
-                    <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                    </div>*@
                 </div>
             </div>
             <div class="container">

@@ -1,8 +1,118 @@
-﻿
+﻿@model testNETCORE.Areas.Admin.Controllers.AdminModalViews.Admin_Domestic_Tour;
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Danh sách các tour trong nước</h1>
+<style>
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #00B98E;
+        color: white;
+    }
+</style>
+</style>
+<table>
+    <thead>
+        <tr>
+            <th>Tên tour</th>
+            <th>Điểm bắt đầu</th>
+            <th>Điểm đến 1</th>
+            <th>Điểm đến 2</th>
+            <th>Điểm đến 3</th>
+            <th>Giá người lớn</th>
+            <th>Giá trẻ em</th>
+            <th>Số lượng tối đa</th>
+            <th>Số ngày đi</th>
+            <th>Chỉnh sữa</th>
+            <th>Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tour in Model.TourTrongNuoc)
+        {
+            <tr>
+                <td>@tour.TourName</td>
+                <td>@tour.Departure</td>
+                <td>@tour.Destination1</td>
+                <td>@tour.Destination2</td>
+                <td>@tour.Destination3</td>
+                <td>@tour.PriceForAdult</td>
+                <td>@tour.PriceForChildren</td>
+                <td>@tour.MaxQuantity</td>
+                <td>@tour.NdaysNnights</td>
+                <td>
+                    <a href="@Url.Action("Update", "Tour", new { id = tour.TourId })" class="btn btn-info" role="button">Sửa</a>
+                </td>
+
+                <td>
+                    <a href="@Url.Action("Delete", "Tour", new { id = tour.TourId })" class="btn btn-danger" role="button">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h1>Danh sách các tour ngoài nước</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Tên tour</th>
+            <th>Điểm bắt đầu</th>
+            <th>Điểm đến 1</th>
+            <th>Điểm đến 2</th>
+            <th>Điểm đến 3</th>
+            <th>Giá người lớn</th>
+            <th>Giá trẻ em</th>
+            <th>Số lượng tối đa</th>
+            <th>Số ngày đi</th>
+            <th>Chỉnh sữa</th>
+            <th>Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tour in Model.TourNgoaiNuoc)
+        {
+            <tr>
+                <td>@tour.TourName</td>
+                <td>@tour.Departure</td>
+                <td>@tour.Destination1</td>
+                <td>@tour.Destination2</td>
+                <td>@tour.Destination3</td>
+                <td>@tour.PriceForAdult</td>
+                <td>@tour.PriceForChildren</td>
+                <td>@tour.MaxQuantity</td>
+                <td>@tour.NdaysNnights</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Tour", new { id = tour.TourId })" class="btn btn-info" role="button">Sửa</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("Delete", "Tour", new { id = tour.TourId })" class="btn btn-danger" role="button">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 

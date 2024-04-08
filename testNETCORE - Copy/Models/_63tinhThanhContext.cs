@@ -57,6 +57,7 @@ public partial class _63tinhThanhContext : DbContext
                 .HasColumnName("Travel_Guide_Title_Title");
         });
 
+
         modelBuilder.Entity<LichSuTimKiem>(entity =>
         {
             entity
@@ -108,7 +109,7 @@ public partial class _63tinhThanhContext : DbContext
             entity.ToTable("Tour");
 
             entity.Property(e => e.TourId)
-                .HasMaxLength(10)
+                .HasMaxLength(5)
                 .IsFixedLength()
                 .HasColumnName("Tour_ID");
             entity.Property(e => e.Departure).HasMaxLength(50);
@@ -141,7 +142,7 @@ public partial class _63tinhThanhContext : DbContext
                 .HasColumnName("Journey_Hightlight");
             entity.Property(e => e.Link)
                 .HasMaxLength(50)
-                .IsFixedLength();
+                .IsUnicode(false);
             entity.Property(e => e.NdaysNnights)
                 .HasMaxLength(20)
                 .HasColumnName("NDaysNNights");
@@ -167,10 +168,10 @@ public partial class _63tinhThanhContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Name).HasMaxLength(50);
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
+            entity.Property(e => e.Password).IsUnicode(false);
+            entity.Property(e => e.PhoneNumber)
+                .HasMaxLength(10)
                 .IsUnicode(false);
-            entity.Property(e => e.PhoneNumber).HasColumnType("numeric(10, 0)");
         });
 
         OnModelCreatingPartial(modelBuilder);

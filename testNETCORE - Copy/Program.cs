@@ -20,6 +20,8 @@ builder.Services.AddDbContext<_63tinhThanhContext>(options =>options.UseSqlServe
 
 var app = builder.Build();
 
+// Đặt trước UseRouting
+app.UseRouting();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -59,16 +61,19 @@ app.UseEndpoints(endpoints =>
         defaults: new { controller = "Admin/HomeAdmin", action = "Index" });
 
     endpoints.MapControllerRoute(
-    name: "admin_DTour",
-    pattern: "admin_DTour",
-    defaults: new { controller = "Admin/HomeAdmin", action = "List_Domestic_Tour" });
+       name: "dang-ky",
+       pattern: "dang-ky",
+       defaults: new { controller = "User_", action = "Register" });
 
     endpoints.MapControllerRoute(
-        name: "dang-ky",
-        pattern: "dang-ky",
-        defaults: new { controller = "User_", action = "Register" });
+        name: "admin_DTour",
+        pattern: "admin_DTour",
+        defaults: new { controller = "Admin/HomeAdmin", action = "List_Domestic_Tour" });
 
-
+    endpoints.MapControllerRoute(
+        name: "thay-doi-mat-khau",
+        pattern: "thay-doi-mat-khau",
+        defaults: new { controller = "User_", action = "ChangePassword" });
 
 
     //endpoints.MapControllerRoute(
