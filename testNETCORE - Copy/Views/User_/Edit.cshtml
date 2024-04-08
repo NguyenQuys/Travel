@@ -12,11 +12,11 @@
             </div>
             <div class="form-group">
                 <label name="dateOfBirth" class="control-label">Ngày sinh</label>
-                <input name="dateOfBirth" class="form-control" type="date" value="@Model.Register.DateOfBirth"/>
+                <input name="dateOfBirth" class="form-control" type="date" value="@Model.Register.DateOfBirth.ToString()"/>
             </div>
             <div class="form-group">
                 <select class="form-select border-0 py-3" name="gender">
-                    <option disabled selected hidden >Chọn giới tính</option>
+                    <option disabled selected hidden>Chọn giới tính</option>
                     <option value="true">Nam</option>
                     <option value="false">Nữ</option>
                 </select>

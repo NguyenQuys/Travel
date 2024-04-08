@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\testNETCORE - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\user_\\verifypasswordasync.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\verifypasswordasync.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\user_\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\user_\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\shared\\layout_test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\shared\\layout_test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,6 +66,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\User_\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User_\\Edit.cshtml",
+              "ToolTip": "D:\\testNETCORE - Copy\\Views\\User_\\Edit.cshtml",
+              "RelativeToolTip": "Views\\User_\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T08:16:59.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Layout_Test.cshtml",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Shared\\Layout_Test.cshtml",
@@ -74,12 +87,11 @@
               "RelativeToolTip": "Views\\Shared\\Layout_Test.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T06:05:53.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T06:05:53.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VerifyPasswordAsync.cshtml",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\User_\\VerifyPasswordAsync.cshtml",
               "RelativeDocumentMoniker": "Views\\User_\\VerifyPasswordAsync.cshtml",
@@ -92,20 +104,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "User_Controller.cs",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\User_Controller.cs",
               "ToolTip": "D:\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
               "RelativeToolTip": "Controllers\\User_Controller.cs",
-              "ViewState": "AQIAAPEAAAAAAAAAAAAiwPoAAAA2AAAA",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAUwM4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T09:34:42.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\ViewModels\\UserViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserViewModel.cs",
@@ -113,25 +125,24 @@
               "RelativeToolTip": "ViewModels\\UserViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T10:24:26.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T10:24:26.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Info.cshtml",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\User_\\Info.cshtml",
               "RelativeDocumentMoniker": "Views\\User_\\Info.cshtml",
               "ToolTip": "D:\\testNETCORE - Copy\\Views\\User_\\Info.cshtml",
               "RelativeToolTip": "Views\\User_\\Info.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAqwD0AAAASAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-07T10:02:10.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -139,12 +150,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAEsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T09:34:15.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T09:34:15.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -165,19 +175,6 @@
               "ViewState": "AQIAAGAAAAAAAAAAAAAAAC0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-07T17:14:57.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF4AAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T09:33:17.898Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

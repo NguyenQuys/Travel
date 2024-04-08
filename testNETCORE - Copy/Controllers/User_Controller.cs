@@ -197,7 +197,7 @@ namespace testNETCORE.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Edit(string name, string email, string phoneNumbers, string gender)
+        public async Task<IActionResult> Edit(string name, string email, string phoneNumbers, string gender,DateOnly dateOfBirth)
         {
             if (ModelState.IsValid)
             {
@@ -213,7 +213,7 @@ namespace testNETCORE.Controllers
                 }
 
                 users.Name = name;
-                //users.DateOfBirth = dateOfBirth;
+                users.DateOfBirth = dateOfBirth;
                 if (gender == "true")
                 {
                     users.Gender = true;
