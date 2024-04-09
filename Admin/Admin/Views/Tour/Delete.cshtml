@@ -1,7 +1,0 @@
-﻿@model Admin.Models.Tour
-<h2>Delete Tour</h2>
-<form asp-action="hidden" method="post">
-    <input type="hidden" asp-for="Id" />
-    <p>Are you sure you want to delete @Model.TourName?</p>
-    <button type="submit" class="btn btn-danger">Delete</button>
-</form>
