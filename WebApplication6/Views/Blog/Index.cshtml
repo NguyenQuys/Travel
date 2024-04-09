@@ -1,0 +1,12 @@
+﻿@model WebApplication6.ViewModal.HomeViewModal
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@foreach(var item in Model.Postlist)
+{
+    <p>@item.PostId</p>
+    <p>@item.Title</p>
+    @Html.Raw(item.Content)
+}

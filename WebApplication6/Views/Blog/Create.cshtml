@@ -1,0 +1,176 @@
+﻿@model WebApplication6.Models.Post
+
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                @Html.TextAreaFor(model => model.Content, new { @class = "form-control", @id = "ckeContent" })
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+@section Scripts {
+@*     <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+ *@<script src="~/assets/vendor/ckeditor5-build-classic-41.2.1/ckeditor5-build-classic/ckeditor.js"></script>
+
+    <script>
+        class MyUploadAdapter {
+            constructor(loader) {
+                // CKEditor 5's FileLoader instance.
+                this.loader = loader;
+
+                // URL where to send files.
+                this.url = '@Url.Action("UploadImage","")';
+            }
+
+            // Starts the upload process.
+            upload() {
+                return new Promise((resolve, reject) => {
+                    this._initRequest();
+                    this._initListeners(resolve, reject);
+                    this._sendRequest();
+                });
+            }
+
+            // Aborts the upload process.
+            abort() {
+                if (this.xhr) {
+                    this.xhr.abort();
+                }
+            }
+
+            // Example implementation using XMLHttpRequest.
+            _initRequest() {
+                const xhr = this.xhr = new XMLHttpRequest();
+
+                xhr.open('POST', this.url, true);
+                xhr.responseType = 'json';
+            }
+
+            // Initializes XMLHttpRequest listeners.
+            _initListeners(resolve, reject) {
+                const xhr = this.xhr;
+                const loader = this.loader;
+                const genericErrorText = 'Couldn\'t upload file:' + ` ${loader.file.name}.`;
+
+                xhr.addEventListener('error', () => reject(genericErrorText));
+                xhr.addEventListener('abort', () => reject());
+                xhr.addEventListener('load', () => {
+                    const response = xhr.response;
+
+                    if (!response || response.error) {
+                        return reject(response && response.error ? response.error.message : genericErrorText);
+                    }
+
+                    // If the upload is successful, resolve the upload promise with an object containing
+                    // at least the "default" URL, pointing to the image on the server.
+                    resolve({
+                        default: response.url
+                    });
+
+                    // Insert a new paragraph after the successful upload
+                    editor.model.change(writer => {
+                        const paragraphElement = writer.createElement('paragraph');
+                        const newParagraph = writer.insert(writer.createPositionAt(editor.model.document.getRoot(), 'end'), paragraphElement);
+                    });
+                });
+
+                if (xhr.upload) {
+                    xhr.upload.addEventListener('progress', evt => {
+                        if (evt.lengthComputable) {
+                            loader.uploadTotal = evt.total;
+                            loader.uploaded = evt.loaded;
+                        }
+                    });
+                }
+            }
+
+            // Prepares the data and sends the request.
+            _sendRequest() {
+                const data = new FormData();
+
+                data.append('upload', this.loader.file);
+
+                this.xhr.send(data);
+            }
+        }
+        function MyCustomUploadAdapterPlugin(editor) {
+            editor.plugins.get('FileRepository').createUploadAdapter = (loader) => {
+                // Configure the URL to the upload script in your backend here!
+                return new MyUploadAdapter(loader);
+            };
+        }
+
+        ClassicEditor.create(document.querySelector('#ckeContent'), {
+            extraPlugins: [MyCustomUploadAdapterPlugin],
+
+        }).then(editor => {
+            window.editor = editor;
+        }).catch(eer => {
+            console.error(err.stack);
+        });
+    </script>
+    @* <div id="ckeContent"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            ClassicEditor
+                .create(document.querySelector('#ckeContent'), {
+                    toolbar: {
+                        items: [
+                            'heading',
+                            '|',
+                            'bold',
+                            'italic',
+                            'underline',
+                            '|',
+                            'link',
+                            'bulletedList',
+                            'numberedList',
+                            '|',
+                            'indent',
+                            'outdent',
+                            '|',
+                            'imageUpload',
+                            'blockQuote',
+                            'insertTable',
+                            'undo',
+                            'redo',
+                            '|',
+                            'fontColor', // Thêm tính năng màu sắc vào thanh công cụ
+                            'fontBackgroundColor' // Thêm tính năng nền màu cho văn bản
+                        ],
+                        shouldNotGroupWhenFull: true
+                    },
+                    language: 'en'
+                })
+                .then(editor => {
+                    console.log(editor);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        });
+    </script> *@
+
+
+}
