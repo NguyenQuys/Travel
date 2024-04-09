@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+<<<<<<<< HEAD:Ckeditor/Ckeditor.sln
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ckeditor", "Ckeditor\Ckeditor.csproj", "{3F241F31-B888-4C4F-BD9B-4C290A844934}"
+========
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testNETCORE", "testNETCORE.csproj", "{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}"
+>>>>>>>> 2476fbf12192e2a576d281c2ea6f286fbf9b5524:testNETCORE - Copy/testNETCORE.sln
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<<< HEAD:Ckeditor/Ckeditor.sln
+		{3F241F31-B888-4C4F-BD9B-4C290A844934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F241F31-B888-4C4F-BD9B-4C290A844934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F241F31-B888-4C4F-BD9B-4C290A844934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F241F31-B888-4C4F-BD9B-4C290A844934}.Release|Any CPU.Build.0 = Release|Any CPU
+========
+		{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>>> 2476fbf12192e2a576d281c2ea6f286fbf9b5524:testNETCORE - Copy/testNETCORE.sln
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<<< HEAD:Ckeditor/Ckeditor.sln
+		SolutionGuid = {E8E00030-6EBB-4298-AC6D-FD64A972B0BF}
+========
+		SolutionGuid = {30939D10-45B0-4C4C-8619-F17EE3621A5D}
+>>>>>>>> 2476fbf12192e2a576d281c2ea6f286fbf9b5524:testNETCORE - Copy/testNETCORE.sln
+	EndGlobalSection
+EndGlobal

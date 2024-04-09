@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\viewmodels\\editorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\editorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\viewmodels\\information_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\information_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\viewmodels\\liked_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\liked_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\controllers\\editorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\editorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\views\\editor\\editor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\editor\\editor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\controllers\\overseas_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\overseas_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\viewmodels\\overseas_tour_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\overseas_tour_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\ltweb\\quy\\travel\\testnetcore - copy\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 101,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2072371817:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Overseas_Tour_ViewModel.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\Overseas_Tour_ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Overseas_Tour_ViewModel.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\Overseas_Tour_ViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Overseas_Tour_ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:52:29.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Overseas_Tour_Controller.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Controllers\\Overseas_Tour_Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Overseas_Tour_Controller.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Controllers\\Overseas_Tour_Controller.cs",
+              "RelativeToolTip": "Controllers\\Overseas_Tour_Controller.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:48:49.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditorViewModel.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\EditorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EditorViewModel.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\EditorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EditorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:27:45.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editor.cshtml",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Views\\Editor\\Editor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Editor\\Editor.cshtml",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Views\\Editor\\Editor.cshtml",
+              "RelativeToolTip": "Views\\Editor\\Editor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T18:21:46.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditorController.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Controllers\\EditorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EditorController.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Controllers\\EditorController.cs",
+              "RelativeToolTip": "Controllers\\EditorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:16:05.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Liked_ViewModel.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\Liked_ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Liked_ViewModel.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\Liked_ViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Liked_ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:13:49.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Information_ViewModel.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\Information_ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Information_ViewModel.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\ViewModels\\Information_ViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Information_ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T18:13:46.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T14:48:44.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Like.cs",
+              "DocumentMoniker": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "Models\\Like.cs",
+              "ToolTip": "D:\\LTWeb\\Quy\\Travel\\testNETCORE - Copy\\Models\\Like.cs",
+              "RelativeToolTip": "Models\\Like.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:28:08.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 242,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

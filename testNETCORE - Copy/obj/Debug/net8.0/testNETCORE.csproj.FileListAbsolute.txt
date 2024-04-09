@@ -1,0 +1,1525 @@
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\appsettings.Development.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\appsettings.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\testNETCORE.staticwebassets.runtime.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\testNETCORE.exe
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\testNETCORE.deps.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\testNETCORE.runtimeconfig.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\testNETCORE.pdb
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.AssemblyInfoInputs.cache
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.AssemblyInfo.cs
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.csproj.CoreCompileInputs.cache
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cache
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cs
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets.build.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets.development.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.testNETCORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.build.testNETCORE.props
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testNETCORE.props
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testNETCORE.props
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\scopedcss\bundle\testNETCORE.styles.css
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\scopedcss\projectbundle\testNETCORE.bundle.scp.css
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\refint\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.pdb
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Azure.Core.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Azure.Identity.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Humanizer.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.CodeDom.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETCORE.csproj.AssemblyReference.cache
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\obj\Debug\net8.0\testNETC.EB74B443.Up2Date
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.Common.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Programming\C#\Web Programming\test\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\testNETCORE\bin\Debug\net8.0\appsettings.Development.json
+D:\testNETCORE\bin\Debug\net8.0\appsettings.json
+D:\testNETCORE\bin\Debug\net8.0\testNETCORE.staticwebassets.runtime.json
+D:\testNETCORE\bin\Debug\net8.0\testNETCORE.exe
+D:\testNETCORE\bin\Debug\net8.0\testNETCORE.deps.json
+D:\testNETCORE\bin\Debug\net8.0\testNETCORE.runtimeconfig.json
+D:\testNETCORE\bin\Debug\net8.0\testNETCORE.dll
+D:\testNETCORE\bin\Debug\net8.0\testNETCORE.pdb
+D:\testNETCORE\bin\Debug\net8.0\Azure.Core.dll
+D:\testNETCORE\bin\Debug\net8.0\Azure.Identity.dll
+D:\testNETCORE\bin\Debug\net8.0\Humanizer.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Build.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\testNETCORE\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\testNETCORE\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\testNETCORE\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\testNETCORE\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.Common.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\testNETCORE\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\testNETCORE\bin\Debug\net8.0\System.CodeDom.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\testNETCORE\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Memory.Data.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\testNETCORE\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\testNETCORE\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\testNETCORE\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.csproj.AssemblyReference.cache
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.AssemblyInfoInputs.cache
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.AssemblyInfo.cs
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.csproj.CoreCompileInputs.cache
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.MvcApplicationPartsAssemblyInfo.cache
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cache
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cs
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets.build.json
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets.development.json
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.testNETCORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.build.testNETCORE.props
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testNETCORE.props
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testNETCORE.props
+D:\testNETCORE\obj\Debug\net8.0\staticwebassets.pack.json
+D:\testNETCORE\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\testNETCORE\obj\Debug\net8.0\scopedcss\bundle\testNETCORE.styles.css
+D:\testNETCORE\obj\Debug\net8.0\scopedcss\projectbundle\testNETCORE.bundle.scp.css
+D:\testNETCORE\obj\Debug\net8.0\testNETC.EB74B443.Up2Date
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.dll
+D:\testNETCORE\obj\Debug\net8.0\refint\testNETCORE.dll
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.pdb
+D:\testNETCORE\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
+D:\testNETCORE\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\appsettings.Development.json
+D:\testNETCORE - Copy\bin\Debug\net8.0\appsettings.json
+D:\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.staticwebassets.runtime.json
+D:\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.exe
+D:\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.deps.json
+D:\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.runtimeconfig.json
+D:\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.pdb
+D:\testNETCORE - Copy\bin\Debug\net8.0\Azure.Core.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Azure.Identity.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Humanizer.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Build.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Common.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.CodeDom.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Memory.Data.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.csproj.AssemblyReference.cache
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfoInputs.cache
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfo.cs
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.csproj.CoreCompileInputs.cache
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.MvcApplicationPartsAssemblyInfo.cache
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cache
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cs
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.build.json
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.development.json
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.testNETCORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.build.testNETCORE.props
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testNETCORE.props
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testNETCORE.props
+D:\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\bundle\testNETCORE.styles.css
+D:\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\projectbundle\testNETCORE.bundle.scp.css
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETC.EB74B443.Up2Date
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.dll
+D:\testNETCORE - Copy\obj\Debug\net8.0\refint\testNETCORE.dll
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.pdb
+D:\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
+D:\testNETCORE - Copy\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\appsettings.Development.json
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\appsettings.json
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\testNETCORE.staticwebassets.runtime.json
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\testNETCORE.exe
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\testNETCORE.deps.json
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\testNETCORE.runtimeconfig.json
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\testNETCORE.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\testNETCORE.pdb
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Azure.Core.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Azure.Identity.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Humanizer.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Build.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.Common.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.CodeDom.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Memory.Data.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\testNETCORE - Copy - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.csproj.AssemblyReference.cache
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfoInputs.cache
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfo.cs
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.csproj.CoreCompileInputs.cache
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.MvcApplicationPartsAssemblyInfo.cache
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cache
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cs
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets.build.json
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets.development.json
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets\msbuild.testNETCORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets\msbuild.build.testNETCORE.props
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testNETCORE.props
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testNETCORE.props
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\scopedcss\bundle\testNETCORE.styles.css
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\scopedcss\projectbundle\testNETCORE.bundle.scp.css
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETC.EB74B443.Up2Date
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.dll
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\refint\testNETCORE.dll
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.pdb
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
+D:\testNETCORE - Copy - Copy\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\testNETCORE - Copy\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\appsettings.Development.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\appsettings.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.staticwebassets.runtime.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.exe
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.deps.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.runtimeconfig.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.pdb
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Azure.Core.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Azure.Identity.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Humanizer.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Common.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.CodeDom.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.csproj.AssemblyReference.cache
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfoInputs.cache
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfo.cs
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.csproj.CoreCompileInputs.cache
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cache
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cs
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.sourcelink.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.build.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.development.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.testNETCORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.build.testNETCORE.props
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testNETCORE.props
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testNETCORE.props
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\bundle\testNETCORE.styles.css
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\projectbundle\testNETCORE.bundle.scp.css
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETC.EB74B443.Up2Date
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\refint\testNETCORE.dll
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.pdb
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
+D:\Data\Programming\C#\Web Programming\DuLich\Github\Quý\Travel\testNETCORE - Copy\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\appsettings.Development.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\appsettings.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.staticwebassets.runtime.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.exe
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.deps.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.runtimeconfig.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\testNETCORE.pdb
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Azure.Core.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Azure.Identity.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Humanizer.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Build.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Common.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.CodeDom.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Memory.Data.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.csproj.AssemblyReference.cache
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfoInputs.cache
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.AssemblyInfo.cs
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.csproj.CoreCompileInputs.cache
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.MvcApplicationPartsAssemblyInfo.cache
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cache
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.RazorAssemblyInfo.cs
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.sourcelink.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.build.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.development.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.testNETCORE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.build.testNETCORE.props
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.testNETCORE.props
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.testNETCORE.props
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\bundle\testNETCORE.styles.css
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\scopedcss\projectbundle\testNETCORE.bundle.scp.css
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETC.EB74B443.Up2Date
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\refint\testNETCORE.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.pdb
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\testNETCORE.genruntimeconfig.cache
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\obj\Debug\net8.0\ref\testNETCORE.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Castle.Core.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Castle.Windsor.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\System.Web.Http.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Microsoft.Owin.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Owin.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\OWIN.Windsor.DependencyResolverScopeMiddleware.dll
+D:\LTWeb\Quy\Travel\testNETCORE - Copy\bin\Debug\net8.0\Intersoft.Crosslight.dll
