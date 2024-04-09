@@ -15,18 +15,6 @@ namespace testNETCORE.Controllers
             _context = context;
         }
 
-        //public IActionResult Index()
-        //{
-        //    return View(data.Tinhs.ToList());
-        //}
-
-        //[HttpPost]
-        //public IActionResult Index(string chosenPlace)
-        //{
-        //    var choosePlace = data.Tinhs.Where(a => a.Province == chosenPlace);
-        //    return View(choosePlace);
-        //}
-
         public async Task<IActionResult> Index()
         {
             var HomeeChoosePlace_Controller = await _context.Tinhs.ToListAsync();

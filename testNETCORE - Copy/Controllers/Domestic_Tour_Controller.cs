@@ -31,7 +31,7 @@ namespace testNETCORE.Controllers
             return View(viewModel);
         }
 
-        public async Task<ActionResult> Payment(int totalMOMO)
+        public async Task<IActionResult> Payment(int totalMOMO)
         {
             //request params need to request to MoMo system
             string endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
