@@ -162,7 +162,7 @@
                         <p><i class="fa fa-check text-primary me-3"></i>Hướng Dẫn Viên</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Khách Sạn 3*</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Vé Tham Quan</p>
-                        <a class="btn btn-primary py-3 px-5 mt-3" href="tour-trong-nuoc/@noiBat.Link-@noiBat.TourId">Xem Thêm...</a>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="tour-trong-nuoc/@noiBat.Link-@noiBat.IdTour">Xem Thêm...</a>
                     }
                 </div>
             </div>
@@ -182,7 +182,7 @@
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         @if (item.Idcategory == 1)
                         {
-                            <a class="cat-item d-block bg-light text-center rounded p-3" href="tour-trong-nuoc/@item.Link-@item.TourId">
+                            <a class="cat-item d-block bg-light text-center rounded p-3" href="tour-trong-nuoc/@item.Link-@item.IdTour">
                                 <div class="rounded p-4">
                                     <div class="mb-3 card">
                                         <img class="img-fluid card" style="width:100%;height:196.656px" src="~/img/@item.Image1" alt="Icon">
@@ -194,7 +194,7 @@
                         }
                         else
                         {
-                            <a class="cat-item d-block bg-light text-center rounded p-3" href="tour-ngoai-nuoc/@item.Link-@item.TourId">
+                            <a class="cat-item d-block bg-light text-center rounded p-3" href="tour-ngoai-nuoc/@item.Link-@item.IdTour">
                                 <div class="rounded p-4">
                                     <div class="mb-3 card">
                                         <img class="img-fluid card" style="width:100%;height:196.656px" src="~/img/@item.Image1" alt="Icon">

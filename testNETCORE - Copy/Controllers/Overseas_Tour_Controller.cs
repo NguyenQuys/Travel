@@ -33,7 +33,7 @@ namespace testNETCORE.Controllers
             User getDataFromUser = TempData["transfer"] as User;
             var users = new User();
             var DTCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId == id).ToListAsync();
+            var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.IdTour == id).ToListAsync();
             //if(DTDetail_Controller == null)
             //{
             //    var errorViewModel = new ErrorViewModel

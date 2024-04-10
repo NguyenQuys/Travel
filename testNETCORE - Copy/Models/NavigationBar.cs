@@ -5,7 +5,7 @@ namespace testNETCORE.Models;
 
 public partial class NavigationBar
 {
-    public int IdMenu { get; set; }
+    public int? IdMenu { get; set; }
 
     public string Title { get; set; } = null!;
 
@@ -13,6 +13,7 @@ public partial class NavigationBar
 
     public string Link { get; set; } = null!;
 
-    public bool Active { get; set; }
+    public bool? Active { get; set; }
+
     public bool Hide { get; set; }
 }

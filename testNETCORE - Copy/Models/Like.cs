@@ -5,13 +5,13 @@ namespace testNETCORE.Models;
 
 public partial class Like
 {
+    public int IdLike { get; set; }
+
     public int IdUser { get; set; }
 
-    public string TourId { get; set; } = null!;
+    public string IdTour { get; set; } = null!;
 
-    public string? Time { get; set; }
+    public virtual Tour IdTourNavigation { get; set; } = null!;
 
     public virtual User IdUserNavigation { get; set; } = null!;
-
-    public virtual Tour Tour { get; set; } = null!;
 }

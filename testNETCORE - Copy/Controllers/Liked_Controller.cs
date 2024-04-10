@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using testNETCORE.Models;
 using testNETCORE.ViewModels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace testNETCORE.Controllers
 {
@@ -17,98 +19,112 @@ namespace testNETCORE.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var users = new User();
+
+            if (User.Identity.IsAuthenticated)
+            {
+                string phoneNumer = User.Identity.Name;
+                if (phoneNumer != null)
+                {
+                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumer);
+                }
+            }
+
+            // Lấy danh sách IDTour từ bảng Like của người dùng hiện tại
+            var likedTours = await _context.Likes
+                .Where(m => m.IdUser == users.IdUser)
+                .Select(m => m.IdTour)
+                .ToListAsync(); // lay kieu string. Vi du: DT001
+
+            if (likedTours.Count==0)
+            {
+                ViewData["EmptyLike"] = "Hiện tại bạn chưa thêm Tour nào vào mục yêu thích";
+            }
+
+            // Lấy danh sách các tour mà người dùng đã thích
+            var likedTourNames = await _context.Tours
+                .Where(t => likedTours.Contains(t.IdTour))
+                .ToListAsync();
+
+            
+
             var LCNavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var LLiked_Controller = await _context.Tours.Where(m => m.Hide == false && m.Like == true).ToListAsync();
             var viewModel = new Liked_ViewModel
             {
                 NavigationBarList = LCNavigationBar_Controller,
-                TourList = LLiked_Controller
+                TourLikedList = likedTourNames
             };
             return View(viewModel);
         }
 
-        public async Task<IActionResult> Detail(string slug, string id)
+        public async Task<IActionResult> Remove(string idTourRemove)
         {
-            var LCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var LDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId == id).ToListAsync();
-            if (LDetail_Controller == null)
+            var users = new User();
+
+            if (User.Identity.IsAuthenticated)
             {
-                var errorViewModel = new ErrorViewModel
+                string phoneNumer = User.Identity.Name;
+                if (phoneNumer != null)
                 {
-                    RequestId = "Product Error"
-                };
-                return View("Error", errorViewModel); // Nếu tìm ko ra thì check chỗ này
+                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumer);
+                }
             }
 
-            var viewModel = new Liked_ViewModel
+            var likedTours = await _context.Likes
+                .Where(m => m.IdUser == users.IdUser)
+                .Select(m => m.IdTour)
+                .ToListAsync(); // lay kieu string. Vi du: DT001
+            if (likedTours.Count != 0)
             {
-                NavigationBarList = LCNavigation_Bar_Controller,
-                TourList = LDetail_Controller
-            };
-            return View(viewModel);
+                var RemoveTours = await _context.Likes
+                        .Where(m => m.IdUser == users.IdUser)
+                        .Select(m => m.IdTour)
+                        .ToListAsync();
+
+                var likedTourNames = await _context.Likes
+                        .Where(t => RemoveTours.Contains(t.IdTour))
+                        .ToListAsync();
+
+                foreach (var tour in likedTourNames.Where(m=>m.IdTour.Equals(idTourRemove)))
+                {
+                    _context.Likes.Remove(tour); // Xóa từng tour được thích
+                }
+
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Index");
         }
 
-        // GET: Liked_Controller/Create
-        public ActionResult Create()
+        public async Task<IActionResult> Add(string addTourLike)
         {
-            return View();
-        }
+            var users = new User();
 
-        // POST: Liked_Controller/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
+            if (User.Identity.IsAuthenticated)
             {
-                return RedirectToAction(nameof(Index));
+                string phoneNumer = User.Identity.Name;
+                if (phoneNumer != null)
+                {
+                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumer);
+                }
             }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: Liked_Controller/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
+            var soSanhTourTrung = _context.Likes.Where(m=>m.IdTour == addTourLike).ToList();
+            if(soSanhTourTrung.Count == 0)
+            {
+                Like newFavorite = new Like();
+                newFavorite.IdUser = users.IdUser;
+                newFavorite.IdTour = addTourLike;
 
-        // POST: Liked_Controller/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
+                _context.Add(newFavorite);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
             }
-            catch
+            else
             {
-                return View();
+                return RedirectToAction("Index");
             }
-        }
-
-        // GET: Liked_Controller/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Liked_Controller/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            
         }
     }
 }

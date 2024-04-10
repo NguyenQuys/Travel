@@ -64,11 +64,11 @@
                 <td>@tour.MaxQuantity</td>
                 <td>@tour.NdaysNnights</td>
                 <td>
-                    <a href="@Url.Action("Update", "Tour", new { id = tour.TourId })" class="btn btn-info" role="button">Sửa</a>
+                    <a href="@Url.Action("Update", "Tour", new { id = tour.IdTour })" class="btn btn-info" role="button">Sửa</a>
                 </td>
 
                 <td>
-                    <a href="@Url.Action("Delete", "Tour", new { id = tour.TourId })" class="btn btn-danger" role="button">Xóa</a>
+                    <a href="@Url.Action("Delete", "Tour", new { id = tour.IdTour })" class="btn btn-danger" role="button">Xóa</a>
                 </td>
             </tr>
         }
@@ -106,10 +106,10 @@
                 <td>@tour.MaxQuantity</td>
                 <td>@tour.NdaysNnights</td>
                 <td>
-                    <a href="@Url.Action("Edit", "Tour", new { id = tour.TourId })" class="btn btn-info" role="button">Sửa</a>
+                    <a href="@Url.Action("Edit", "Tour", new { id = tour.IdTour })" class="btn btn-info" role="button">Sửa</a>
                 </td>
                 <td>
-                    <a href="@Url.Action("Delete", "Tour", new { id = tour.TourId })" class="btn btn-danger" role="button">Xóa</a>
+                    <a href="@Url.Action("Delete", "Tour", new { id = tour.IdTour })" class="btn btn-danger" role="button">Xóa</a>
                 </td>
             </tr>
         }

@@ -13,7 +13,7 @@ namespace testNETCORE.Controllers
     public class Domestic_Tour_Controller : Controller
     {
         private readonly _63tinhThanhContext _context;
-
+        public static string codeThanhToan;
         public Domestic_Tour_Controller(_63tinhThanhContext context)
         {
             _context = context;
@@ -39,7 +39,7 @@ namespace testNETCORE.Controllers
             string accessKey = "iPXneGmrJH0G8FOP";
             string serectkey = "sFcbSGRSJjwGxwhhcEktCHWYUuTuPNDB";
             string orderInfo = "Thanh toán online";
-            string returnUrl = "https://localhost:7067/";
+            string returnUrl = "https://localhost:7067/Payment_Confirmation/Successful_Payment";
             string notifyurl = "https://4c8d-2001-ee0-5045-50-58c1-b2ec-3123-740d.ap.ngrok.io/Home/SavePayment"; //lưu ý: notifyurl không được sử dụng localhost, có thể sử dụng ngrok để public localhost trong quá trình test
 
             string amount = totalMOMO.ToString();
@@ -82,6 +82,7 @@ namespace testNETCORE.Controllers
             string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, message.ToString());
 
             JObject jmessage = JObject.Parse(responseFromMomo);
+            codeThanhToan = orderid;
 
             return Redirect(jmessage.GetValue("payUrl").ToString());
         }
@@ -92,7 +93,7 @@ namespace testNETCORE.Controllers
             //User getDataFromUser = TempData["transfer"] as User;
             var users = new User();
             var DTCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.TourId==id).ToListAsync();
+            var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.IdTour==id).ToListAsync();
             //if(DTDetail_Controller == null)
             //{
             //    var errorViewModel = new ErrorViewModel

@@ -47,7 +47,7 @@ namespace testNETCORE.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(string id, Tour updatedTour)
         {
-            if (id != updatedTour.TourId)
+            if (id != updatedTour.IdTour)
             {
                 return NotFound();
             }

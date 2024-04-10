@@ -17,7 +17,7 @@ public partial class _63tinhThanhContext : DbContext
 
     public virtual DbSet<CamNangDuLich> CamNangDuLiches { get; set; }
 
-    public virtual DbSet<LichSuTimKiem> LichSuTimKiems { get; set; }
+    public virtual DbSet<Invoice> Invoices { get; set; }
 
     public virtual DbSet<Like> Likes { get; set; }
 
@@ -57,31 +57,57 @@ public partial class _63tinhThanhContext : DbContext
                 .HasColumnName("Travel_Guide_Title_Title");
         });
 
-
-        modelBuilder.Entity<LichSuTimKiem>(entity =>
+        modelBuilder.Entity<Invoice>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("LichSuTimKiem");
+            entity.HasKey(e => e.IdOrder);
 
-            entity.Property(e => e.Destination).HasMaxLength(100);
+            entity.ToTable("Invoice");
+
+            entity.Property(e => e.IdOrder)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("ID_Order");
+            entity.Property(e => e.Amount).HasColumnType("numeric(18, 0)");
+            entity.Property(e => e.IdTour)
+                .HasMaxLength(5)
+                .IsFixedLength()
+                .HasColumnName("ID_Tour");
+            entity.Property(e => e.IdUser).HasColumnName("ID_User");
+            entity.Property(e => e.Time).HasColumnType("datetime");
+
+            entity.HasOne(d => d.IdTourNavigation).WithMany(p => p.Invoices)
+                .HasForeignKey(d => d.IdTour)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Invoice_Tour");
+
+            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Invoices)
+                .HasForeignKey(d => d.IdUser)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Invoice_User");
         });
 
         modelBuilder.Entity<Like>(entity =>
         {
-            entity.HasKey(e => new { e.IdUser, e.TourId });
+            entity.HasKey(e => e.IdLike);
 
             entity.ToTable("Like");
 
+            entity.Property(e => e.IdLike).HasColumnName("ID_Like");
+            entity.Property(e => e.IdTour)
+                .HasMaxLength(5)
+                .IsFixedLength()
+                .HasColumnName("ID_Tour");
             entity.Property(e => e.IdUser).HasColumnName("ID_User");
-            entity.Property(e => e.TourId)
-                .HasMaxLength(10)
-                .IsFixedLength()
-                .HasColumnName("Tour_ID");
-            entity.Property(e => e.Time)
-                .HasMaxLength(10)
-                .IsFixedLength()
-                .HasColumnName("time");
+
+            entity.HasOne(d => d.IdTourNavigation).WithMany(p => p.Likes)
+                .HasForeignKey(d => d.IdTour)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Like_Tour");
+
+            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Likes)
+                .HasForeignKey(d => d.IdUser)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Like_User");
         });
 
         modelBuilder.Entity<NavigationBar>(entity =>
@@ -106,12 +132,14 @@ public partial class _63tinhThanhContext : DbContext
 
         modelBuilder.Entity<Tour>(entity =>
         {
+            entity.HasKey(e => e.IdTour);
+
             entity.ToTable("Tour");
 
-            entity.Property(e => e.TourId)
+            entity.Property(e => e.IdTour)
                 .HasMaxLength(5)
                 .IsFixedLength()
-                .HasColumnName("Tour_ID");
+                .HasColumnName("ID_Tour");
             entity.Property(e => e.Departure).HasMaxLength(50);
             entity.Property(e => e.Description).HasColumnType("ntext");
             entity.Property(e => e.Destination1)

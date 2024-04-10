@@ -54,20 +54,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tZXN0aWNfVG91cl9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/testNETCORE - Copy/Views/Domestic_Tour_/SavePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tZXN0aWNfVG91cl9cU2F2ZVBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/testNETCORE - Copy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/testNETCORE - Copy/Views/Information_/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25fXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/testNETCORE - Copy/Views/Information_/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25fXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/testNETCORE - Copy/Views/Liked_/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZWRfXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/testNETCORE - Copy/Views/Liked_/Index.cshtml]
@@ -80,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/testNETCORE - Copy/Views/Overseas_Tour_/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNlYXNfVG91cl9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/testNETCORE - Copy/Views/Payment_Confirmation/SuccessFul_Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudF9Db25maXJtYXRpb25cU3VjY2Vzc0Z1bF9QYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/testNETCORE - Copy/Views/Result/Index.cshtml]

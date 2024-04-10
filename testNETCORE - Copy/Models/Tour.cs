@@ -5,7 +5,7 @@ namespace testNETCORE.Models;
 
 public partial class Tour
 {
-    public string TourId { get; set; } = null!;
+    public string IdTour { get; set; } = null!;
 
     public string TourName { get; set; } = null!;
 
@@ -31,8 +31,6 @@ public partial class Tour
 
     public int MaxQuantity { get; set; }
 
-    public int Length { get; set; }
-
     public string NdaysNnights { get; set; } = null!;
 
     public DateOnly StartDate { get; set; }
@@ -49,5 +47,7 @@ public partial class Tour
 
     public bool Hide { get; set; }
 
-    public bool Like { get; set; }
+    public virtual ICollection<Invoice> Invoices { get; set; } = new List<Invoice>();
+
+    public virtual ICollection<Like> Likes { get; set; } = new List<Like>();
 }

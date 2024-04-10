@@ -24,14 +24,16 @@
         </style>
         <div class="row g-4">
             <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                @foreach (var item in Model.TourList)
+                @foreach (var item in Model.TourLikedList)
                 {
                     <div class="col-lg-12">
                         <div class="row rounded bg-light chooseLike">
                             <div class="col-lg-11">
                                 <div class="row">
                                     <div class="col-lg-12 col-sm-12" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp" ;>
-                                        <a class=" d-block text-center rounded p-3" href="yeu-thich/@item.Link-@item.TourId">
+                                        @if(@item.Idcategory == 1)
+                                        {
+                                        <a class=" d-block text-center rounded p-3" href="tour-trong-nuoc/@item.Link-@item.IdTour">
                                             <div class="row align-items-center">
                                                 <div class="col-lg-4 col-sm-6">
                                                     <img class="img-fluid rounded" src="~/img/@item.Image1" alt="Icon">
@@ -48,11 +50,37 @@
                                                 </div>
                                             </div>
                                         </a>
+                                        }
+                                        else if (@item.Idcategory == 2)
+                                        {
+                                            <a class=" d-block text-center rounded p-3" href="tour-ngoai-nuoc/@item.Link-@item.IdTour">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <img class="img-fluid rounded" src="~/img/@item.Image1" alt="Icon">
+                                                    </div>
+                                                    <div class="col-lg-8 col-sm-6">
+                                                        <div class="rounded p-4 d-flex flex-column justify-content-center" style="height:146.931px">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <h5 style="text-align:left">@item.TourName</h5>
+                                                                    <p style="text-align:left">@item.NdaysNnights</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        }
+
+                                        @if(@item.IdTour.Count()==0)
+                                        {
+                                            @ViewData["EmptyLike"];
+                                        }
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-1 rounded d-flex flex-column justify-content-center" style="height:146.931px">
-                                <a class="deledeBtn" href="#">
+                                <a class="deledeBtn" asp-action="Remove" asp-route-idTourRemove="@item.IdTour" name="idTourRemove">
                                     <span class="material-symbols-outlined">delete</span>
                                 </a>
                             </div>
