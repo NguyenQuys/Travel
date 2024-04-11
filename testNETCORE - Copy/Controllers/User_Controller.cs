@@ -12,6 +12,7 @@ namespace testNETCORE.Controllers
     public class User_Controller : Controller
     {
         private readonly _63tinhThanhContext _context;
+        public static string name;
         public User_Controller(_63tinhThanhContext context)
         {
             _context = context;
@@ -68,8 +69,6 @@ namespace testNETCORE.Controllers
             return View(viewModel);
         }
 
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> LogIn(UserViewModel model)
@@ -104,6 +103,8 @@ namespace testNETCORE.Controllers
                         CookieAuthenticationDefaults.AuthenticationScheme,
                         new ClaimsPrincipal(claimsIdentity),
                         authProperties);
+
+                    name = user.Name;
 
                     return RedirectToAction("Index", "Home");
                 }
@@ -140,29 +141,29 @@ namespace testNETCORE.Controllers
             return View(viewModel);
         }
 
-        public async Task<IActionResult> PassData()
-        {
-            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var users = new User();
+        //public async Task<IActionResult> PassData()
+        //{
+        //    var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+        //    var users = new User();
 
-            if (User.Identity.IsAuthenticated)
-            {
-                string phoneNumer = User.Identity.Name;
-                if (phoneNumer != null)
-                {
-                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber.ToString() == phoneNumer.ToString());
-                }
-            }
+        //    if (User.Identity.IsAuthenticated)
+        //    {
+        //        string phoneNumer = User.Identity.Name;
+        //        if (phoneNumer != null)
+        //        {
+        //            users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber.ToString() == phoneNumer.ToString());
+        //        }
+        //    }
 
-            var viewModel = new UserViewModel
-            {
-                NavigationBarList = NavigationBar_Controller,
-                Register = users,
-            };
+        //    var viewModel = new UserViewModel
+        //    {
+        //        NavigationBarList = NavigationBar_Controller,
+        //        Register = users,
+        //    };
 
-            TempData["transfer"] = users;
-            return RedirectToAction("Detail", "Domestic_Tour_");
-        }
+        //    TempData["transfer"] = users;
+        //    return RedirectToAction("Detail", "Domestic_Tour_");
+        //}
 
         public async Task<IActionResult> Logout()
         {
@@ -177,7 +178,6 @@ namespace testNETCORE.Controllers
             var NavigationBar = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var phoneNumber = User.Identity.Name;
             var user = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
-
 
             // Check if the user exists
             if (user == null)
@@ -230,8 +230,6 @@ namespace testNETCORE.Controllers
                 return RedirectToAction("Info"); // Redirect to user information page
             }
 
-
-
             // If ModelState is not valid, reload the page with the form
             var menus = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var viewModel = new UserViewModel
@@ -268,6 +266,59 @@ namespace testNETCORE.Controllers
         //{
         //    // Gọi phương thức xác minh mật khẩu chính
         //    return await VerifyPasswordAsyncInternal(phone, password);
+        //}
+
+        //[HttpPost]
+        //public async Task<bool> VerifyOldPassword(string oldPassword)
+        //{
+        //    var menus = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+        //    var viewModel = new UserViewModel
+        //    {
+        //        NavigationBarList = menus,
+        //    };
+        //    var users = new User();
+
+        //    if (User.Identity.IsAuthenticated)
+        //    {
+        //        string phoneNumber = User.Identity.Name;
+        //        if (phoneNumber != null)
+        //        {
+        //            users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
+        //        }
+        //        // Nếu không tìm thấy người dùng hoặc mật khẩu không khớp, trả về false
+        //    }
+        //    if (users == null || !BCrypt.Net.BCrypt.Verify(oldPassword, users.Password))
+        //    {
+        //        return false;
+        //    }
+
+        //    // Mật khẩu khớp
+        //    return true;
+        //}
+
+        //[HttpGet]
+        //public async Task<IActionResult> VerifyOldPassword()
+        //{
+        //    // Get the username from Identity
+        //    var menus = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+        //    var phoneNumber = User.Identity.Name;
+        //    var user = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
+
+
+        //    // Check if the user exists
+        //    if (user == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    // Create a UserViewModel instance and pass it to the view
+        //    var viewModel = new UserViewModel
+        //    {
+        //        NavigationBarList = menus,
+        //        Register = user
+        //    };
+
+        //    return View(viewModel);
         //}
 
         [HttpGet]

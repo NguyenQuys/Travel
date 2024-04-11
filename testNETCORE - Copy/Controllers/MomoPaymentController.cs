@@ -1,15 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MoMo;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Web;
+using ThanhToanMoMo.Others;
 
 namespace testNETCORE.Controllers
 {
     public class MomoPaymentController : Controller
     {
+        public static string codeThanhToanTransferFromMoMo;
+        public static string soTienTransferFromMoMo;
+        public static string idTourTransferFromMoMo;
         public async Task<IActionResult> InitiatePayment(decimal totalAmount)
         {
             // Tạo request và chuyển hướng đến MoMo
@@ -55,6 +61,65 @@ namespace testNETCORE.Controllers
                 byte[] hashValue = hmac.ComputeHash(Encoding.UTF8.GetBytes(input));
                 return Convert.ToBase64String(hashValue);
             }
+        }
+
+        public async Task<IActionResult> Payment(int totalMOMO, string idTour)
+        {
+            //request params need to request to MoMo system
+            string endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
+            string partnerCode = "MOMOOJOI20210710";
+            string accessKey = "iPXneGmrJH0G8FOP";
+            string serectkey = "sFcbSGRSJjwGxwhhcEktCHWYUuTuPNDB";
+            string orderInfo = "Thanh toán online";
+            string returnUrl = "https://localhost:7067/Payment_Confirmation/Successful_Payment";
+            string notifyurl = "https://4c8d-2001-ee0-5045-50-58c1-b2ec-3123-740d.ap.ngrok.io/Home/SavePayment"; //lưu ý: notifyurl không được sử dụng localhost, có thể sử dụng ngrok để public localhost trong quá trình test
+
+            string amount = totalMOMO.ToString();
+            string orderid = DateTime.Now.Ticks.ToString(); //mã đơn hàng
+            string requestId = DateTime.Now.Ticks.ToString();
+            string extraData = "";
+
+            // truyen du lieu sang paymentconfirm
+            soTienTransferFromMoMo = amount.ToString();
+            codeThanhToanTransferFromMoMo = orderid.ToString();
+            idTourTransferFromMoMo = idTour;
+            //Before sign HMAC SHA256 signature
+            string rawHash = "partnerCode=" +
+                partnerCode + "&accessKey=" +
+                accessKey + "&requestId=" +
+                requestId + "&amount=" +
+                amount + "&orderId=" +
+                orderid + "&orderInfo=" +
+                orderInfo + "&returnUrl=" +
+                returnUrl + "&notifyUrl=" +
+                notifyurl + "&extraData=" +
+                extraData;
+
+            MoMoSecurity crypto = new MoMoSecurity();
+            //sign signature SHA256
+            string signature = crypto.signSHA256(rawHash, serectkey);
+
+            //build body json request
+            JObject message = new JObject
+            {
+                { "partnerCode", partnerCode },
+                { "accessKey", accessKey },
+                { "requestId", requestId },
+                { "amount",amount},
+                { "orderId", orderid },
+                { "orderInfo", orderInfo },
+                { "returnUrl", returnUrl },
+                { "notifyUrl", notifyurl },
+                { "extraData", extraData },
+                { "requestType", "captureMoMoWallet" },
+                { "signature", signature }
+            };
+
+            string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, message.ToString());
+
+            JObject jmessage = JObject.Parse(responseFromMomo);
+
+            return Redirect(jmessage.GetValue("payUrl").ToString());
         }
     }
 }

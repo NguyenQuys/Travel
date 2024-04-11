@@ -1,18 +1,22 @@
-﻿
-@{
-    ViewData["Title"] = "SuccessFul_Payment";
-    Layout = "~/Views/Shared/Layout_Test.cshtml";
+﻿@{
+    ViewData["Title"] = "Thanh Toán Thành Công";
+    Layout = "~/Views/Shared/_Layout_Successful_Payment.cshtml";
+
 }
 
 <div class="text-center">
-    <h1 class="display-4">Thanh toán Momo với JustTravel</h1>
-    
     <div class="container">
-        <h1 class="text-success">Thanh Toán Thành Công</h1>
-        <p>Order ID: <strong></strong></p>
-        <p>Amount: <strong></strong></p>
-        <p>Order Info: <strong></strong></p>
-        @ViewData["test"]
+        <h1 class="display-4">Thanh toán Momo với JustTravel</h1>
+        <h3>Tên khách hàng: @ViewData["CustumerName"]</h3>
+        <h3>Mã ID: @ViewData["IDOrder"]</h3>
+        <h3>Số tiền: @ViewData["Amount"]</h3>
+        <h3>Thanh toán vào lúc: @ViewData["Time"]</h3>
+    </div>
+    <div>
+        <h2>Cảm ơn bạn đã đặt Tour. Chúc bạn có một chuyến đi chơi vui vẻ 😍😍</h2>
+    </div>
+    <div>
+        <a asp-action="Index" asp-controller="Home" class="btn btn-sucess">Quay Về Trang Chủ</a>
     </div>
 </div>
 

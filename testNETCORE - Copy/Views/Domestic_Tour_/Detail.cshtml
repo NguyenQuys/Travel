@@ -157,6 +157,7 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-evenly">
+                                <input type="hidden" name="addTourPay" value="@item.IdTour" asp-action="Add" asp-controller="Payment_Confirmation" /> @* Truyen data vao  *@
                                 @if (Model.kiemTraDangNhap == 1)
                                 {
                                     <form method="post" action="@Url.Action("Add", "Liked_")">
@@ -361,8 +362,9 @@
                                                             <span class="text-danger"></span>
                                                         </div>
                                                         <div>
-                                                            <form id="myForm" method="post" action="@Url.Action("Payment", "Domestic_Tour_")">
+                                                            <form id="myForm" method="post" action="@Url.Action("Payment", "MomoPayment")">
                                                                 <input type="hidden" id="totalMOMO" name="totalMOMO" value="" />
+                                                                <input type="hidden" id="totalMOMO" name="idTour" value="@item.IdTour" />
                                                                 <button class="btn btn-primary btn-sm my-3 py-3" type="submit" style="width:100%">TIẾN HÀNH THANH TOÁN</button>
                                                             </form>
                                                         </div>
@@ -385,10 +387,7 @@
                                         </div>
                                     </div>
                                 }
-
-
                                 <!--Modal datb tour ends-->
-
                             </div>
                         </div>
                     </div>

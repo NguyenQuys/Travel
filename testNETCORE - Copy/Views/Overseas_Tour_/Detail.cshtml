@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Tour Ngoài Nước";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    int numOfQuantity = 1;
 }
 
 <style>
@@ -156,11 +157,19 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-evenly">
-                                <form method="post" action="@Url.Action("Add", "Liked_")">
-                                    <input type="hidden" name="addTourLike" value="@item.IdTour" />
-                                    <button class="btn btn-success material-symbols-outlined d-flex align-items-center" type="submit" style="width:100%">favorite</button>
-                                </form>
-                                <a type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3" data-bs-toggle="modal" data-bs-target="#lien_he">Liên hệ tư vấn</a>
+                                <input type="hidden" name="addTourPay" value="@item.IdTour" asp-action="Add" asp-controller="Payment_Confirmation" /> @* Truyen data vao  *@
+                                @if (Model.kiemTraDangNhap == 1)
+                                {
+                                    <form method="post" action="@Url.Action("Add", "Liked_")">
+                                        <input type="hidden" name="addTourLike" value="@item.IdTour" />
+                                        <button class="btn btn-success material-symbols-outlined d-flex align-items-center" type="submit" style="width:100%">favorite</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-success material-symbols-outlined d-flex align-items-center" type="submit" data-bs-toggle="modal" data-bs-target="#dat_tour">favorite</button>
+                                }
+                                <a type="button" class="bg-white btn btn-inverse-primary btn-fw mx-3" data-bs-toggle="modal" data-bs-target="#lien_he" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-ID_Tour="@item" asp-route-quantity="@numOfQuantity">Liên hệ tư vấn</a>
                                 <button type="button" class="btn btn-warning mx-3" data-bs-toggle="modal" data-bs-target="#dat_tour">Đặt tour ngay</button>
                                 <script>
                                     document.addEventListener("DOMContentLoaded", function () {
@@ -181,7 +190,7 @@
 
                                         // Gán giá trị ban đầu cho số và tổng
                                         let totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
-                                        totalParagraph1.textContent = `${totalValue}`;
+                                        totalParagraph1.textContent = `${totalValue.toLocaleString()}`;
 
                                         // Gán sự kiện "click" cho nút giảm
                                         decreaseBtnA.addEventListener("click", function () {
@@ -228,6 +237,7 @@
                                             document.getElementById("totalMOMO").value = totalValue; // totalValue ở đây là biến JavaScript đã được khai báo trước đó
                                         });
                                     });
+
                                 </script>
 
                                 <!-- Modal start -->
@@ -352,8 +362,9 @@
                                                             <span class="text-danger"></span>
                                                         </div>
                                                         <div>
-                                                            <form id="myForm" method="post" action="@Url.Action("Payment", "Domestic_Tour_")">
+                                                            <form id="myForm" method="post" action="@Url.Action("Payment", "MomoPayment")">
                                                                 <input type="hidden" id="totalMOMO" name="totalMOMO" value="" />
+                                                                <input type="hidden" id="totalMOMO" name="idTour" value="@item.IdTour" />
                                                                 <button class="btn btn-primary btn-sm my-3 py-3" type="submit" style="width:100%">TIẾN HÀNH THANH TOÁN</button>
                                                             </form>
                                                         </div>
@@ -363,8 +374,6 @@
                                         </div>
                                     </div>
                                 }
-
-
                                 else
                                 {
                                     <div style="top:200px" class="modal fade" id="dat_tour">
@@ -378,6 +387,8 @@
                                         </div>
                                     </div>
                                 }
+
+
                                 <!--Modal datb tour ends-->
 
                             </div>

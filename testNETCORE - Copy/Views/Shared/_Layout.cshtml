@@ -83,6 +83,7 @@
                                 var itemYeuThich = Model.NavigationBarList[4];
                                 var itemDangNhapXuat = Model.NavigationBarList[5];
                                 var itemThayDoiMatKhau = Model.NavigationBarList[6];
+                                var itemLichSuThanhToan = Model.NavigationBarList[7];
 
                                 if (User.Identity.IsAuthenticated)
                                 {
@@ -94,6 +95,7 @@
                                         <a href="@itemThongTin.Link" class="dropdown-item">@itemThongTin.Title</a>
                                         <a href="@itemThayDoiMatKhau.Link" class="dropdown-item">@itemThayDoiMatKhau.Title</a>
                                         <a href="@itemYeuThich.Link" class="dropdown-item">@itemYeuThich.Title</a>
+                                        <a href="@itemLichSuThanhToan.Link" class="dropdown-item">@itemLichSuThanhToan.Title</a>
                                         <a asp-action="LogOut" asp-controller="User_" class="dropdown-item text-danger">Đăng xuất</a>
                                     }
                                     else if(permission=="1")
@@ -102,7 +104,6 @@
                                             window.location.href = 'admin';
                                         </script>
                                     }
-
                                 }
                                 else
                                 {

@@ -30,18 +30,9 @@ namespace testNETCORE.Controllers
         public async Task<IActionResult> Detail(string slug, string id)
         {
             int kiemTra = 0;
-            User getDataFromUser = TempData["transfer"] as User;
             var users = new User();
             var DTCNavigation_Bar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var DTDetail_Controller = await _context.Tours.Where(m => m.Hide == false && m.Link == slug && m.IdTour == id).ToListAsync();
-            //if(DTDetail_Controller == null)
-            //{
-            //    var errorViewModel = new ErrorViewModel
-            //    {
-            //        RequestId = "Product Error"
-            //    };
-            //    return View("Error", errorViewModel); // Nếu tìm ko ra thì check chỗ này
-            //}
             if (User.Identity.IsAuthenticated)
             {
                 string phoneNumer = User.Identity.Name;
@@ -61,7 +52,5 @@ namespace testNETCORE.Controllers
             };
             return View(viewModel);
         }
-
-
     }
 }
