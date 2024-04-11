@@ -146,16 +146,10 @@ namespace Admin.Areas.Identity.Pages.Account
                 user.FullName = Input.FullName;
                 user.DataOfBirth = Input.DateOfBirth;
                 user.PhoneNumber = Input.PhoneNumber;
-                if (Gender == "Nam")
-                {
-                    user.Gender = true;
-                }
-                else
-                {
-                    user.Gender = false;
-                }
+                user.Gender = Input.Gender;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                user.Email = Input.Email;
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (!String.IsNullOrEmpty(Input.Role))
                 {

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\admin\\admin\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\admin\\admin\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\admin\\admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,14 +43,6 @@
       "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\admin\\admin\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\admin\\admin\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|d:\\projects\\subjects\\website\\travel\\travel website\\travel\\admin\\admin\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{489315DE-557B-4EF3-B23A-82D6AD519FED}|Admin.csproj|solutionrelative:controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -79,20 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T03:25:10.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Tour.cs",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Models\\Tour.cs",
               "RelativeDocumentMoniker": "Models\\Tour.cs",
@@ -100,12 +87,11 @@
               "RelativeToolTip": "Models\\Tour.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T03:19:08.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T03:19:08.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -113,12 +99,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAwwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T02:28:04.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T02:28:04.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -130,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -142,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -154,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -166,19 +151,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAADwv4oAAABMAAAA",
+              "ViewState": "AQIAAIoAAAAAAAAAAADwv5cAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T02:03:40.246Z"
+              "WhenOpened": "2024-04-09T02:03:40.246Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -186,7 +172,20 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T01:57:55.985Z"
+              "WhenOpened": "2024-04-09T01:57:55.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\Projects\\Subjects\\Website\\Travel\\Travel Website\\Travel\\Admin\\Admin\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T03:25:10.207Z"
             },
             {
               "$type": "Document",
