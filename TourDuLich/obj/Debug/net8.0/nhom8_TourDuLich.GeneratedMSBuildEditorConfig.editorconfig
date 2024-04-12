@@ -17,119 +17,119 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = nhom8_TourDuLich
 build_property.RootNamespace = nhom8_TourDuLich
-build_property.ProjectDir = D:\Data\Programming\C#\Web Programming\DuLich\Nhóm8_TourDuLich\TourDuLich\
+build_property.ProjectDir = D:\Data\Programming\C#\Web Programming\DuLich\Github\main\TourDuLich\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Data\Programming\C#\Web Programming\DuLich\Nhóm8_TourDuLich\TourDuLich
+build_property.MSBuildProjectDirectory = D:\Data\Programming\C#\Web Programming\DuLich\Github\main\TourDuLich
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Areas/Admin/Views/HomeAdmin/Delete.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Areas/Admin/Views/HomeAdmin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Areas/Admin/Views/HomeAdmin/List_Domestic_Tour.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Areas/Admin/Views/HomeAdmin/List_Domestic_Tour.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXExpc3RfRG9tZXN0aWNfVG91ci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Areas/Admin/Views/HomeAdmin/Update.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Areas/Admin/Views/HomeAdmin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Domestic_Tour_/Detail.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Domestic_Tour_/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tZXN0aWNfVG91cl9cRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Domestic_Tour_/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Domestic_Tour_/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tZXN0aWNfVG91cl9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Home/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Information_/Edit.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Information_/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25fXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Information_/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Information_/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25fXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Liked_/Detail.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Liked_/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZWRfXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Liked_/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Liked_/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZWRfXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Overseas_Tour_/Detail.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Overseas_Tour_/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNlYXNfVG91cl9cRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Overseas_Tour_/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Overseas_Tour_/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnNlYXNfVG91cl9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Result/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Result/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdWx0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Shared/Error.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Shared/Test_Layout.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Shared/Test_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlc3RfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Shared/_Layout_Detail.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Shared/_Layout_Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/ShoppingCart/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Tour_Guide_/Index.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Tour_Guide_/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cl9HdWlkZV9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/User_/Info.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/User_/Info.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcl9cSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/User_/LogIn.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/User_/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcl9cTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/User_/Register.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/User_/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcl9cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/_ViewImports.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/_ViewStart.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Programming/C\#/Web Programming/DuLich/Nhóm8_TourDuLich/TourDuLich/Views/Shared/_Layout.cshtml]
+[D:/Data/Programming/C\#/Web Programming/DuLich/Github/main/TourDuLich/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rgg3ww8ffu

@@ -1,0 +1,50 @@
+﻿@model testNETCORE.ViewModels.UserViewModel
+@{
+    ViewData["Title"] = "Thay đổi thông tin";
+    Layout = "~/Views/Shared/_Layout_Successful_Payment.cshtml";
+
+}
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label name="name" class="control-label">Họ và Tên</label>
+                <input name="name" class="form-control" value="@Model.Register.FullName"/>
+            </div>
+            <div class="form-group">
+                <label name="dateOfBirth" class="control-label">Ngày sinh</label>
+                <input name="dateOfBirth" class="form-control" type="date" value="@Model.Register.DateOfBirth.ToString()"/>
+            </div>
+            <div class="form-group">
+                <select class="form-select border-0 py-3" name="gender">
+                    <option disabled selected hidden>Chọn giới tính</option>
+                    <option value="true">Nam</option>
+                    <option value="false">Nữ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label name="phoneNumbers" class="control-label">Số điện thoại</label>
+                <input name="phoneNumbers" class="form-control" value="@Model.Register.PhoneNumber"/>
+            </div>
+            <div class="form-group">
+                <label name="email" class="control-label">Email</label>
+                <input name="email" class="form-control" value="@Model.Register.Email" type="email"/>
+            </div> 
+            @* <div class="form-group">
+                <label name="password" class="control-label">Mật khẩu</label>
+                <input name="password" class="form-control" value="@Model.Register.Password" type="password" />
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <button onclick="history.back()">Back to List</button>
+</div>
+

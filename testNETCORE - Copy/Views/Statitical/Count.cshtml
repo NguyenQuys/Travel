@@ -1,0 +1,49 @@
+﻿@model testNETCORE.Models.InvoiceDetail
+@{
+    ViewData["Title"] = "Statistics";
+    Layout = "~/Views/Shared/_Layout_Successful_Payment.cshtml";
+}
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTourNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdUserNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => Model.Price)
+            </td>
+@*              <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTourNavigation.IdTour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdUserNavigation.IdUser)
+            </td> *@
+           @*  <td> 
+                 <a asp-action="Edit" asp-route-id="@item.IdOrder">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdOrder">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdOrder">Delete</a>
+            </td>  *@
+        </tr>
+
+    </tbody>
+</table>

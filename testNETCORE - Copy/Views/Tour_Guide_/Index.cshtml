@@ -1,0 +1,114 @@
+﻿@model testNETCORE.ViewModels.Tour_Guide_ViewModel
+@{
+    ViewData["Title"] = "Travel_Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Category Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Cẩm Nang Du Lịch</h1>
+                </div>
+                <style>
+                    .chooseLike {
+                        transition: transform 0.3s ease;
+                    }
+
+                    .chooseLike:hover {
+                        transform: translateY(-5px);
+                    }
+
+                    .deledeBtn:hover {
+                        color: red;
+                    }
+                </style>
+                <div class="row g-4">
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        @foreach (var item in Model.TravelGuideList)
+                        {
+                            <div class="col-lg-12">
+                                <div class="row rounded bg-light chooseLike">
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp" ;>
+                                                <a class=" d-block text-center rounded p-3" href="">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-lg-4 col-sm-6">
+                                                            <img class="img-fluid rounded" src="~/img/@item.CoverImage" alt="Icon">
+                                                        </div>
+                                                        <div class="col-lg-8 col-sm-6">
+                                                            <div class="rounded p-4 d-flex flex-column justify-content-center" style="height:146.931px">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <h5 style="text-align:left">@item.Title</h5>
+@*                                                                         <p style="text-align:left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">Vị trí địa lý Đà Nẵng &nbsp;Đà Nẵng là một trong năm thành phố trực [...]</p>
+ *@                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        }
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="col-lg-12 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                            <div class="col-lg-12">
+                                <h4 class="bg-light text-danger text-center rounded p-2">Bài Viết Mới Nhất</h4>
+                                <div class="bg-light rounded">
+                                    <div class="p-2">
+                                        <div class="row align-items-center chooseLike">
+                                            <a href="#" class="d-flex">
+                                                <div class="col-lg-4">
+                                                    <img class="rounded" width="100%" src="https://tourngay.vn/wp-content/uploads/2023/12/KDL-Vinwonders-Phu-Quoc.jpg">
+                                                </div>
+                                                <div class="col-lg-8 ps-3">
+                                                    Cẩm nang du lịch Phú Quốc. Top 25 địa điểm cần đến khi đặt chân đến đây
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <hr>
+                                        <div class="row align-items-center chooseLike">
+                                            <a href="#" class="d-flex">
+                                                <div class="col-lg-4">
+                                                    <img class="rounded" width="100%" src="https://tourngay.vn/wp-content/uploads/2024/02/11.png.webp">
+                                                </div>
+                                                <div class="col-lg-8 ps-3">
+                                                    Top 10 đặc sản Nha Trang mua về làm quà vô cùng ý nghĩa
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <hr>
+                                        <div class="row align-items-center chooseLike">
+                                            <a href="#" class="d-flex">
+                                                <div class="col-lg-4">
+                                                    <img class="rounded" width="100%" src="https://tourngay.vn/wp-content/uploads/2024/02/Tourdulich-1-1.png.webp">
+                                                </div>
+                                                <div class="col-lg-8 ps-3">
+                                                    Top 6 Món Ngon Nha Trang Xiêu Lòng Tín Đồ Ẩm Thực
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Category End -->
+
