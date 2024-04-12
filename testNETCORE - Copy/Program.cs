@@ -73,7 +73,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
         name: "thay-doi-mat-khau",
         pattern: "thay-doi-mat-khau",
-        defaults: new { controller = "User_", action = "ChangePassword" });
+        defaults: new { controller = "User_", action = "VerifyPassword" });
 
     endpoints.MapControllerRoute(
         name: "lich-su-thanh-toan",

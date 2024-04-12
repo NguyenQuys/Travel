@@ -92,10 +92,10 @@
 
                                     if (permission == "0")
                                     {
-                                        <a href="@itemThongTin.Link" class="dropdown-item">@itemThongTin.Title</a>
-                                        <a href="@itemThayDoiMatKhau.Link" class="dropdown-item">@itemThayDoiMatKhau.Title</a>
-                                        <a href="@itemYeuThich.Link" class="dropdown-item">@itemYeuThich.Title</a>
-                                        <a href="@itemLichSuThanhToan.Link" class="dropdown-item">@itemLichSuThanhToan.Title</a>
+                                        <a asp-controller="User_" asp-action="Info" class="dropdown-item">@itemThongTin.Title</a>
+                                        // <a asp-action="VerifyPassword" asp-controller="User_" class="dropdown-item">@itemThayDoiMatKhau.Title</a>
+                                        <a asp-controller="Liked_" asp-action="Index" class="dropdown-item">@itemYeuThich.Title</a>
+                                        <a asp-action="Index" asp-controller="Payment_Confirmation" class="dropdown-item">@itemLichSuThanhToan.Title</a>
                                         <a asp-action="LogOut" asp-controller="User_" class="dropdown-item text-danger">Đăng xuất</a>
                                     }
                                     else if(permission=="1")
@@ -118,8 +118,8 @@
                 </nav>
             </div>
         <!-- Navbar End -->
-        
-    <div class="container">
+
+        <div class="container mt-5">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

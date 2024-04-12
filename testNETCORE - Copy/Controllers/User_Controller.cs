@@ -240,26 +240,36 @@ namespace testNETCORE.Controllers
             return View("Info", viewModel); // Return to Info view with UserViewModel
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> VerifyPasswordAsync()
-        //{
-        //    return View();
-        //}
 
-        //private async Task<bool> VerifyPasswordAsyncInternal(string phone, string password)
-        //{
-        //    // Lấy thông tin người dùng từ cơ sở dữ liệu
-        //    var user = await _context.Users.FirstOrDefaultAsync(u => u.PhoneNumber == phone);
+        private async Task<IActionResult> VerifyPassword(string password)
+        {
+            var users = new User();
 
-        //    // Nếu không tìm thấy người dùng hoặc mật khẩu không khớp, trả về false
-        //    if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
-        //    {
-        //        return false;
-        //    }
+            if (User.Identity.IsAuthenticated)
+            {
+                string phoneNumber = User.Identity.Name;
+                if (phoneNumber != null)
+                {
+                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
+                }
+            }
 
-        //    // Mật khẩu khớp
-        //    return true;
-        //}
+            // Nếu không tìm thấy người dùng hoặc mật khẩu không khớp, trả về false
+            if (!BCrypt.Net.BCrypt.Verify(password, users.Password))
+            {
+                ViewData["test"] = "sai";
+                return View();
+            }
+
+            // Mật khẩu khớp
+            ViewData["test"] = "đúng";
+            return View();
+        }
+
+        
+
+
+
 
         //[HttpPost]
         //public async Task<bool> VerifyPasswordAsync(string phone, string password)

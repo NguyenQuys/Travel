@@ -32,27 +32,26 @@ namespace testNETCORE.Controllers
 
             // Lấy danh sách IDTour từ bảng Like của người dùng hiện tại
             var likedTours = await _context.Likes
-                .Where(m => m.IdUser == users.IdUser)
+                .Where(m => m.IdUser == users.IdUser) //IDUER 8 
                 .Select(m => m.IdTour)
-                .ToListAsync(); // lay kieu string. Vi du: DT001
+                .ToListAsync(); // lay kieu string. Vi du: DT001,DT002
 
-            if (likedTours.Count==0)
-            {
-                ViewData["EmptyLike"] = "Hiện tại bạn chưa thêm Tour nào vào mục yêu thích";
-            }
+            //if (_context.Likes.Count()==0)
+            //{
+            //    ViewData["EmptyLike"] = "Hiện tại bạn chưa thêm Tour nào vào mục yêu thích";
+            //}
 
             // Lấy danh sách các tour mà người dùng đã thích
             var likedTourNames = await _context.Tours
                 .Where(t => likedTours.Contains(t.IdTour))
                 .ToListAsync();
 
-            
-
             var LCNavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var viewModel = new Liked_ViewModel
             {
                 NavigationBarList = LCNavigationBar_Controller,
-                TourLikedList = likedTourNames
+                TourLikedList = likedTourNames,
+                kiemTraUserID = users.IdUser
             };
             return View(viewModel);
         }
@@ -77,7 +76,7 @@ namespace testNETCORE.Controllers
             if (likedTours.Count != 0)
             {
                 var RemoveTours = await _context.Likes
-                        .Where(m => m.IdUser == users.IdUser)
+                        .Where(m => m.IdUser == users.IdUser) //users.id =8
                         .Select(m => m.IdTour)
                         .ToListAsync();
 
@@ -120,11 +119,7 @@ namespace testNETCORE.Controllers
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            else
-            {
-                return RedirectToAction("Index");
-            }
-            
+            return RedirectToAction("Index"); 
         }
     }
 }

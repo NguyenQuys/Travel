@@ -14,7 +14,7 @@ namespace testNETCORE.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index() 
         {
             var users = new User();
 
@@ -85,7 +85,6 @@ namespace testNETCORE.Controllers
             decimal amountDouble = decimal.Parse(amountString);
 
             
-
             Invoice newInvoice = new Invoice();
             newInvoice.IdOrder = MomoPaymentController.codeThanhToanTransferFromMoMo;
             newInvoice.IdUser = users.IdUser;
@@ -99,6 +98,7 @@ namespace testNETCORE.Controllers
             ViewData["Amount"] = amountDouble.ToString("N0");
             ViewData["IDOrder"] = MomoPaymentController.codeThanhToanTransferFromMoMo;
             ViewData["Time"] = DateTime.Now;
+            //ViewData["test"] = MomoPaymentController.payurlTEst;
             return View();
         }
     }

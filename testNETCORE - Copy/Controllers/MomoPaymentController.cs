@@ -16,6 +16,8 @@ namespace testNETCORE.Controllers
         public static string codeThanhToanTransferFromMoMo;
         public static string soTienTransferFromMoMo;
         public static string idTourTransferFromMoMo;
+        //public static string payurlTEst;
+
         public async Task<IActionResult> InitiatePayment(decimal totalAmount)
         {
             // Tạo request và chuyển hướng đến MoMo
@@ -118,6 +120,7 @@ namespace testNETCORE.Controllers
             string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, message.ToString());
 
             JObject jmessage = JObject.Parse(responseFromMomo);
+            //payurlTEst = jmessage.ToString();
 
             return Redirect(jmessage.GetValue("payUrl").ToString());
         }

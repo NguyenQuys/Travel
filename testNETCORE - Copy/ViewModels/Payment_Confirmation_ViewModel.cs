@@ -8,5 +8,4 @@ namespace testNETCORE.ViewModels
         public List<InfoHistoryPayment> PaidTourList { get; set; }
         public int kiemTraDangNhap { get; set; }
     }
-
 }

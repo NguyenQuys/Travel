@@ -6,6 +6,6 @@ namespace testNETCORE.ViewModels
     {
         public List<NavigationBar> NavigationBarList { get; set; }
         public List<Tour> TourLikedList { get; set; }
-        public int kiemTraDangNhap { get; set; }
+        public int kiemTraUserID { get; set; }
     }
 }

@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\testNETCORE - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\controllers\\payment_confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\payment_confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\viewmodels\\payment_confirmation_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\payment_confirmation_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\controllers\\momopaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\momopaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testnetcore - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\User_\\VerifyPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,51 +59,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Payment_ConfirmationController.cs",
-              "DocumentMoniker": "D:\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Payment_ConfirmationController.cs",
-              "ToolTip": "D:\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
-              "RelativeToolTip": "Controllers\\Payment_ConfirmationController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBAAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T04:01:14.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "SuccessFul_Payment.cshtml",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
               "RelativeDocumentMoniker": "Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
               "ToolTip": "D:\\testNETCORE - Copy\\Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
               "RelativeToolTip": "Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T03:59:36.87Z"
+              "WhenOpened": "2024-04-12T00:50:24.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Payment_ConfirmationController.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Payment_ConfirmationController.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
+              "RelativeToolTip": "Controllers\\Payment_ConfirmationController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowEcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T00:43:14.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Payment_Confirmation_ViewModel.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\ViewModels\\Payment_Confirmation_ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Payment_Confirmation_ViewModel.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\ViewModels\\Payment_Confirmation_ViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Payment_Confirmation_ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T00:43:09.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\testNETCORE - Copy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF8AAACUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T00:39:46.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MomoPaymentController.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Controllers\\MomoPaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MomoPaymentController.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\Controllers\\MomoPaymentController.cs",
+              "RelativeToolTip": "Controllers\\MomoPaymentController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAwwHoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T00:36:30.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\testNETCORE - Copy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:27:00.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerifyPassword.cshtml",
+              "DocumentMoniker": "D:\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\User_\\VerifyPassword.cshtml",
+              "ToolTip": "D:\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml",
+              "RelativeToolTip": "Views\\User_\\VerifyPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T18:25:24.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "User_Controller.cs",
               "DocumentMoniker": "D:\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\User_Controller.cs",
               "ToolTip": "D:\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
               "RelativeToolTip": "Controllers\\User_Controller.cs",
-              "ViewState": "AQIAACYBAAAAAAAAAAAgwEEBAAALAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAPMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T02:20:36.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\testNETCORE - Copy\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\testNETCORE - Copy\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T02:20:38.811Z"
+              "WhenOpened": "2024-04-11T17:54:41.627Z",
+              "EditorCaption": ""
             }
           ]
         }
