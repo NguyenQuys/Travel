@@ -7,9 +7,11 @@ public partial class Tour
 {
     public string IdTour { get; set; } = null!;
 
-    public int IdCategory { get; set; }
-
     public string TourName { get; set; } = null!;
+
+    public string Departure { get; set; } = null!;
+
+    public int Idcategory { get; set; }
 
     public string Destination1 { get; set; } = null!;
 
@@ -23,29 +25,29 @@ public partial class Tour
 
     public string Image3 { get; set; } = null!;
 
+    public decimal PriceForAdult { get; set; }
+
+    public decimal PriceForChildren { get; set; }
+
+    public int MaxQuantity { get; set; }
+
+    public string NdaysNnights { get; set; } = null!;
+
     public DateOnly StartDate { get; set; }
 
     public DateOnly EndDate { get; set; }
-
-    public double PriceOfAdult { get; set; }
-
-    public double PriceOfChildren { get; set; }
-
-    public string NdaysNnights { get; set; } = null!;
 
     public string JourneyHightlight { get; set; } = null!;
 
     public string TravelingSchedule { get; set; } = null!;
 
-    public string Descripsion { get; set; } = null!;
+    public string Description { get; set; } = null!;
 
     public string Link { get; set; } = null!;
 
     public bool Hide { get; set; }
 
-    public virtual Category IdCategoryNavigation { get; set; } = null!;
+    public virtual Category IdcategoryNavigation { get; set; } = null!;
 
     public virtual ICollection<InvoiceDetail> InvoiceDetails { get; set; } = new List<InvoiceDetail>();
-
-    public virtual ICollection<Like> Likes { get; set; } = new List<Like>();
 }

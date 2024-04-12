@@ -158,7 +158,7 @@
                     @{
                         var noiBat = Model.TourList[0];
                         <h1 class="mb-4">@noiBat.TourName</h1>
-                        <p style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" class="mb-4">@noiBat.Descripsion</p>
+                        <p style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;" class="mb-4">@noiBat.Description</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Hướng Dẫn Viên</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Khách Sạn 3*</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Vé Tham Quan</p>
@@ -176,11 +176,11 @@
                 <h1 class="mb-3">Các Địa Điểm <span style="color:red;font-weight:bold">Nổi Bật</span> Khác</h1>
             </div>
             <div class="row g-3">
-                @for(int i=1;i<2;i++) // khi nao co du db thif so cho nay thanh 7
+                @for(int i=1;i<7;i++) // khi nao co du db thif so cho nay thanh 7
                 {
                     var item = Model.TourList[i];
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                        @if (item.IdCategory == 1)
+                        @if (item.Idcategory == 1)
                         {
                             <a class="cat-item d-block bg-light text-center rounded p-3" href="tour-trong-nuoc/@item.Link-@item.IdTour">
                                 <div class="rounded p-4">

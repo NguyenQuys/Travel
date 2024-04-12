@@ -97,7 +97,7 @@
                 </div>
                 <div id="section4" class="container-fluid" style="padding:100px 20px;">
                     <h4>Mô tả</h4>
-                    <p>@item.Descripsion</p>
+                    <p>@item.Description</p>
                     <!-- Content for section 4 -->
                 </div>
             </div>
@@ -119,7 +119,7 @@
                                                 <p class="mb-0"> Trên 10 tuổi</p>
                                             </div>
                                             <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                <p>x @item.PriceOfAdult.ToString("N0")</p>
+                                                <p>x @item.PriceForAdult.ToString("N0")</p>
                                             </div>
                                             <div class="col-md-4 d-flex">
                                                 <button type="button" class="btn" id="decreaseBtnAdult">-</button>
@@ -135,7 +135,7 @@
                                                 <p class="mb-0"> 5 - 10 tuổi</p>
                                             </div>
                                             <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                <p>x @item.PriceOfChildren.ToString("N0")</p>
+                                                <p>x @item.PriceForChildren.ToString("N0")</p>
                                             </div>
                                             <div class="col-md-4 d-flex">
                                                 <button type="button" class="btn" id="decreaseBtnChildren">-</button>
@@ -189,7 +189,7 @@
                                         let lastValueC = parseInt(numberBtnC.textContent);
 
                                         // Gán giá trị ban đầu cho số và tổng
-                                        let totalValue = (lastValueC * @item.PriceOfChildren) + (lastValueA * @item.PriceOfAdult);
+                                        let totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
                                         totalParagraph1.textContent = `${totalValue.toLocaleString()}`;
 
                                         // Gán sự kiện "click" cho nút giảm
@@ -220,7 +220,7 @@
 
                                         // Cập nhật giá trị và hiển thị tổng
                                         function updateValues() {
-                                            totalValue = (lastValueC * @item.PriceOfChildren) + (lastValueA * @item.PriceOfAdult);
+                                            totalValue = (lastValueC * @item.PriceForChildren) + (lastValueA * @item.PriceForAdult);
                                             numberBtnA.textContent = lastValueA;
                                             numberBtnC.textContent = lastValueC;
                                             totalParagraph1.textContent = `${totalValue.toLocaleString()}`;
@@ -228,8 +228,8 @@
                                             totalParagraphMOMO.textContent = `${totalValue.toLocaleString()}`;
 
                                             // Hiển thị giá trị cuối cùng của numberBtnA và numberBtnC vào các phần tử <p> tương ứng
-                                            document.getElementById("btnNumberA").textContent = `${lastValueA} x @item.PriceOfAdult.ToString("N0")`;
-                                            document.getElementById("btnNumberB").textContent = `${lastValueC} x @item.PriceOfChildren.ToString("N0")`;
+                                            document.getElementById("btnNumberA").textContent = `${lastValueA} x @item.PriceForAdult.ToString("N0")`;
+                                            document.getElementById("btnNumberB").textContent = `${lastValueC} x @item.PriceForChildren.ToString("N0")`;
                                         }
 
                                         // Truyền giá trị của totalMOMO vào input hidden trước khi submit form

@@ -19,6 +19,8 @@ public partial class JustTravelContext : DbContext
 
     public virtual DbSet<CountryCity> CountryCities { get; set; }
 
+    public virtual DbSet<Discount> Discounts { get; set; }
+
     public virtual DbSet<InvoiceDetail> InvoiceDetails { get; set; }
 
     public virtual DbSet<Like> Likes { get; set; }
@@ -45,9 +47,9 @@ public partial class JustTravelContext : DbContext
     {
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.IdCategory).HasName("PK__Categori__6DB3A68A0405C12A");
+            entity.HasKey(e => e.Idcategory).HasName("PK__Categori__6DB3A68A0405C12A");
 
-            entity.Property(e => e.IdCategory).HasColumnName("ID_Category");
+            entity.Property(e => e.Idcategory).HasColumnName("ID_Category");
             entity.Property(e => e.CategoryName).HasMaxLength(255);
             entity.Property(e => e.Link).HasMaxLength(255);
         });
@@ -64,6 +66,20 @@ public partial class JustTravelContext : DbContext
                 .IsFixedLength()
                 .HasColumnName("ID");
             entity.Property(e => e.Name).HasMaxLength(255);
+        });
+
+        modelBuilder.Entity<Discount>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("Discount");
+
+            entity.Property(e => e.Code)
+                .HasMaxLength(20)
+                .IsUnicode(false);
+            entity.Property(e => e.IdDiscount)
+                .ValueGeneratedOnAdd()
+                .HasColumnName("ID_Discount");
         });
 
         modelBuilder.Entity<InvoiceDetail>(entity =>
@@ -86,7 +102,7 @@ public partial class JustTravelContext : DbContext
             entity.HasOne(d => d.IdTourNavigation).WithMany(p => p.InvoiceDetails)
                 .HasForeignKey(d => d.IdTour)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__InvoiceDe__ID_To__4CA06362");
+                .HasConstraintName("FK_InvoiceDetails_Tour");
 
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.InvoiceDetails)
                 .HasForeignKey(d => d.IdUser)
@@ -110,11 +126,6 @@ public partial class JustTravelContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("ID_Tour");
             entity.Property(e => e.IdUser).HasColumnName("ID_User");
-
-            entity.HasOne(d => d.IdTourNavigation).WithMany(p => p.Likes)
-                .HasForeignKey(d => d.IdTour)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Like__ID_Tour__4E88ABD4");
 
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Likes)
                 .HasForeignKey(d => d.IdUser)
@@ -180,7 +191,7 @@ public partial class JustTravelContext : DbContext
 
         modelBuilder.Entity<Tour>(entity =>
         {
-            entity.HasKey(e => e.IdTour).HasName("PK__Tour__D4CD957E39F747E9");
+            entity.HasKey(e => e.IdTour);
 
             entity.ToTable("Tour");
 
@@ -188,32 +199,54 @@ public partial class JustTravelContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("ID_Tour");
-            entity.Property(e => e.Descripsion).HasColumnType("ntext");
-            entity.Property(e => e.Destination1).HasMaxLength(255);
-            entity.Property(e => e.Destination2).HasMaxLength(255);
-            entity.Property(e => e.Destination3).HasMaxLength(255);
-            entity.Property(e => e.IdCategory).HasColumnName("ID_Category");
+            entity.Property(e => e.Departure).HasMaxLength(50);
+            entity.Property(e => e.Description).HasColumnType("ntext");
+            entity.Property(e => e.Destination1)
+                .HasMaxLength(50)
+                .HasColumnName("Destination_1");
+            entity.Property(e => e.Destination2)
+                .HasMaxLength(50)
+                .HasColumnName("Destination_2");
+            entity.Property(e => e.Destination3)
+                .HasMaxLength(50)
+                .HasColumnName("Destination_3");
+            entity.Property(e => e.EndDate).HasColumnName("End_Date");
+            entity.Property(e => e.Idcategory).HasColumnName("Idcategory");
             entity.Property(e => e.Image1)
-                .HasMaxLength(255)
-                .IsUnicode(false);
+                .HasMaxLength(250)
+                .IsUnicode(false)
+                .HasColumnName("Image_1");
             entity.Property(e => e.Image2)
-                .HasMaxLength(255)
-                .IsUnicode(false);
+                .HasMaxLength(250)
+                .IsUnicode(false)
+                .HasColumnName("Image_2");
             entity.Property(e => e.Image3)
-                .HasMaxLength(255)
-                .IsUnicode(false);
-            entity.Property(e => e.JourneyHightlight).HasColumnType("ntext");
+                .HasMaxLength(250)
+                .IsUnicode(false)
+                .HasColumnName("Image_3");
+            entity.Property(e => e.JourneyHightlight)
+                .HasColumnType("ntext")
+                .HasColumnName("Journey_Hightlight");
             entity.Property(e => e.Link)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-            entity.Property(e => e.NdaysNnights).HasColumnType("ntext");
-            entity.Property(e => e.TourName).HasMaxLength(255);
-            entity.Property(e => e.TravelingSchedule).HasColumnType("ntext");
+            entity.Property(e => e.NdaysNnights)
+                .HasMaxLength(20)
+                .HasColumnName("NDaysNNights");
+            entity.Property(e => e.PriceForAdult).HasColumnType("decimal(18, 0)");
+            entity.Property(e => e.PriceForChildren).HasColumnType("decimal(18, 0)");
+            entity.Property(e => e.StartDate).HasColumnName("Start_Date");
+            entity.Property(e => e.TourName)
+                .HasMaxLength(250)
+                .HasColumnName("Tour_Name");
+            entity.Property(e => e.TravelingSchedule)
+                .HasColumnType("ntext")
+                .HasColumnName("Traveling_Schedule");
 
-            entity.HasOne(d => d.IdCategoryNavigation).WithMany(p => p.Tours)
-                .HasForeignKey(d => d.IdCategory)
+            entity.HasOne(d => d.IdcategoryNavigation).WithMany(p => p.Tours)
+                .HasForeignKey(d => d.Idcategory)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Tour__ID_Categor__52593CB8");
+                .HasConstraintName("FK_Tour_Categories");
         });
 
         modelBuilder.Entity<TravelGuide>(entity =>

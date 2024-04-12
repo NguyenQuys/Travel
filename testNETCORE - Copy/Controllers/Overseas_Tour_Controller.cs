@@ -18,7 +18,7 @@ namespace testNETCORE.Controllers
         public async Task<IActionResult> Index()
         {
             var OTCNavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var OTOverseas_Tour_Controller = await _context.Tours.Where(m => m.Hide == false && m.IdCategory == 2).OrderBy(m=>m.StartDate).ToListAsync();
+            var OTOverseas_Tour_Controller = await _context.Tours.Where(m => m.Hide == false && m.Idcategory == 2).OrderBy(m=>m.StartDate).ToListAsync();
             var viewModel = new Overseas_Tour_ViewModel
             {
                 NavigationBarList = OTCNavigationBar_Controller,

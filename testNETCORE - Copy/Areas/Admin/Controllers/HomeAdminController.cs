@@ -22,8 +22,8 @@ namespace testNETCORE.Areas.Admin.Controllers
         [HttpGet("Index")]
         public async Task<IActionResult> Index()
         {
-            var tourTrongNuoc = await _context.Tours.Where(m => m.Hide == false && m.IdCategory == 1).OrderBy(m => m.StartDate).ToListAsync();
-            var tourNgoaiNuoc = await _context.Tours.Where(m => m.Hide == false && m.IdCategory == 2).OrderBy(m => m.StartDate).ToListAsync();
+            var tourTrongNuoc = await _context.Tours.Where(m => m.Hide == false && m.Idcategory == 1).OrderBy(m => m.StartDate).ToListAsync();
+            var tourNgoaiNuoc = await _context.Tours.Where(m => m.Hide == false && m.Idcategory == 2).OrderBy(m => m.StartDate).ToListAsync();
             var viewModel = new Admin_Domestic_Tour
             {
                 TourTrongNuoc = tourTrongNuoc,
@@ -80,7 +80,7 @@ namespace testNETCORE.Areas.Admin.Controllers
         [HttpGet("List-Domestic-Tour")]
         public async Task<IActionResult> List_Domestic_Tour()
         {
-            var DTCDomestic_Tour_Controller = await _context.Tours.Where(m => m.Hide == false && m.IdCategory == 1).OrderBy(m => m.StartDate).ToListAsync();
+            var DTCDomestic_Tour_Controller = await _context.Tours.Where(m => m.Hide == false && m.Idcategory == 1).OrderBy(m => m.StartDate).ToListAsync();
             var viewModel = new Domestic_Tour_ViewModel
             {
                 TourList = DTCDomestic_Tour_Controller,

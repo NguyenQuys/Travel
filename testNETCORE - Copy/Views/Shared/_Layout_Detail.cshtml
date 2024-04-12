@@ -280,7 +280,7 @@
                                                                 <p class="mb-0"> Trên 10 tuổi</p>
                                                             </div>
                                                             <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                                <p>x @item.PriceOfAdult.ToString("N0")</p>
+                                                                <p>x @item.PriceForAdult.ToString("N0")</p>
                                                             </div>
                                                             <div class="col-md-4 d-flex">
                                                                 <button type="button" class="btn" id="decreaseBtnAdult">-</button>
@@ -297,7 +297,7 @@
                                                                 <p class="mb-0"> 5 - 10 tuổi</p>
                                                             </div>
                                                             <div class="col-md-4 d-flex align-items-center justify-content-center">
-                                                                <p>x @item.PriceOfChildren.ToString("N0")</p>
+                                                                <p>x @item.PriceForChildren.ToString("N0")</p>
                                                             </div>
                                                             <div class="col-md-4 d-flex">
                                                                 <button type="button" class="btn" id="decreaseBtnChildren">-</button>
@@ -317,7 +317,7 @@
                                                                         // Gán giá trị ban đầu cho số và tổng
                                                                         let currentValueC = parseInt(numberBtnC.textContent);
                                                                         let currentValueA = parseInt(numberBtnC.textContent);
-                                                                        let totalValue = (currentValueC * @item.PriceOfChildren) + (currentValueA * @item.PriceOfAdult);
+                                                                        let totalValue = (currentValueC * @item.PriceForChildren) + (currentValueA * @item.PriceForAdult);
                                                                         totalParagraph.textContent = `Tổng: ${totalValue}`;
 
                                                                         // Gán sự kiện "click" cho nút giảm
@@ -348,7 +348,7 @@
 
                                                                         // Cập nhật giá trị và hiển thị tổng
                                                                         function updateValues() {
-                                                                            totalValue = (currentValueC * @item.PriceOfChildren) + (currentValueA * @item.PriceOfAdult);
+                                                                            totalValue = (currentValueC * @item.PriceForChildren) + (currentValueA * @item.PriceForAdult);
                                                                             numberBtnA.textContent = currentValueA;
                                                                             numberBtnA.value = currentValueA;
                                                                             numberBtnC.textContent = currentValueC;

@@ -21,7 +21,7 @@ namespace testNETCORE.Controllers
         public async Task<IActionResult> Index()
         {
             var DTCNavigation_Bar_Controller = await _context.NavigationBars.Where(m=>m.Hide==false).OrderBy(m=>m.Order).ToListAsync();
-            var DTCDomestic_Tour_Controller = await _context.Tours.Where(m => m.Hide == false && m.IdCategory==1).OrderBy(m=>m.StartDate).ToListAsync();
+            var DTCDomestic_Tour_Controller = await _context.Tours.Where(m => m.Hide == false && m.Idcategory==1).OrderBy(m=>m.StartDate).ToListAsync();
             var viewModel = new Domestic_Tour_ViewModel
             {
                 NavigationBarList = DTCNavigation_Bar_Controller,
