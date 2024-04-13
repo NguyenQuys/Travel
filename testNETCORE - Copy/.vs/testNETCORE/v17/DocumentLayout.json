@@ -1,161 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\testcc\\testNETCORE - Copy\\",
+  "WorkspaceRootPath": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\overseas_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\overseas_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\domestic_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\domestic_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\overseas_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\overseas_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\justtravelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\justtravelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\testcc\\testNETCORE - Copy\\Migrations\\20240412170119_updatedbTour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240412170119_updatedbTour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\tour_guide_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\tour_guide_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\user_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\user_\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\momopaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\momopaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\payment_confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\payment_confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\others\\momosecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:others\\momosecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\areas\\admin\\views\\homeadmin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:areas\\admin\\views\\homeadmin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\tour_guide_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\tour_guide_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\tour_guide_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\user_\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\user_\\verifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\verifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\overseas_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\overseas_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\domestic_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\domestic_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\overseas_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\overseas_tour_\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\justtravelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\justtravelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\tour_guide_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\tour_guide_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\momopaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\momopaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\payment_confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\payment_confirmationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\others\\momosecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:others\\momosecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\areas\\admin\\views\\homeadmin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:areas\\admin\\views\\homeadmin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\user_\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\user_\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\user_\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\user_\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\user_\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\liked_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\liked_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\liked_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\statitical\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\statitical\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\statitical\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\statitical\\count.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\statitical\\count.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\statitical\\count.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\viewmodels\\statistics_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\viewmodels\\statistics_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\statistics_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\statistical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\statistical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\statistical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\viewmodels\\tour_guide_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\viewmodels\\tour_guide_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\tour_guide_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\statistics_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\statistics_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\statistics_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\liked_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\liked_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\liked_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\resultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\controllers\\domestic_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\controllers\\domestic_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:controllers\\domestic_tour_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\folder\\Statistics_Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\payment_confirmation\\successful_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\viewmodels\\payment_confirmation_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\viewmodels\\payment_confirmation_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:viewmodels\\payment_confirmation_viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\testcc\\testnetcore - copy\\views\\user_\\verifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:views\\user_\\verifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|d:\\data\\programming\\c#\\web programming\\dulich\\github\\main\\testnetcore - copy\\migrations\\20240412170119_updatedbtour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E66A9F-BF39-48D9-8533-B33CEBBD1D9D}|testNETCORE.csproj|solutionrelative:migrations\\20240412170119_updatedbtour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -165,7 +173,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -181,152 +189,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Discount.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\Discount.cs",
-              "RelativeDocumentMoniker": "Models\\Discount.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\Discount.cs",
-              "RelativeToolTip": "Models\\Discount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:07:14.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tour.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\Tour.cs",
-              "RelativeDocumentMoniker": "Models\\Tour.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\Tour.cs",
-              "RelativeToolTip": "Models\\Tour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:06:26.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "ViewState": "AQIAACwAAAAAAAAAAAAMwDwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:52:54.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "InvoiceDetail.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\InvoiceDetail.cs",
-              "RelativeDocumentMoniker": "Models\\InvoiceDetail.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\InvoiceDetail.cs",
-              "RelativeToolTip": "Models\\InvoiceDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:46:08.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JustTravelContext.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\JustTravelContext.cs",
-              "RelativeDocumentMoniker": "Models\\JustTravelContext.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\JustTravelContext.cs",
-              "RelativeToolTip": "Models\\JustTravelContext.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAYwEYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:04:54.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User_Controller.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
-              "RelativeDocumentMoniker": "Controllers\\User_Controller.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
-              "RelativeToolTip": "Controllers\\User_Controller.cs",
-              "ViewState": "AQIAAN0AAAAAAAAAAAAUwP0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:54:41.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Overseas_Tour_\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Overseas_Tour_\\Detail.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Overseas_Tour_\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Overseas_Tour_\\Detail.cshtml",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAowGMAAAAoAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAGEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:56:58.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T01:21:05.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Domestic_Tour_\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Domestic_Tour_\\Detail.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Domestic_Tour_\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Domestic_Tour_\\Detail.cshtml",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAowGQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:56:50.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAowKsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:54:13.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Overseas_Tour_Controller.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Overseas_Tour_Controller.cs",
-              "RelativeDocumentMoniker": "Controllers\\Overseas_Tour_Controller.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Overseas_Tour_Controller.cs",
-              "RelativeToolTip": "Controllers\\Overseas_Tour_Controller.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:43:38.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Tour_Guide_ViewModel.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\ViewModels\\Tour_Guide_ViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Tour_Guide_ViewModel.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\ViewModels\\Tour_Guide_ViewModel.cs",
-              "RelativeToolTip": "ViewModels\\Tour_Guide_ViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:48:31.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Tour_Guide_\\Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Tour_Guide_\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Tour_Guide_\\Index.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Tour_Guide_\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Tour_Guide_\\Index.cshtml",
               "RelativeToolTip": "Views\\Tour_Guide_\\Index.cshtml",
               "ViewState": "AQIAAB0AAAAAAAAAAAAewC4AAABvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -334,24 +213,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240412170119_updatedbTour.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Migrations\\20240412170119_updatedbTour.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240412170119_updatedbTour.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Migrations\\20240412170119_updatedbTour.cs",
-              "RelativeToolTip": "Migrations\\20240412170119_updatedbTour.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAqwH0AAAAfAAAA",
+              "DocumentIndex": 1,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\User_\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\User_\\ChangePassword.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T01:19:31.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User_Controller.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\User_Controller.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\User_Controller.cs",
+              "RelativeToolTip": "Controllers\\User_Controller.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAUwOkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:01:19.169Z",
+              "WhenOpened": "2024-04-11T17:54:41.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAowKgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:54:13.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyPassword.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\User_\\VerifyPassword.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml",
+              "RelativeToolTip": "Views\\User_\\VerifyPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T18:25:24.579Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "JustTravelContext.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\JustTravelContext.cs",
+              "RelativeDocumentMoniker": "Models\\JustTravelContext.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\JustTravelContext.cs",
+              "RelativeToolTip": "Models\\JustTravelContext.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAYwEYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:04:54.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDetail.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\InvoiceDetail.cs",
+              "RelativeToolTip": "Models\\InvoiceDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:46:08.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAMwDwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:52:54.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "Models\\Tour.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Tour.cs",
+              "RelativeToolTip": "Models\\Tour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T17:06:26.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Discount.cs",
+              "RelativeDocumentMoniker": "Models\\Discount.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Discount.cs",
+              "RelativeToolTip": "Models\\Discount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T17:07:14.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Overseas_Tour_\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Overseas_Tour_\\Detail.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Overseas_Tour_\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Overseas_Tour_\\Detail.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAowGMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:56:58.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Domestic_Tour_\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Domestic_Tour_\\Detail.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Domestic_Tour_\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Domestic_Tour_\\Detail.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAowGQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:56:50.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Overseas_Tour_Controller.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Overseas_Tour_Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Overseas_Tour_Controller.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Overseas_Tour_Controller.cs",
+              "RelativeToolTip": "Controllers\\Overseas_Tour_Controller.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:43:38.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Tour_Guide_ViewModel.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\ViewModels\\Tour_Guide_ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Tour_Guide_ViewModel.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\ViewModels\\Tour_Guide_ViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Tour_Guide_ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:48:31.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20240412170119_updatedbTour.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Migrations\\20240412170119_updatedbTour.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240412170119_updatedbTour.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Migrations\\20240412170119_updatedbTour.cs",
+              "RelativeToolTip": "Migrations\\20240412170119_updatedbTour.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAqwH0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T17:01:19.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\User.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\User.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAuwBkAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -359,24 +394,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Tour_Guide_Controller.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Tour_Guide_Controller.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Tour_Guide_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Tour_Guide_Controller.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Tour_Guide_Controller.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Tour_Guide_Controller.cs",
               "RelativeToolTip": "Controllers\\Tour_Guide_Controller.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:46:15.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:46:15.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\Register.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\User_\\Register.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\Register.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\Register.cshtml",
               "RelativeToolTip": "Views\\User_\\Register.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -384,11 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "MomoPaymentController.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\MomoPaymentController.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\MomoPaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\MomoPaymentController.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\MomoPaymentController.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\MomoPaymentController.cs",
               "RelativeToolTip": "Controllers\\MomoPaymentController.cs",
               "ViewState": "AQIAAG4AAAAAAAAAAAAkwH8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,24 +430,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Liked_\\Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Liked_\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Liked_\\Index.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Liked_\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Liked_\\Index.cshtml",
               "RelativeToolTip": "Views\\Liked_\\Index.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAewCEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:55:25.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:55:25.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Info.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\Info.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\Info.cshtml",
               "RelativeDocumentMoniker": "Views\\User_\\Info.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\Info.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\Info.cshtml",
               "RelativeToolTip": "Views\\User_\\Info.cshtml",
               "ViewState": "AQIAABEAAAAAAAAAAAAewBMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -421,11 +454,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Payment_ConfirmationController.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
               "RelativeDocumentMoniker": "Controllers\\Payment_ConfirmationController.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Payment_ConfirmationController.cs",
               "RelativeToolTip": "Controllers\\Payment_ConfirmationController.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAqwDEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -433,11 +466,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MoMoSecurity.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Others\\MoMoSecurity.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Others\\MoMoSecurity.cs",
               "RelativeDocumentMoniker": "Others\\MoMoSecurity.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Others\\MoMoSecurity.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Others\\MoMoSecurity.cs",
               "RelativeToolTip": "Others\\MoMoSecurity.cs",
               "ViewState": "AQIAAF0AAAAAAAAAAAAewH0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -445,24 +478,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Update.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\HomeAdmin\\Update.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Update.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Areas\\Admin\\Views\\HomeAdmin\\Update.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\HomeAdmin\\Update.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAewCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:56:34.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:56:34.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Statistical.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\Statistical.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Statistical.cs",
               "RelativeDocumentMoniker": "Models\\Statistical.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\Statistical.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Statistical.cs",
               "RelativeToolTip": "Models\\Statistical.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIA9wBUAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -470,11 +502,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Statistics_ViewModel.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\ViewModels\\Statistics_ViewModel.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\ViewModels\\Statistics_ViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\Statistics_ViewModel.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\ViewModels\\Statistics_ViewModel.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\ViewModels\\Statistics_ViewModel.cs",
               "RelativeToolTip": "ViewModels\\Statistics_ViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -482,11 +514,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\Edit.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\User_\\Edit.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\Edit.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\User_\\Edit.cshtml",
               "RelativeToolTip": "Views\\User_\\Edit.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -494,11 +526,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Count.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Statitical\\Count.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Statitical\\Count.cshtml",
               "RelativeDocumentMoniker": "Views\\Statitical\\Count.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Statitical\\Count.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Statitical\\Count.cshtml",
               "RelativeToolTip": "Views\\Statitical\\Count.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -506,11 +538,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Statitical\\Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Statitical\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Statitical\\Index.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Statitical\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Statitical\\Index.cshtml",
               "RelativeToolTip": "Views\\Statitical\\Index.cshtml",
               "ViewState": "AQIAABEAAAAAAAAAAAAMwCEAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -518,11 +550,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Liked_Controller.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Liked_Controller.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Liked_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Liked_Controller.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Liked_Controller.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Liked_Controller.cs",
               "RelativeToolTip": "Controllers\\Liked_Controller.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -530,24 +562,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "HomeAdminController.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeAdminController.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAcwFIAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:43:10.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:43:10.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Statistics_Controller.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Statistics_Controller.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Statistics_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Statistics_Controller.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Statistics_Controller.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Statistics_Controller.cs",
               "RelativeToolTip": "Controllers\\Statistics_Controller.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -555,24 +586,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Domestic_Tour_Controller.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Domestic_Tour_Controller.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Domestic_Tour_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Domestic_Tour_Controller.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\Domestic_Tour_Controller.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\Domestic_Tour_Controller.cs",
               "RelativeToolTip": "Controllers\\Domestic_Tour_Controller.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAADwvxcAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:41:06.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:41:06.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Program.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Program.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -580,24 +610,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Models\\Category.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Models\\Category.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:41:36.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:41:36.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ResultController.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\ResultController.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\ResultController.cs",
               "RelativeDocumentMoniker": "Controllers\\ResultController.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\ResultController.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\ResultController.cs",
               "RelativeToolTip": "Controllers\\ResultController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -605,23 +634,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Statistics_Controller.cs",
               "DocumentMoniker": "D:\\folder\\Statistics_Controller.cs",
-              "RelativeDocumentMoniker": "..\\..\\folder\\Statistics_Controller.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\folder\\Statistics_Controller.cs",
               "ToolTip": "D:\\folder\\Statistics_Controller.cs",
-              "RelativeToolTip": "..\\..\\folder\\Statistics_Controller.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\folder\\Statistics_Controller.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T15:18:47.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -629,11 +658,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "SuccessFul_Payment.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
               "RelativeDocumentMoniker": "Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
               "RelativeToolTip": "Views\\Payment_Confirmation\\SuccessFul_Payment.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -641,27 +670,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Payment_Confirmation_ViewModel.cs",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\ViewModels\\Payment_Confirmation_ViewModel.cs",
+              "DocumentMoniker": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\ViewModels\\Payment_Confirmation_ViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\Payment_Confirmation_ViewModel.cs",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\ViewModels\\Payment_Confirmation_ViewModel.cs",
+              "ToolTip": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\ViewModels\\Payment_Confirmation_ViewModel.cs",
               "RelativeToolTip": "ViewModels\\Payment_Confirmation_ViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T00:43:09.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "VerifyPassword.cshtml",
-              "DocumentMoniker": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\User_\\VerifyPassword.cshtml",
-              "ToolTip": "D:\\testcc\\testNETCORE - Copy\\Views\\User_\\VerifyPassword.cshtml",
-              "RelativeToolTip": "Views\\User_\\VerifyPassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T18:25:24.579Z"
             }
           ]
         }

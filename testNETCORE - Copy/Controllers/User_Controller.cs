@@ -141,29 +141,6 @@ namespace testNETCORE.Controllers
             return View(viewModel);
         }
 
-        //public async Task<IActionResult> PassData()
-        //{
-        //    var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-        //    var users = new User();
-
-        //    if (User.Identity.IsAuthenticated)
-        //    {
-        //        string phoneNumer = User.Identity.Name;
-        //        if (phoneNumer != null)
-        //        {
-        //            users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber.ToString() == phoneNumer.ToString());
-        //        }
-        //    }
-
-        //    var viewModel = new UserViewModel
-        //    {
-        //        NavigationBarList = NavigationBar_Controller,
-        //        Register = users,
-        //    };
-
-        //    TempData["transfer"] = users;
-        //    return RedirectToAction("Detail", "Domestic_Tour_");
-        //}
 
         public async Task<IActionResult> Logout()
         {
@@ -197,7 +174,7 @@ namespace testNETCORE.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Edit(string name, string email, string phoneNumbers, string gender,DateOnly dateOfBirth)
+        public async Task<IActionResult> Edit(string name, string email, string phoneNumbers, string gender, DateOnly dateOfBirth)
         {
             if (ModelState.IsValid)
             {
@@ -240,9 +217,58 @@ namespace testNETCORE.Controllers
             return View("Info", viewModel); // Return to Info view with UserViewModel
         }
 
-
-        private async Task<IActionResult> VerifyPassword(string password)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> VerifyPassword(UserViewModel model, string oldPassword)
         {
+            User users = new User();
+            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var viewModel = new UserViewModel
+            {
+                NavigationBarList = NavigationBar_Controller,
+            };
+
+            if (User.Identity.IsAuthenticated)
+            {
+                var phoneNumber = User.Identity.Name;
+                if (phoneNumber != null)
+                {
+                    users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
+                }
+
+                if (BCrypt.Net.BCrypt.Verify(oldPassword, users.Password))
+                {
+                    return RedirectToAction("ChangePassword"); 
+                }
+                else
+                {
+                    ViewBag.ErrorMessage = "Mật khẩu cũ không đúng."; 
+                }
+            }
+
+            return View("VerifyPassword", viewModel); 
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> VerifyPassword()
+        {
+            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
+            var viewModel = new UserViewModel
+            {
+                NavigationBarList = NavigationBar_Controller,
+            };
+
+            return View(viewModel);
+        }
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(string newPassword)
+        {
+
             var users = new User();
 
             if (User.Identity.IsAuthenticated)
@@ -254,78 +280,28 @@ namespace testNETCORE.Controllers
                 }
             }
 
-            // Nếu không tìm thấy người dùng hoặc mật khẩu không khớp, trả về false
-            if (!BCrypt.Net.BCrypt.Verify(password, users.Password))
+            if (!string.IsNullOrEmpty(users.Password))
             {
-                ViewData["test"] = "sai";
-                return View();
+                users.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
             }
 
-            // Mật khẩu khớp
-            ViewData["test"] = "đúng";
-            return View();
-        }
+            _context.Update(users);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index", "Home");
 
+
+        }
 
         [HttpGet]
         public async Task<IActionResult> ChangePassword()
         {
-            // Get the username from Identity
-            var menus = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-            var phoneNumber = User.Identity.Name;
-            var user = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
-
-
-            // Check if the user exists
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            // Create a UserViewModel instance and pass it to the view
+            var NavigationBar_Controller = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
             var viewModel = new UserViewModel
             {
-                NavigationBarList = menus,
-                Register = user
+                NavigationBarList = NavigationBar_Controller,
             };
 
             return View(viewModel);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> ChangePassword(string newPassword)
-        {
-            if (!ModelState.IsValid)
-            {
-                var users = new User();
-
-                if (User.Identity.IsAuthenticated)
-                {
-                    string phoneNumber = User.Identity.Name;
-                    if (phoneNumber != null)
-                    {
-                        users = await _context.Users.FirstOrDefaultAsync(m => m.PhoneNumber == phoneNumber);
-                    }
-                }
-
-                if (!string.IsNullOrEmpty(users.Password))
-                {
-                    // Mã hóa mật khẩu mới trước khi lưu vào cơ sở dữ liệu
-                    users.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
-                }
-
-                _context.Update(users);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
-                var menus = await _context.NavigationBars.Where(m => m.Hide == false).OrderBy(m => m.Order).ToListAsync();
-
-                var viewModel = new UserViewModel
-                {
-                    NavigationBarList = menus,
-                };
-
-                return View("Index", viewModel); // Return to Info view with UserViewModel
         }
     }
 }
