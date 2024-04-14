@@ -87,17 +87,17 @@
                 </div>
                 <div id="section2" class="container-fluid" style="padding:100px 20px;">
                     <h4>Điểm nhấn hành trình</h4>
-                    <p>@item.JourneyHightlight</p>
+                    <p>@Html.Raw(item.JourneyHightlight)</p>
                     <!-- Content for section 2 -->
                 </div>
                 <div id="section3" class="container-fluid" style="padding:100px 20px;">
                     <h4>Lịch trình</h4>
-                    <p>@item.TravelingSchedule</p>
+                    <p>@Html.Raw(item.TravelingSchedule)</p>
                     <!-- Content for section 3 -->
                 </div>
                 <div id="section4" class="container-fluid" style="padding:100px 20px;">
                     <h4>Mô tả</h4>
-                    <p>@item.Description</p>
+                    <p>@Html.Raw(item.Description)</p>
                     <!-- Content for section 4 -->
                 </div>
             </div>
@@ -108,6 +108,10 @@
                         <h3> Lịch Trình và Giá Tour </h3>
                         <div class="col-md-12 no-padding v-margin-bottom-10 select-depart-date">
                             Chọn Lịch Trình và Xem Giá:
+                        </div>
+                        <div>
+                            <h5 class="text-warning">@item.StartDate - @item.EndDate</h5>
+                            <h5 class="text-warning">@item.NdaysNnights</h5>
                         </div>
                         <div class="col-md-12 wrapper-depart-date">
                             <div class="left">

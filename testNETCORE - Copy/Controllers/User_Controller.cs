@@ -6,6 +6,7 @@ using testNETCORE.Models;
 using testNETCORE.ViewModels;
 using System.Security.Claims;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using testNETCORE.Filters;
 
 namespace testNETCORE.Controllers
 {
@@ -303,5 +304,15 @@ namespace testNETCORE.Controllers
 
             return View(viewModel);
         }
+
+
+        //[HttpGet]
+        //[Route("Admin")]
+        //[ServiceFilter(typeof(AdminAuthorizationFilter))] // Sử dụng bộ lọc AdminAuthorizationFilter
+        //public IActionResult AdminPanel()
+        //{
+        //    // Code xử lý cho trang admin ở đây
+        //    return View();
+        //}
     }
 }

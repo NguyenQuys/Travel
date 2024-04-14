@@ -9,8 +9,6 @@ public partial class Tour
 
     public string TourName { get; set; } = null!;
 
-    public string Departure { get; set; } = null!;
-
     public int Idcategory { get; set; }
 
     public string Destination1 { get; set; } = null!;
@@ -28,8 +26,6 @@ public partial class Tour
     public decimal PriceForAdult { get; set; }
 
     public decimal PriceForChildren { get; set; }
-
-    public int MaxQuantity { get; set; }
 
     public string NdaysNnights { get; set; } = null!;
 

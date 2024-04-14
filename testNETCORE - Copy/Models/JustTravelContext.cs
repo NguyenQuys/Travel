@@ -49,7 +49,9 @@ public partial class JustTravelContext : DbContext
         {
             entity.HasKey(e => e.Idcategory).HasName("PK__Categori__6DB3A68A0405C12A");
 
-            entity.Property(e => e.Idcategory).HasColumnName("ID_Category");
+            entity.Property(e => e.Idcategory)
+                .ValueGeneratedNever()
+                .HasColumnName("ID_Category");
             entity.Property(e => e.CategoryName).HasMaxLength(255);
             entity.Property(e => e.Link).HasMaxLength(255);
         });
@@ -199,7 +201,6 @@ public partial class JustTravelContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("ID_Tour");
-            entity.Property(e => e.Departure).HasMaxLength(50);
             entity.Property(e => e.Description).HasColumnType("ntext");
             entity.Property(e => e.Destination1)
                 .HasMaxLength(50)
@@ -211,7 +212,7 @@ public partial class JustTravelContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("Destination_3");
             entity.Property(e => e.EndDate).HasColumnName("End_Date");
-            entity.Property(e => e.Idcategory).HasColumnName("Idcategory");
+            entity.Property(e => e.Idcategory).HasColumnName("IDCategory");
             entity.Property(e => e.Image1)
                 .HasMaxLength(250)
                 .IsUnicode(false)

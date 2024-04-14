@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\testNETCORE.csproj": {}
+    "D:\\testcc\\testNETCORE - Copy\\testNETCORE.csproj": {}
   },
   "projects": {
-    "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\testNETCORE.csproj": {
+    "D:\\testcc\\testNETCORE - Copy\\testNETCORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\testNETCORE.csproj",
+        "projectUniqueName": "D:\\testcc\\testNETCORE - Copy\\testNETCORE.csproj",
         "projectName": "testNETCORE",
-        "projectPath": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\testNETCORE.csproj",
+        "projectPath": "D:\\testcc\\testNETCORE - Copy\\testNETCORE.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\Data\\Programming\\C#\\Web Programming\\DuLich\\Github\\main\\testNETCORE - Copy\\obj\\",
+        "outputPath": "D:\\testcc\\testNETCORE - Copy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

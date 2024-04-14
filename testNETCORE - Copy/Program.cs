@@ -1,9 +1,13 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using testNETCORE.Filters;
 using testNETCORE.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<AdminAuthorizationFilter>();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -11,8 +15,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).
  AddCookie(options =>
  {
-     options.Cookie.Name = "PetStoreCookie";
-     options.LoginPath = "/User/Login";
+     //options.Cookie.Name = "PetStoreCookie";
+     options.Cookie.Name = "JustTravelCookie";
+
+     options.LoginPath = "/User_/LogIn";
  });
 
 var connectionString =builder.Configuration.GetConnectionString("JustTravelConnection");
@@ -29,6 +35,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -56,8 +63,8 @@ app.UseEndpoints(endpoints =>
     //    defaults: new { controller = "HomeAdmin", action = "Index" });
 
     endpoints.MapControllerRoute(
-        name: "admin",
-        pattern: "admin",
+        name: "Admin",
+        pattern: "Admin",
         defaults: new { controller = "Admin/HomeAdmin", action = "Index" });
 
     endpoints.MapControllerRoute(

@@ -97,6 +97,15 @@
                                         <a asp-controller="Liked_" asp-action="Index" class="dropdown-item">@itemYeuThich.Title</a>
                                         <a asp-action="Index" asp-controller="Payment_Confirmation" class="dropdown-item">@itemLichSuThanhToan.Title</a>
                                         <a asp-action="LogOut" asp-controller="User_" class="dropdown-item text-danger">Đăng xuất</a>
+                                        
+
+                                        <script>
+                                             if (window.location.pathname === '/admin') {
+                                                 alert('Bạn không có quyền truy cập vào trang này.');
+                                                 window.location.href = '/'; // Chuyển hướng về trang chính
+                                             }
+                                        </script>
+
                                     }
                                     else if(permission=="1")
                                     {
