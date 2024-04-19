@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\nhom8_TourDuLich.props" />
-</Project>

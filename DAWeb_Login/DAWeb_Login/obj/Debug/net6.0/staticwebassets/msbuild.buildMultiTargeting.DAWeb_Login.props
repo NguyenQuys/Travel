@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\DAWeb_Login.props" />
-</Project>
