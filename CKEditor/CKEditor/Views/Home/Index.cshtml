@@ -1,0 +1,35 @@
+﻿@model CKEditor.ViewModels.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h2>Content List</h2>
+
+    @if (Model.Contents.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Content</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Contents)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@Html.Raw(item.Contents)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No content available.</p>
+    }
+</div>
+

@@ -1,0 +1,46 @@
+Thay Indext trong user
+
+@model customer_information.Models.User
+<h2>Products</h2>
+<table class="table">
+    <tbody>
+        <tr>
+            <div class="name">
+                <span class="title">Họ và tên:</span>
+                <h5>@Model.Name</h5>
+            </div>
+
+            <div class="date-of-birth">
+                <span class="title">Ngày sinh:</span>
+                <h5>@Model.DateOfBirth</h5>
+            </div>
+
+            <div class="gioi-tinh">
+                <span class="title">Giới tính:</span>
+                @if (Model.Male == true)
+                {
+                    <h5>Nam</h5>
+                }
+                else
+                {
+                    <h5>Nữ</h5>
+                }
+            </div>
+
+            <div class="phone-number">
+                <span class="title">Số điện thoại:</span>
+                <h5>@Model.PhoneNumber</h5>
+            </div>
+
+            <div class="email">
+                <span class="title">Email:</span>
+                <h5>@Model.Email</h5>
+            </div>
+
+            <td>
+                <a asp-action="Update" asp-route-id="@Model.Id"><button>Chỉnh sữa</button></a>
+                <a asp-action="Home" asp-route-id="@Model.Id"><button>Quay lại</button></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
