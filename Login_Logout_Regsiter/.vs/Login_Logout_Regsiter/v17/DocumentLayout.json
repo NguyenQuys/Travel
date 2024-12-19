@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\migrations\\20240403093125_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\migrations\\20240403093125_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|d:\\hoctapthatchamchitaonentuonglaituoisang\\nam 3\\hk2\\laptrinhweb\\login_logout_regsiter\\login_logout_regsiter\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D44F15-FB30-4E18-B741-19CEB8E2853A}|Login_Logout_Regsiter\\Login_Logout_Register.csproj|solutionrelative:login_logout_regsiter\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:53:05.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:52:31.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:46:48.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:43:08.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:42:25.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:40:16.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:39:44.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T09:37:33.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAmwFQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:34:56.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:33:13.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\ViewModels\\LoginVM.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:32:59.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240403093125_Initial.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Migrations\\20240403093125_Initial.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Migrations\\20240403093125_Initial.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Migrations\\20240403093125_Initial.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Migrations\\20240403093125_Initial.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:31:25.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Program.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Program.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Program.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:25:22.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\appsettings.json",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\appsettings.json",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\appsettings.json",
+              "RelativeToolTip": "Login_Logout_Regsiter\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T09:24:07.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Models\\AppUser.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Models\\AppUser.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:22:34.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Login_Logout_Regsiter\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\HOCTAPTHATCHAMCHITAONENTUONGLAITUOISANG\\Nam 3\\HK2\\LAPTRINHWEB\\Login_Logout_Regsiter\\Login_Logout_Regsiter\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Login_Logout_Regsiter\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:20:36.162Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

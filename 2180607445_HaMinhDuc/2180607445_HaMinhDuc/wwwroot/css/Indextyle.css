@@ -1,0 +1,31 @@
+﻿/* Style the table */
+table {
+    width: 100%; /* Make the table fill the available space */
+    border-collapse: collapse; /* Remove space between cells */
+}
+
+/* Style table headers */
+th {
+    padding: 10px; /* Add padding to headers */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add a border to headers */
+}
+
+/* Style table rows (data rows) */
+tr {
+    border: 1px solid #ddd; /* Add a border to each row */
+}
+
+/* Style table cells (data cells) */
+td {
+    padding: 10px; /* Add padding to cells */
+    border: 1px solid #ddd; /* Add a border to cells */
+}
+
+/* Center align image within cell */
+.product-image {
+    width: 70px;
+    height: 70px;
+    display: block; /* Make the image behave like a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
